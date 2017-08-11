@@ -1,0 +1,72 @@
+\documentclass{jsarticle}
+\usepackage{mathrsfs}
+\usepackage{comment}
+\usepackage{amsmath}
+%\makeatletter
+   % \renewcommand{\theequation}{
+    %\thesection.\arabic{equation}}
+    %\@addtoreset{equation}{section}
+\makeatother
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{bm}
+
+
+%プリアンブル
+\title{最先端光科学特論IV\\　大越　慎一　先生}
+\author{理学系研究科物理学専攻\\35176043　小松原望\\nozomu.km@issp.u-tokyo.ac.jp}
+\date{2017/8/11}
+
+\begin{document}
+\maketitle　% タイトルを出力
+お忙しいところ長時間にわたり内容の濃い授業を展開していただきありがとうございました。今日私たちの生活を様々な面で支えている磁性体ですが、それらにさらに新しい機能を加えた数々の物質についてのお話は、物理的な根拠、応用の両面において奥が深く、とても興味深いものでした。私にとって磁性や錯体の分野はあまりなじみのないものでしたが、講義では英語に加え日本語による補足が多かったので理解が捗ったように思います。\\
+\quad 特に磁気の効果と非線形光学効果を同時に実現した材料を用いたphoto-switching について興味を持ったので、授業の内容をまとめたいと思います。\\
+\quad photo-switchingには光と磁性体の相互作用と、光と結晶の相互作用である非線形光学効果の二つの効果が必要となる。$\rm{Fe_2[Nb(CN)_8](4-bromopyridine)_8\cdot2H_2O}$のような強磁性体を含みカイラリティを持つ物質に光をあてると、光によって磁化が誘起され磁石となる。さらに誘起のされ方には二つの準位が存在する。Nb原子の両隣のFe原子の磁化がNbと反平行にじかした高スピン準位と、そこから光を放出して低エネルギー状態へと遷移しNb原子の片隣のFe原子のみが磁化した低スピン準位である。これらの準位は光の吸収、放出に伴って状態を行き来することができスピンクロスオーバー現象を起こす。また、励起状態では光を照射する前は持っていなかった自発磁化を有するようになる。さらにこれら二つの状態ではそれぞれ磁気相転移温度が異なり、高エネルギー状態の方が高い温度を持つ。結晶構造にも変化が現れる。このようなスピンクロスオーバーは光に限らず温度や圧力などの外場によっても引き起こされる。
+\quad 次に光と物質の相互作用である非線形光学結晶について述べる。非線形光学結晶の中で誘起される電気分極には印可電場と同じ周波数の成分の分極の他に、二倍の周波数を持つ成分や直流の成分も含まれる。その分極は一般に
+\begin{eqnarray}
+P=\chi^{(1)}E+\chi^{(2)}E^2+\chi^{(3)}E^3+\cdots
+\end{eqnarray}
+となる。
+光電場を
+\begin{eqnarray}
+E=E_1\exp{(i\omega t)}
+\end{eqnarray}
+と書くと、分極は
+\begin{eqnarray}
+P=\chi^{(1)}E_{(1)}\exp{(i\omega t)}+\chi^{(2)}E_1\exp{(2i\omega t)}+\chi^{(3)}E_1\exp{(3i\omega t)}+\cdots
+\end{eqnarray}
+と書き表せ、高調波成分の電場が生じる。さらに分極の方向は印可電場の振動方向と一致はするとは限らない。二次の非線形分極ベクトルの成分を$P_x,P_y,P_z$と表し、電場の成分を$E_x,E_y,E_z$と表せばこれらの関係は非線形光学定数のテンソル$d_{ij}=\chi_{ij}/2$を介して
+\begin{eqnarray}
+\left( \begin{array}{c}
+•P_x\\P_y\\P_z
+\end{array}\right)
+=\left( \begin{array}{cccccc}
+•d_{11}&d_{12}&d_{13}&d_{14}&d_{15}&d_{16}\\d_{21}&d_{22}&d_{23}&d_{24}&d_{25}&d_{26}\\d_{31}&d_{32}&d_{33}&d_{34}&d_{35}&d_{36}
+\end{array}\right)\left( \begin{array}{c}
+•E_x\\E_y\\E_z\\2E_yE_z\\2E_zE_x\\2E_xE_y
+\end{array}\right)
+\end{eqnarray}
+と表すことができる。添字の対応関係はiは$1:x,2:y,3:z$であり、jは$1:xx,2:yy,3:zz,4:yzまたはzy,5:zxまたはxz,6:xyまたはyx$である。$\chi$は物質の磁化や結晶構造により決定する。前述の光によるスピンクロスオーバー状態では、高スピン状態では 光学定数テンソルは
+\begin{eqnarray}
+\left( \begin{array}{cccccc}
+•\cdot & \cdot &\cdot &\cdot & \bigcirc &\cdot \\ \cdot & \cdot &\cdot & \bigcirc &\cdot  &\cdot \\ \bigcirc &\bigcirc & \bigcirc & \cdot &\cdot & \cdot
+\end{array}\right)
+\end{eqnarray}
+の$\bigcirc$の成分が優位な値を持つ。一方低スピン状態では
+\begin{eqnarray}
+\left( \begin{array}{cccccc}
+•\cdot & \cdot &\cdot  & \bigcirc &\cdot &\cdot \\ \cdot & \cdot &\cdot &\cdot & \bigcirc   &\cdot \\   \cdot &\cdot & \cdot & \cdot &\cdot & \cdot
+\end{array}\right)
+\end{eqnarray}
+の$\bigcirc$の成分が優位な値を持つ。このテンソルの値は物質の結晶の構造から決まる成分と磁気空間群スピンから決まる成分の和で表される。通常は磁気転移温度以上では前者が磁気温度以下では後者が効いてくるが、(5)と(6)においては(5)では磁気による$\chi$への影響が、(6)では結晶構造による$\chi$への影響が大きくなる。比較すると値を持つ部分が反転しており、それに従って誘起される分極ベクトルPの角度が90°回りそれによって発生する光の偏光も90°異なるものになる。これがphoto-switching of SH polarizationとなる。photo-switchingは定数テンソルを連続的に変化させることで(5)と(6)の状態を連続的に変化させることができる。つまり出射光の偏光も0°から90°まで自在に変化させることができる。このことを用いて高次の進数で制御できる光学ディスクが実現できるかもしれない。\\
+\quad 大越先生が執筆された教科書『Madneto chemistry \& Magnetooptics $12^{th}$ Edition(2017)』には磁性に関する基礎事項がわかりやすくまとめられており、私のような磁性体について学の浅いものにとって非常に為になるものでした。少し復習をしようとめくっていた際に小さな誤植を見つけましたので報告したいと思います。すでに訂正されている場合は無視していただけると幸いです。\\
+・4.1節　式(4.1)と式(4.2)の間の確率Pの式。右辺の$d\theta$は不要。\\
+・5.2節　式(5.5)の前の文。誤：式(5.8)→正：式(5.1)
+%%\begin{figure}[t]
+%\begin{center}
+%\includegraphics [width=80mm]{THz.pdf}
+%\end{center}
+%\caption{THz波発生素子の表面}
+%\label{fig:one}
+%\end{figure}
+
+\end{document}
