@@ -18,12 +18,13 @@ Function ReadFile1708kai()
 	ReadFile1708_MainProc(mode)
 End
 
+
 Function ReadFile1708_MainProc(mode)
 	Variable mode
 //define parameters
 	Variable refNum, i, N
 	String   FileName, FilePath, FolderPath, FileList
-//choose SPE file
+//choose csv file
 	Open/Z=2/R/T=".csv"/M="Choose WinSpec file " refNum
 	if (V_flag == -1)					//
 		Print "canceled by user"		// user canceled
@@ -34,14 +35,16 @@ Function ReadFile1708_MainProc(mode)
 		return V_flag					//
 	endif								//
 	Close refNum
-//read SPE data (main proc)
+//read csv data (main proc)
+	printf "%s",S_filename
+	end
 	if (mode==0)	//Reading only one wave choosen
 		FilePath = S_filename
 		ReadFile1708_Spectra(FilePath)
 	else			//Reading all waves in directry
-		FolderPath = path2str(S_filename,1,1)
+		FolderPath = filename
 		NewPath/O/Q SPEFolderPath FolderPath
-		FileList = IndexedFile(SPEFolderPath,-1,".spe")
+		FileList = IndexedFile(SPEFolderPath,-1,".csv")
 		N = ItemsInList(FileList)
 		for(i=0; i<N; i+=1)
 			FileName = StringFromList(i,FileList)
@@ -50,6 +53,7 @@ Function ReadFile1708_MainProc(mode)
 		endfor
 		KillPath/Z SPEFolderPath
 	endif
+	
 End
 
 
@@ -69,30 +73,6 @@ string FilePath
 	String   TextFileName, TextFilePath
 	String   currentFolder, newFolderName, newFolderPath, tmpFolderName, tmpFolderPath
 	String   GraphName, TableName, Comment, cmd, DataTitle, GraphTitle
-//select mode
-//	Prompt readMode, "select read mode", popup, " 1 : One file; 2 : All files;"
-//	DoPrompt "Read SPE File", readMode
-//	if (V_flag==1)
-//		Print "canceled by user"
-//		return -1
-//	endif
-//set mode parameters
-//	if (readMode==1)
-	//	mode = 0
-//	else
-//		mode = 1
-//	endif
-//choose csv file
-//	Open/Z=2/R/T=".csv"/M="Choose text file" refNum
-//	if (V_flag == -1)					//
-//		Print "canceled by user"		// user canceled
-//		Return -1						//
-//	endif								//
-//	if (V_flag != 0)					//
-//		DoAlert 0, "Error in Opening"	// unexpected error
-//		Return V_flag					//
-//	endif								//
-//	Close refNum
 	
 //define LoadWave parameters
 	//TextFileName = path2str(S_filename,0,0)
@@ -159,3 +139,4 @@ string FilePath
 	sprintf cmd, "RenameDataFolder %s, %s", tmpFolderPath, PossiblyQuoteName(newFolderName)
 	Execute cmd
 End
+
