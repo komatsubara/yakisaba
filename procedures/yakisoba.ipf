@@ -6,7 +6,7 @@
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
 //#pragma TextEncoding = "UTF-8"
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
-Menu "&yakisoba"
+Menu "&yakisobaaaaa"
 "practice" ,practice()
 "&IV_analysis/b" ,IVanalysis()
 "&IL_analysis/2" ,ILanalysis()
