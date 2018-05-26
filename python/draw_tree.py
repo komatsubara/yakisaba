@@ -1,0 +1,22 @@
+#!user/bin/env python
+# -*- coding: utf-8 -*-
+
+from turtle import *
+
+def tree(length):
+	if length > 2:
+		forward(length)
+		right(20)
+		tree(length-25)
+		left(40)
+		tree(length-15)
+		right(20)
+		backward(length)
+
+speed(10)
+color("green")
+left(90)
+backward(150) 
+tree(120)
+
+input('type to exit')
