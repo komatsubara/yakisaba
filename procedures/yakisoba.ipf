@@ -6,7 +6,7 @@
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
 //#pragma TextEncoding = "UTF-8"
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
-Menu "&yakisobaaaaaa"
+Menu "&yakisobaaaaaaaa"
 "practice" ,practice()
 "&IV_analysis/b" ,IVanalysis()
 "&IL_analysis/2" ,ILanalysis()
@@ -56,7 +56,7 @@ fldnum=1;
 	Differentiate $name1/X=$name0/D=dif_resist;dif_resist=dif_resist*1000;//wave3(”÷•ª’ïR)‚ğŒvZ‚·‚é
 	Display $name1 vs $name0 as title;AppendToGraph/R $name2 vs $name0;AppendToGraph/R $name3 vs $name0 ;
 
-//ˆÈ‰ºgraph‘ÌÙ
+//ˆÈ‰ºhklklkhlklkgraph‘Ìtrtr
 	ModifyGraph rgb(wave1)=(0,15872,65280);ModifyGraph rgb(resist)=(0,65280,0);
 	setAxis left 0,*;setAxis bottom 0,*;setAxis right 0,*
 	Label bottom "\\Z16 current(mA)"
