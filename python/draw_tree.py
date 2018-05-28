@@ -4,7 +4,7 @@
 from turtle import *
 
 def tree(length):
-	if length > 4:
+	if length > 5:
 		forward(length)
 		right(20)
 		tree(length-25)
