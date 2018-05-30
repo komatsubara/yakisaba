@@ -139,11 +139,11 @@ make /O/N=6/D ridge_number={1,2,3,4,5,6};make/O/N=6/D cavity_length=cavity_L;mak
 //edit ridge_number ,cavity_length,ridge_width,I_th_ana,i_d
 
  do
- 	graphtitle="3QW_kouhatsu_bar08__left"+num2str(fldnum);//----------------caption設定しよう
+ 	graphtitle="data00"+num2str(fldnum);//----------------caption設定しよう
 	VLgraphtitle=graphtitle+"_VL";//--------------------グラフタイト設定しよう任意
 	IVgraphtitle=graphtitle+"_IV";
-	title="k1800523_3QW_bar08_left_0"+num2str(fldnum)+""//---------------------フォルダタイトル読み込んだデータの名前に依存
- 	analysis_pt=150;//------------------------------設定しよう
+	title="data00"+num2str(fldnum)+"_ALL"//---------------------フォルダタイトル読み込んだデータの名前に依存
+ 	analysis_pt=90;//------------------------------設定しよう
  	deletepoints=6;//-----------------smoothしたwaveから何点消すか
 	
  	fldname="root:"+title;
@@ -255,7 +255,7 @@ resistance_analy=resistance[analysis_pt];dif_resistance_analy=dif_smth_resistanc
 	//resistance_analy=resistance[analysis_pt];dif_resistance_analy=difresistance_smth[analysis_pt];
 	setDataFolder root:analysis;I_th_column[fldnum-1]=I_th;i_d[fldnum-1]=efficiency;resistance_column[fldnum-1]=resistance_analy;dif_resistance_column[fldnum-1]=dif_resistance_analy;
 	fldnum+=1;	
-while(fldnum<=4).
+while(fldnum<=6).
 	
 	setDataFolder root:analysis;
 	edit ridge_number ,cavity_length,ridge_width,I_th_column,i_d,resistance_column,dif_resistance_column;

@@ -2,7 +2,7 @@
 #pragma TextEncoding = "Shift_JIS"
 
 #pragma rtGlobals=3     // Use modern global access method and strict wave access.
-Menu "yakisabadayoooooooooo"
+Menu "yakisabadayo"
 "load and graph" ,OpenMultiFiles()
 "load image" ,OpenImage1805()
 end
@@ -29,7 +29,7 @@ Function OpenMultiFiles()
     EndIf
 End
 
-//‚±‚±‚Ü‚Å‚Å•¡”ƒtƒ@ƒCƒ‹‚ÌƒpƒX‚ğ“¾‚½
+//â€šÂ±â€šÂ±â€šÃœâ€šÃ…â€šÃ…â€¢Â¡Ââ€Æ’tÆ’@Æ’CÆ’â€¹â€šÃŒÆ’pÆ’Xâ€šÃ°â€œÂ¾â€šÂ½
 Function ReadFile1708_spectra(Path)
 string Path
 //define parameters
@@ -41,11 +41,11 @@ string Path
     
 //define LoadWave parameters
 //    textFileName = pathstr(S_filename,0,0)
-     textfilename= StringFromList(6, Path, ":")//‚±‚Ìs‚Ì‚·‚¤‚¶‚ğ•Ï‚¦‚Äƒtƒ@ƒCƒ‹–¼‚¾‚¯‚ğw’è-------------‘å–
+     textfilename= StringFromList(6, Path, ":")//â€šÂ±â€šÃŒÂsâ€šÃŒâ€šÂ·â€šÂ¤â€šÂ¶â€šÃ°â€¢Ãâ€šÂ¦â€šÃ„Æ’tÆ’@Æ’CÆ’â€¹â€“Â¼â€šÂ¾â€šÂ¯â€šÃ°Å½wâ€™Ã¨-------------â€˜Ã¥Å½â€“ãªã‚“ã§æ–‡å­—åŒ–ã‘ã™ã‚‹ã‚“ã‚„
     TextFilePath = Path
-//    Printf "@%s %s\r","textfilename:",textfilename
+//    Printf "Â@%s %s\r","textfilename:",textfilename
 //read text name string
-    DataTitle = TextFileName[0,strlen(TextFileName)-5]//strlen:•¶š—ñ‚Ì’·‚³,[a,b]:a•¶š–Ú‚©‚çb•¶š–Ú‚Ü‚Å‚ğ‚©‚¦‚·
+    DataTitle = TextFileName[0,strlen(TextFileName)-5]//strlen:â€¢Â¶Å½Å¡â€”Ã±â€šÃŒâ€™Â·â€šÂ³,[a,b]:aâ€¢Â¶Å½Å¡â€“Ãšâ€šÂ©â€šÃ§bâ€¢Â¶Å½Å¡â€“Ãšâ€šÃœâ€šÃ…â€šÃ°â€šÂ©â€šÂ¦â€šÂ·
     mun = strsearch(DataTitle," ",0)
     if (mun != -1)  //Comment exists.
         GraphName = DataTitle[0,mun-1]
@@ -54,7 +54,7 @@ string Path
         GraphName = DataTitle[0,strlen(TextFileName)-1]
         Comment   = ""
     endif
-//    datatitle= StringFromList(6, Path, ":")//‚±‚Ìs‚Ì‚·‚¤‚¶‚ğ•Ï‚¦‚Äƒtƒ@ƒCƒ‹–¼‚¾‚¯‚ğw’è
+//    datatitle= StringFromList(6, Path, ":")//â€šÂ±â€šÃŒÂsâ€šÃŒâ€šÂ·â€šÂ¤â€šÂ¶â€šÃ°â€¢Ãâ€šÂ¦â€šÃ„Æ’tÆ’@Æ’CÆ’â€¹â€“Â¼â€šÂ¾â€šÂ¯â€šÃ°Å½wâ€™Ã¨
 
 //set parameters
     GraphTitle = DataTitle
@@ -68,7 +68,7 @@ string Path
     //  Print "same name graph exists."
         //return 0
 //  endif
-    Printf "@%s\r",newFolderPath
+    Printf "Â@%s\r",newFolderPath
     if (DataFolderExists(newFolderPath))
         DoAlert 0, "same name data folder exists."
         Print "same name data folder exists."
@@ -115,7 +115,7 @@ Function Graph_Default2(GraphName)
     ModifyGraph/W=$GraphName margin=0, lblPosMode=1,lblMargin=0
     ModifyGraph/W=$GraphName standoff=0, nolabel=0, manTick=0, minor=1, tick=2
     ModifyGraph/W=$GraphName mirror=1
-    Label left "\\Z14Voltage(V)"
+    Label left "\\Z14Power (W)"
     Label bottom "\\Z14Current (mA)"
     ModifyGraph lblPosMode(bottom)=1,lblMargin(bottom)=10
     ModifyGraph lblPosMode=1,lblMargin(left)=22
@@ -184,7 +184,7 @@ Function OpenImage1805()
     EndIf
 End
 
-//‚±‚±‚Ü‚Å‚Å•¡”ƒtƒ@ƒCƒ‹‚ÌƒpƒX‚ğ“¾‚½
+//â€šÂ±â€šÂ±â€šÃœâ€šÃ…â€šÃ…â€¢Â¡Ââ€Æ’tÆ’@Æ’CÆ’â€¹â€šÃŒÆ’pÆ’Xâ€šÃ°â€œÂ¾â€šÂ½
 Function ReadImageFile1805(Path)
  string Path
 //define parameters
@@ -199,10 +199,10 @@ Function ReadImageFile1805(Path)
     
 //define LoadWave parameters
 //    textFileName = pathstr(S_filename,0,0)
-    textfilename= StringFromList(6, Path, ":")//‚±‚Ìs‚Ì‚·‚¤‚¶‚ğ•Ï‚¦‚Äƒtƒ@ƒCƒ‹–¼‚¾‚¯‚ğw’è-------------‘å–
+    textfilename= StringFromList(6, Path, ":")//â€šÂ±â€šÃŒÂsâ€šÃŒâ€šÂ·â€šÂ¤â€šÂ¶â€šÃ°â€¢Ãâ€šÂ¦â€šÃ„Æ’tÆ’@Æ’CÆ’â€¹â€“Â¼â€šÂ¾â€šÂ¯â€šÃ°Å½wâ€™Ã¨-------------â€˜Ã¥Å½â€“
     TextFilePath = Path
 //read text name string
-    DataTitle =TextFileName[0,strlen(TextFileName)-5]//ƒf[ƒ^‚ÌÅ‰‚ª”š‚¾‚Æ“{‚ç‚ê‚é‚Ì‚Å"k"‚ğ‚Æ‚è‚ ‚¦‚¸‚Â‚¢‚©strlen:•¶š—ñ‚Ì’·‚³,[a,b]:a•¶š–Ú‚©‚çb•¶š–Ú‚Ü‚Å‚ğ‚©‚¦‚·
+    DataTitle =TextFileName[0,strlen(TextFileName)-5]//Æ’fÂ[Æ’^â€šÃŒÂÃ…Ââ€°â€šÂªÂâ€Å½Å¡â€šÂ¾â€šÃ†â€œ{â€šÃ§â€šÃªâ€šÃ©â€šÃŒâ€šÃ…"k"â€šÃ°â€šÃ†â€šÃ¨â€šÂ â€šÂ¦â€šÂ¸â€šÃ‚â€šÂ¢â€šÂ©strlen:â€¢Â¶Å½Å¡â€”Ã±â€šÃŒâ€™Â·â€šÂ³,[a,b]:aâ€¢Â¶Å½Å¡â€“Ãšâ€šÂ©â€šÃ§bâ€¢Â¶Å½Å¡â€“Ãšâ€šÃœâ€šÃ…â€šÃ°â€šÂ©â€šÂ¦â€šÂ·
      mun = strsearch(DataTitle," ",0)
     if (mun != -1)  //Comment exists.
         GraphName = DataTitle[0,mun-1]
@@ -219,7 +219,7 @@ Function ReadImageFile1805(Path)
     tmpFolderName = "tmpDataFolder"
     tmpFolderPath = "root:" + tmpFolderName
 //error handling
-    Printf "@%s\r",newFolderPath
+    Printf "Â@%s\r",newFolderPath
  if (DataFolderExists(newFolderPath))
         DoAlert 0, "same name data folder exists."
         Print "same name data folder exists."
@@ -228,10 +228,10 @@ Function ReadImageFile1805(Path)
 //make date folder and load waves
     NewDataFolder/O/S $tmpFolderPath
     name0="wave0";RP_name0="RP_wave0";CP_name0="CP_wave0"
-    LoadWave/J/M/U={0,2,0,2}/D/A=wave/E=0/K=0 TextFilePath ;//ƒEƒF[ƒu‚ğƒ[ƒh /E=1‚Ånewtable
+    LoadWave/J/M/U={0,2,0,2}/D/A=wave/E=0/K=0 TextFilePath ;//Æ’EÆ’FÂ[Æ’uâ€šÃ°Æ’ÂÂ[Æ’h /E=1â€šÃ…newtable
     colum_num=DimSiZE($name0,1);row_num=dimsize($name0,0)
-    DeletePoints/M=0 row_num-1,1, $name0//-----ÅŒã‚Ìs‚ğÁ‚·
-    DeletePoints/M=1 colum_num-1,1, $name0//----ÅŒã‚Ì—ñ‚ğÁ‚·
+    DeletePoints/M=0 row_num-1,1, $name0//-----ÂÃ…Å’Ã£â€šÃŒÂsâ€šÃ°ÂÃâ€šÂ·
+    DeletePoints/M=1 colum_num-1,1, $name0//----ÂÃ…Å’Ã£â€šÃŒâ€”Ã±â€šÃ°ÂÃâ€šÂ·
    
 //make graph   
     Display/N=$GraphName as Graphtitle
@@ -249,15 +249,15 @@ Function ReadImageFile1805(Path)
     execute cmd
 End
 
-//---------------------------ˆÈ‰ºƒOƒ‰ƒt‚Ì‘ÌÙ‚ğ®‚¦‚é‚Æ‚±‚ë-----------------------------//
+//---------------------------Ë†Ãˆâ€°ÂºÆ’OÆ’â€°Æ’tâ€šÃŒâ€˜ÃŒÂÃ™â€šÃ°ÂÂ®â€šÂ¦â€šÃ©â€šÃ†â€šÂ±â€šÃ«-----------------------------//
 Function Graph_Default_image1805(GraphName,name0)
 	string GraphName,name0
 	label left"\\Z14Wavelength (nm)"
 	label bottom "\\Z14time (ps)"
 	ModifyGraph mirror=1,standoff=0,minor=1
-	ModifyImage $name0 ctab= {*,*,Spectrum,0}//ƒOƒ‰ƒt‚Ìcolor‚ğw’è
-	//ColorScale/C/N=text0/B=1/A=MC image=wave0//’ß‚ğw’è
-	//ColorScale/C/N=text0/X=30.00/Y=2.56//’ßˆÊ’u
-	//‹KŠi‰»
-	//”½‘Î²‚ÉeV
+	ModifyImage $name0 ctab= {*,*,Spectrum,0}//Æ’OÆ’â€°Æ’tâ€šÃŒcolorâ€šÃ°Å½wâ€™Ã¨
+	//ColorScale/C/N=text0/B=1/A=MC image=wave0//â€™ÂÅ½ÃŸâ€šÃ°Å½wâ€™Ã¨
+	//ColorScale/C/N=text0/X=30.00/Y=2.56//â€™ÂÅ½ÃŸË†ÃŠâ€™u
+	//â€¹KÅ iâ€°Â»
+	//â€Â½â€˜ÃÅ½Â²â€šÃ‰eV
 end
