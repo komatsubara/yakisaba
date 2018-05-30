@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from turtle import *
-
 def tree(length):
 	if length > 5:
 		forward(length)

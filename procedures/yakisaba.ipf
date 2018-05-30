@@ -2,7 +2,7 @@
 #pragma TextEncoding = "Shift_JIS"
 
 #pragma rtGlobals=3     // Use modern global access method and strict wave access.
-Menu "yakisabadayo"
+Menu "yakisabadayoooooooooo"
 "load and graph" ,OpenMultiFiles()
 "load image" ,OpenImage1805()
 end
