@@ -24,3 +24,4 @@ print("pref_cap2",pref_cap2)
 codon=["ATG","GGC","TCC","AAG","TTC","TGG","GAC","TCC"]
 s_codon=set(codon)
 print(len(codon),len
+
