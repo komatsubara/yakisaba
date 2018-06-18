@@ -23,5 +23,10 @@ print("pref_cap2",pref_cap2)
 
 codon=["ATG","GGC","TCC","AAG","TTC","TGG","GAC","TCC"]
 s_codon=set(codon)
-print(len(codon),len
-
+print(len(codon),len(s_codon))
+#setと比較	
+prime_fib2=prime & fib
+if 13 in prime_fib2:
+	print("13は素数でもありかつフィボナッチ数	")
+if {2,3}<=prime_fib2:
+	print("2,3は素数でもりかつフィボナッチ数でもある")
