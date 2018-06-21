@@ -8,8 +8,9 @@ class CsvOutput:
 
 	def __button_func(self):
 #	sys.exit(1)		
+		a=c.__entrybox_func()
 		f=open("output_name.csv","w")
-		f.write(self.name)
+		f.write(a)
 		f.close()
 
 	def main(self):
@@ -24,15 +25,21 @@ class CsvOutput:
 #button.configure(text="yakisaba")
 		self.name="myname"
 		button.pack()
-
+		root.mainloop()
 
 #"""#エントリー
+	def __entrybox_func(self):
 		EditBox=tk.Entry()
-		EditBox.insert(tk.END,"Entry")
+		EditBox.insert(tk.END,"")
+#		self.value=EditBox.get()
 		EditBox.pack()
+		self.value=EditBox.get()
+		value=EditBox.get()
+		print(value)
+		return self.value
 #"""
-		root.mainloop()
+#		root.mainloop()
 
 c = CsvOutput()
 c.main()
-c.__button_func()
+#c.__button_func()
