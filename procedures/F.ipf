@@ -2505,9 +2505,9 @@ End
 /////////////////////////////
 //Get CCD Back Ground Count//
 /////////////////////////////
-//(CCD‚ÌBG‚Ìƒf[ƒ^‚Ì)SPEƒtƒ@ƒCƒ‹‚ğ“Ç‚İ‚İAwave‚Ì•½‹Ï’l‚ğo‚·‚±‚Æ‚ÅBG count‚ğ‹‚ß‚é
-//wave‚ª•¡”‚ ‚ê‚Î‚·‚×‚Ä‚Ìwave‚ğ•½‹Ï‚·‚é
-//•½‹Ï‚·‚éÛ‚ÉA—¼’[100pnts‚Ìƒf[ƒ^‚ÍÌ‚Ä‚é
+//(CCDï¿½ï¿½BGï¿½Ìƒfï¿½[ï¿½^ï¿½ï¿½)SPEï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Ç‚İï¿½ï¿½İAwaveï¿½Ì•ï¿½ï¿½Ï’lï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½BG countï¿½ï¿½ß‚ï¿½
+//waveï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‚ï¿½ï¿½×‚Ä‚ï¿½waveï¿½ğ•½‹Ï‚ï¿½ï¿½ï¿½
+//ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½Û‚ÉAï¿½ï¿½ï¿½[100pntsï¿½Ìƒfï¿½[ï¿½^ï¿½ÍÌ‚Ä‚ï¿½
 Function GetBGcount()
 	Variable N, pnts, BG, BGerror
 	String WindowName, BGdata
@@ -4726,7 +4726,7 @@ End
 ///////////////////
 //Cassidy Sin Fit//
 ///////////////////
-Function CassidySinFit_kf(from,upto,min_limit,L,R,step,WindowName,index)		//‰ª–ì‚³‚ñ‚ÌCassidySinFit‚ğ©•ª‚ª“Ç‚İ‚â‚·‚¢‚æ‚¤‚É•Ï‚¦‚½‚à‚ÌB
+Function CassidySinFit_kf(from,upto,min_limit,L,R,step,WindowName,index)		//ï¿½ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½CassidySinFitï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚İ‚â‚·ï¿½ï¿½ï¿½æ‚¤ï¿½É•Ï‚ï¿½ï¿½ï¿½ï¿½ï¿½ÌB
 	String WindowName, index
 	Variable from, upto, min_limit, L, R, step
 //define parameters
@@ -4773,20 +4773,20 @@ Function CassidySinFit_kf(from,upto,min_limit,L,R,step,WindowName,index)		//‰ª–ì
 	//loop start						
 		i = 0; j = -min_limit; k = 0
 		for (i=0; i<pnts; i+=1)
-			if (i-j<=min_limit)								//min_limit‚Ì’†‚É‚Í‹É‘å“_‚ª‚È‚¢‚Ì‚ÅƒXƒLƒbƒv
+			if (i-j<=min_limit)								//min_limitï¿½Ì’ï¿½ï¿½É‚Í‹É‘ï¿½_ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÅƒXï¿½Lï¿½bï¿½v
 				continue
 			endif
-			if (difY[i]*difY[i+1]<=0 && difY[i]>=0)			//Xwave‚Ì’l‚Æpnt‚ÌŒü‚«‚ª‹tŒü‚«‚¶‚á‚È‚¢‚Æg‚¦‚È‚¢B
+			if (difY[i]*difY[i+1]<=0 && difY[i]>=0)			//Xwaveï¿½Ì’lï¿½ï¿½pntï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ægï¿½ï¿½ï¿½È‚ï¿½ï¿½B
 				i += (invY[i]>invY[i+1])
-				if (j == -min_limit)						//‚P‚Â‚ß‚Ì(originy‚Ì)‹É‘å“_‚Ìpnt‚ğj‚Éó‚¯“n‚·
+				if (j == -min_limit)						//ï¿½Pï¿½Â‚ß‚ï¿½(originyï¿½ï¿½)ï¿½É‘ï¿½_ï¿½ï¿½pntï¿½ï¿½jï¿½Éó‚¯“nï¿½ï¿½
 					j = i
 					continue
 				endif
 			//fitting start and define fit_invY
 				CurveFit/Q/N/B=(i-j)/W=0/L=((i-j)*20) sin, invY[j,i]/X=X/D		//fitting start
-				if (V_FitNumIters == 40)										//‚±‚±‚ª‚æ‚­‚í‚©‚ñ‚È‚¢EEE			
-					j = i														//‚±‚Ìparameter‚Ífitting‚Ìs‰ñ”H
-					continue													//‚¤‚Ü‚­fitting‚Å‚«‚È‚©‚Á‚½‚ç‚ ‚«‚ç‚ß‚ÄŸ‚Éi‚Ş‚Á‚Ä‚±‚ÆH
+				if (V_FitNumIters == 40)										//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚­ï¿½í‚©ï¿½ï¿½È‚ï¿½ï¿½Eï¿½Eï¿½E			
+					j = i														//ï¿½ï¿½ï¿½ï¿½parameterï¿½ï¿½fittingï¿½Ìï¿½ï¿½sï¿½ñ”H
+					continue													//ï¿½ï¿½ï¿½Ü‚ï¿½fittingï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚ ï¿½ï¿½ï¿½ï¿½ß‚Äï¿½ï¿½Éiï¿½Ş‚ï¿½ï¿½Ä‚ï¿½ï¿½ÆH
 				endif															//
 				WAVE fit_invY = $("fit_invY")									
 			//create fit_Y
@@ -4859,7 +4859,7 @@ End
 //////////////////////////
 //Cassidy Sin Fit [test]//
 //////////////////////////
-Function CassidySinFit_kf_test(from,upto,min_limit,L,R,step,WindowName,index)		//‰ª–ì‚³‚ñ‚ÌCassidySinFit‚ğ©•ª‚ª“Ç‚İ‚â‚·‚¢‚æ‚¤‚É•Ï‚¦‚½‚à‚ÌB
+Function CassidySinFit_kf_test(from,upto,min_limit,L,R,step,WindowName,index)		//ï¿½ï¿½ï¿½ì‚³ï¿½ï¿½ï¿½CassidySinFitï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚İ‚â‚·ï¿½ï¿½ï¿½æ‚¤ï¿½É•Ï‚ï¿½ï¿½ï¿½ï¿½ï¿½ÌB
 	String WindowName, index
 	Variable from, upto, min_limit, L, R, step
 //define parameters
@@ -4911,12 +4911,12 @@ Function CassidySinFit_kf_test(from,upto,min_limit,L,R,step,WindowName,index)		/
 	//loop start						
 		i = 0; j = -min_limit; k = 0
 		for (i=0; i<pnts; i+=1)
-			if (i-j<=min_limit)								//min_limit‚Ì’†‚É‚Í‹É‘å“_‚ª‚È‚¢‚Ì‚ÅƒXƒLƒbƒv
+			if (i-j<=min_limit)								//min_limitï¿½Ì’ï¿½ï¿½É‚Í‹É‘ï¿½_ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÅƒXï¿½Lï¿½bï¿½v
 				continue
 			endif
-			if (difY[i]*difY[i+1]<=0 && difY[i]>=0)				//Xwave‚Ì’l‚Æpnt‚ÌŒü‚«‚ª‹tŒü‚«‚¶‚á‚È‚¢‚Æg‚¦‚È‚¢B
+			if (difY[i]*difY[i+1]<=0 && difY[i]>=0)				//Xwaveï¿½Ì’lï¿½ï¿½pntï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ægï¿½ï¿½ï¿½È‚ï¿½ï¿½B
 				i += (invY[i]>invY[i+1])
-				if (j == -min_limit)							//‚P‚Â‚ß‚Ì(originy‚Ì)‹É‘å“_‚Ìpnt‚ğj‚Éó‚¯“n‚·
+				if (j == -min_limit)							//ï¿½Pï¿½Â‚ß‚ï¿½(originyï¿½ï¿½)ï¿½É‘ï¿½_ï¿½ï¿½pntï¿½ï¿½jï¿½Éó‚¯“nï¿½ï¿½
 					j = i
 					continue
 				endif
@@ -4932,10 +4932,10 @@ Function CassidySinFit_kf_test(from,upto,min_limit,L,R,step,WindowName,index)		/
 				FitCoefficients[3] = mod(20000*(X[i]+Xmid)/2,2*pi)	//K3 : phase
 			//fitting start and define fit_invY
 				CurveFit/Q/N/B=(i-j+1)/W=0/L=((i-j)*20)/G sin kwCWave=FitCoefficients, invY[j,i]/X=X/D/F={0.99,4}
-				if (V_FitNumIters == 40)										//‚±‚±‚ª‚æ‚­‚í‚©‚ñ‚È‚¢EEE			
+				if (V_FitNumIters == 40)										//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚­ï¿½í‚©ï¿½ï¿½È‚ï¿½ï¿½Eï¿½Eï¿½E			
 					printf "Fitting NG %d, %d\r", j, i
-					j = i														//‚±‚Ìparameter‚Ífitting‚Ìs‰ñ”H
-					continue													//‚¤‚Ü‚­fitting‚Å‚«‚È‚©‚Á‚½‚ç‚ ‚«‚ç‚ß‚ÄŸ‚Éi‚Ş‚Á‚Ä‚±‚ÆH
+					j = i														//ï¿½ï¿½ï¿½ï¿½parameterï¿½ï¿½fittingï¿½Ìï¿½ï¿½sï¿½ñ”H
+					continue													//ï¿½ï¿½ï¿½Ü‚ï¿½fittingï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚ ï¿½ï¿½ï¿½ï¿½ß‚Äï¿½ï¿½Éiï¿½Ş‚ï¿½ï¿½Ä‚ï¿½ï¿½ÆH
 				endif														//
 				WAVE fit_invY = $("fit_"+invYname)
 				sprintf fit_invYname, "fit_invY%03d_%04d_%04d", k, j, i								
@@ -5030,7 +5030,7 @@ Function Cassidy_Caller()
 	Gfrom = (numtype(GetParameter_Var("Gfrom"))==0) ? GetParameter_Var("Gfrom") : -40
 	Gupto = (numtype(GetParameter_Var("Gupto"))==0) ? GetParameter_Var("Gupto") : 10
 //input data
-	mode = 3; min_limit = 5; step = 1	//default parameter
+	mode = 3; min_limit = 1; step = 1	//default parameter
 	Prompt from, "OriginNumber"
 	Prompt upto, "DestinationNumber"
 	Prompt step, "step"
@@ -6625,7 +6625,7 @@ Function ReadSPEFile_Spectra(FilePath)
 		FSetPos refNum, 3263+n*8; FBinRead/F=5 refNum, coef
 		wv_x += coef * (x^n)
 	endfor
-//|	wv_x = 1239.5 / wv_x
+	wv_x = 1239.5 / wv_x
 	Rename wv_x $wv_xName; Note wv_x, FolderName+":"+FileName
 //make graph
 	Display/N=$GraphName as GraphName+" x "+num2str(frameNum)
@@ -8424,7 +8424,7 @@ End
 /////////////////////
 //Extract Wave Pnts//
 /////////////////////
-//srcWave‚ÌstartPnt‚©‚çendPnt‚Ü‚Å‚Ìƒf[ƒ^‚ÌWave‚ğì‚é
+//srcWaveï¿½ï¿½startPntï¿½ï¿½ï¿½ï¿½endPntï¿½Ü‚Å‚Ìƒfï¿½[ï¿½^ï¿½ï¿½Waveï¿½ï¿½ï¿½ï¿½
 Function ExtractWavePnts(srcWaveName,destWaveName,startPnt,endPnt)
 	String srcWaveName, destWaveName
 	Variable startPnt,endPnt
