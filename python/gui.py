@@ -7,26 +7,28 @@ class CsvOutput:
 		
 	def __button_func(self):
 #	sys.exit(1)		
-		f=open("output_name.csv","w")
-		f.write(self.name)
-		f.close()
 		self.entry()
 		self.count +=1
 
+	def __button_read(self):
+		self.value=self.EditBox.get()
+		f=open(self.value+".csv","w")
+		f.write(self.value)
+		f.close()
 #"""エントリー
 	def entry(self):
-		EditBox=tk.Entry()
-		EditBox.insert(tk.END,self.count)
-		EditBox.pack()
+		self.EditBox=tk.Entry(width=50)
+		self.EditBox.insert(tk.END,str(self.count)+"fileneme")
+		self.EditBox.pack()
 #"""
 	def main(self):
 		root=tk.Tk()
 		root.title(u"title")
 		root.geometry("800x600")
 		self.count=0    
-		self.name="myname"        
+#		self.name="myname"        
 		button=tk.Button(root,text="team A", command= self.__button_func) #ボタン
-		button2=tk.Button(root,text="team B", command= self.__button_func) #ボタン
+		button2=tk.Button(root,text="read", command= self.__button_read) #ボタン
 		button.pack()
 		button2.pack()
 		root.mainloop()
