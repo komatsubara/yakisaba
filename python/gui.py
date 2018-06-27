@@ -5,10 +5,10 @@ class CsvOutput:
 #	def __init__(self):
 #		print("init")
 		
-	def __button_func(self,a):
+	def __button_func(self):
 #	sys.exit(1)		
-		a.entry()
-		a.count +=1
+		self.entry()
+		self.count +=1
 
 	def __button_read(self):
 		self.value=self.EditBox.get()
@@ -30,8 +30,8 @@ class CsvOutput:
 		self.EditBox=tk.Entry(width=50)
 		self.EditBox.pack()
 		a=1
-#		button=tk.Button(root,text="team A", command= self.__button_func) #ボタン
-		button=tk.Button(root,text="test",commnand=lambda : self.__button_func(a))
+		button=tk.Button(root,text="team A", command= self.__button_func) #ボタン
+#		button=tk.Button(root,text="test",commnand=lambda a: self.__button_func(a))
 		button2=tk.Button(root,text="read", command= self.__button_read) #ボタン
 		button.pack()
 		button2.pack()
