@@ -33,8 +33,14 @@ class CsvOutput:
 #		self.name="myname"
 		self.EditBox=tk.Entry(width=50)
 		self.EditBox.pack()
+<<<<<<< HEAD
 		button=tk.Button(root,text="team A", command= self.__button_func) #ボタン
 #		button=tk.Button(root,text="test",commnand=lambda : self.__button_func())
+=======
+		a=1
+		button=tk.Button(root,text="team A", command= self.__button_func) #ボタン
+#		button=tk.Button(root,text="test",commnand=lambda a: self.__button_func(a))
+>>>>>>> d4a72caa28e53964b1e344b39b3a79e4169c83c1
 		button2=tk.Button(root,text="read", command= self.__button_read) #ボタン
 		button.pack()
 		button2.pack()
