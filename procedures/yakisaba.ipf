@@ -81,6 +81,7 @@ string Path
   TableName = WinName(0,2)
   N = Countobjects("",1) / 2
   Display/N=$GraphName as GraphTitle
+  
     for (w=0; w<N; w+=1)
         WAVE X = WaveRefIndexed(TableName,2*w,3)
         WAVE Y = WaveRefIndexed(TableName,2*w+1,3)
@@ -96,7 +97,7 @@ string Path
     AppendToGraph/W=$GraphName Y vs X
     endfor
     Graph_Default2(GraphName)
-    GPR2()
+ //   GPR2()
     //Legend/C/N=text0/A=RT
 //others
     SetDataFolder currentFolder
@@ -123,40 +124,40 @@ Function Graph_Default2(GraphName)
 //  SetAxis/W=$WindowName/A/N=0 bottom
 End
 
-Function GPR2()
-    Variable w, Nw, v, Nv, M
-    Variable R, G, B
-    String GraphName, yName
-    GraphName = WinName(0,1)
-    Nw = CountWaves(GraphName)
-    Nv = CountWaves_Trace(GraphName)
-    M = round((Nv-1)/2)
-    if (Nw == 1 || Nv == 1)
-        return -1
-    endif
-    for (w=0; w<Nw; w+=1)
-        yName = TraceNameStr(GraphName,w)
-        if (TraceStats(GraphName,yName) != 0)
-            continue
-        endif
-        if (v<M)
-            R = 65000
-            G = 50000 * (1 - v/M) + 5000
-            B = 50000 * (1 - v/M) + 5000
-        elseif (v==M)
-            R = 65280
-            G = 0
-            B = 0
-        elseif (v>M)
-            R = 60000 - 40000 * (v-M)/(Nv-1-M)
-            G = 10000 * (v-M)/(Nv-1-M)
-            B = 10000 * (v-M)/(Nv-1-M)
-        endif
-        ModifyGraph/W=$GraphName rgb($yName) = (R,G,B)
-        v += 1
-    endfor
-    ModifyGraph/W=$GraphName mode=0, lstyle=0
-End
+//Function GPR2()
+//    Variable w, Nw, v, Nv, M
+//    Variable R, G, B
+//    String GraphName, yName
+//    GraphName = WinName(0,1)
+//    Nw = CountWaves(GraphName)
+//    Nv = CountWaves_Trace(GraphName)
+//    M = round((Nv-1)/2)
+//    if (Nw == 1 || Nv == 1)
+//        return -1
+//    endif
+//    for (w=0; w<Nw; w+=1)
+//        yName = TraceNameStr(GraphName,w)
+//        if (TraceStats(GraphName,yName) != 0)
+//            continue
+//        endif
+//        if (v<M)
+//            R = 65000
+//            G = 50000 * (1 - v/M) + 5000
+//            B = 50000 * (1 - v/M) + 5000
+//        elseif (v==M)
+//            R = 65280
+//            G = 0
+//            B = 0
+//        elseif (v>M)
+//            R = 60000 - 40000 * (v-M)/(Nv-1-M)
+//            G = 10000 * (v-M)/(Nv-1-M)
+//            B = 10000 * (v-M)/(Nv-1-M)
+//        endif
+//        ModifyGraph/W=$GraphName rgb($yName) = (R,G,B)
+//        v += 1
+//    endfor
+//    ModifyGraph/W=$GraphName mode=0, lstyle=0
+//End
 
 
 
