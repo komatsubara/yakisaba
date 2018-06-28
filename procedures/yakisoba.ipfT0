@@ -139,12 +139,12 @@ make /O/N=6/D ridge_number={1,2,3,4,5,6};make/O/N=6/D cavity_length=cavity_L;mak
 //edit ridge_number ,cavity_length,ridge_width,I_th_ana,i_d
 
 //do
-	graphtitle="F67"
-// 	graphtitle="A67_"+num2str(fldnum);//----------------caption�ݒ肵�悤
+	graphtitle="A67"
+// 	graphtitle="F67_"+num2str(fldnum);//----------------caption�ݒ肵�悤
 	VLgraphtitle=graphtitle+"_VL";//--------------------�O���t�^�C�g�ݒ肵�悤�C��
 	IVgraphtitle=graphtitle+"_IV";
 	//title="A67"+num2str(fldnum)+"_ALL"//---------------------�t�H���_�^�C�g���ǂݍ��񂾃f�[�^�̖��O�Ɉˑ�
-	title="F67_ALL"//-------------今回はfldnumで回す必要がない
+	title="A67_ALL"//-------------今回はfldnumで回す必要がない
  	analysis_pt=67;//------------------------------�ݒ肵�悤
  	deletepoints=6;//-----------------smooth����wave���牽�_������
 	
