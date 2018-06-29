@@ -128,30 +128,36 @@ EndMacro
 //--------------------------------------------------------
 Macro ILandIVanalysis()
 variable fldnum,analysis_pt,cavity_L;
-string title,graphtitle;
+string title,graphtitle,title00;
 silent 1; pauseupdate;
 
-cavity_L=200;//-------------------set cavity length (um)        
+//--------------------------------------------
+//------------setting parameter---------------
+//--------------------------------------------
+fldnum=1;    //-------------------set the first file number   
+cavity_L=200;//-------------------set cavity length (um)  
+analysis_pt=100;//------------------------------set the data point to use analysis of efficiency and resistance
+    
 NewDataFolder/O root:analysis;
 setDataFolder root:analysis;
 make /O/N=6/D ridge_number={1,2,3,4,5,6};make/O/N=6/D cavity_length=cavity_L;make/O/N=6/D ridge_width={1.5,2.5,1.5,2.5,1.5,2.5},I_th_column ,i_d,resistance_column,dif_resistance_column;  
-
-//edit ridge_number ,cavity_length,ridge_width,I_th_ana,i_d
-fldnum=1;    //-------------------set the first file number      
-
-do  //-------------------do loop of wave
-//    title="F67_ALL"//-------------title of folder in which waves are
-    title="data00"+num2str(fldnum)+"_ALL"//---------------------
- 	graphtitle="bar05_0"+num2str(fldnum);//----------------graphtitle
- 	analysis_pt=67;//------------------------------set the data point to use analysis of efficiency and resistance
-    make/O/N=4/D wave_returned
-    //wave_returned=IVILanalysispart(title,graphtitle,fldnum)
-    IVILanalysispart(title,graphtitle,fldnum)
+do  //-------------------do loop of filename
+    if (fldnum<=9)
+        title00="data00"+num2str(fldnum);
+    else if(fldnum>=10)
+        title00="data0"+num2str(fldnum);
+    endif
+    title00="data002_02"//-------------title of folder in which waves are
+    title=title00+"_ALL"
+    graphtitle=title
+    //title="data"+"00"+num2str(fldnum)+"_ALL"//---------------------
+ 	//graphtitle="bar05_"+"00"+num2str(fldnum);//----------------graphtitle
+ 	IVIL_AnalysisPart(title,graphtitle,fldnum)
     setDataFolder root:analysis;
-    I_th_column[fldnum-1]=wave_returned[0];i_d[fldnum-1]=wave_returned[1];resistance_column[fldnum-1]=wave_returned[2];dif_resistance_column[fldnum-1]=wave_returned[3];
+    I_th_column[fldnum-1]=wave_return[0];i_d[fldnum-1]=wave_return[1];resistance_column[fldnum-1]=wave_return[2];dif_resistance_column[fldnum-1]=wave_return[3];
 //	wave_return=[I_th,efficiency,resistanve_analy,difresistance_analy]
     fldnum += 1
-while(fldnum<=6).
+while(fldnum<=20).
 	setDataFolder root:analysis;
 	edit ridge_number ,cavity_length,ridge_width,I_th_column,i_d,resistance_column,dif_resistance_column;
 	display I_th_column vs ridge_width  ;AppendToGraph/R i_d vs ridge_width;
@@ -173,10 +179,9 @@ while(fldnum<=6).
 	//ModifyGraph height=300;
 	ModifyGraph lsize=2
 //
-
 EndMacro
 
-function IVILanalysispart(title,graphtitle,fldnum)
+function IVIL_AnalysisPart(title,graphtitle,fldnum)
 string title,graphtitle  //-----------------------------first of all , declare argument(hikisuu)
 variable fldnum
 variable th,th_pt,I_th,analysis_pt,I_analysis,efficiency,length,deletepoint,delete_start,cavity_L,resistance_analy,dif_resistance_analy;
@@ -261,7 +266,7 @@ silent 1; pauseupdate;
 	ModifyGraph height=300;
 	ModifyGraph lsize=2
 //
-resistance_analy=resistance[analysis_pt];dif_resistance_analy=dif_smth_resistance[analysis_pt];
+    resistance_analy=resistance[analysis_pt];dif_resistance_analy=dif_smth_resistance[analysis_pt];
 //
 	I_analysis=I_sample[analysis_pt];
 	I_th=I_sample[th_pt];
@@ -288,9 +293,15 @@ resistance_analy=resistance[analysis_pt];dif_resistance_analy=dif_smth_resistanc
 	ModifyGraph width={Aspect,1}
 	ModifyGraph height=300;
 	ModifyGraph lsize=2
-//return wavereturn
-    make/O/N=4/D wave_return    //wave_return is wave for returning following number
-    wave_return[0]=I_th;wave_return[1]=efficiency;wave_return[2]=resistance_analy;wave_return[3]=dif_resistance_analy//wave_return=[I_th,efficiency,resistanve_analy,difresistance_analy]
-    return wave_return
+
+//
+    Return_Wave(I_th,efficiency,resistance_analy,dif_resistance_analy)
 End
 
+function Return_Wave(I_th,efficiency,resistance_analy,dif_resistance_analy)
+variable I_th,efficiency,resistance_analy,dif_resistance_analy
+
+setDataFolder root:analysis;
+make/O/N=4/D wave_return;  //wave_return is a wave for returning following number
+wave_return[0]=I_th;wave_return[1]=efficiency;wave_return[2]=resistance_analy;wave_return[3]=dif_resistance_analy//wave_return=[I_th,efficiency,resistanve_analy,difresistance_analy]
+End

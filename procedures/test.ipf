@@ -10,10 +10,12 @@ variable n
 string s
 print n
 make/O/N=6/D wave1={1,2,3,4,5,10}
-testtesttest()
+testtesttest(5)
 end
 
-function testtesttest()
+function testtesttest(a)
+variable a
 make/O/N=6/D wavetesttesttest={3,4,5,5,6,7,8}
+wavetesttesttest[0]=a
 end
 
