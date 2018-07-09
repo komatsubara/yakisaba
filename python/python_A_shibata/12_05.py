@@ -47,3 +47,4 @@ for ax,deg in zip(axs.ravel(),[0,1,3,9]):
 
 
 plt.tight_layout()
+plt.show()

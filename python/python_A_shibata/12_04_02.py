@@ -1,9 +1,9 @@
 from matplotlib import gridspec
 import matplotlib.pyplot as plt
 import numpy as np
-#from ipywidgets import interact,IntSlider,fixed
+from ipywidgets import interact,IntSlider,fixed
 """
-jfrom __future__ import print_function
+from __future__ import print_function
 from IPython.html.widgets import interact,i
 from Ipython.html import widgets
 """
@@ -31,7 +31,7 @@ def show_pgraph(year,arr1,arr2,arr3,ymin,ymax,ydim=1):
     ax[2].plot(range(ymin,ymax+1,ydim),arr3,ls=":")
     ax[2].plot([year,year],[0,140000])
     
-#    t=interact(show_pgraph,year=IntSlider(min=1944,max=2014,step=5),arr1=fixed(p_male),arr2=fixed(p_female),arr3=fixed(p_yearly),ymin=fixed(1944),ymax=fixed(2014),tdim=fixed(1))
+    t=interact(show_pgraph,year=IntSlider(min=1944,max=2014,step=5),arr1=fixed(p_male),arr2=fixed(p_female),arr3=fixed(p_yearly),ymin=fixed(1944),ymax=fixed(2014),tdim=fixed(1))
     plt.show()
 show_pgraph(1994,p_male,p_female,p_yearly,1944,2014)
     
