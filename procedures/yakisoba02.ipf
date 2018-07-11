@@ -38,11 +38,11 @@ EndMacro
 Macro IVanalysis()
 variable fldnum
 string name0,name1,name2,name3,name4,fldname,title,graphtitle;
-//?¿½?¿½Æ‚Æ‚È‚ï¿½IV?¿½f?¿½[?¿½^?¿½Ì“ï¿½?¿½?¿½?¿½?¿½?¿½t?¿½H?¿½?¿½?¿½_?¿½?¿½ß‚ï¿½
+//?ï¿½ï¿½?ï¿½ï¿½Æ‚Æ‚È‚ï¿½IV?ï¿½ï¿½f?ï¿½ï¿½[?ï¿½ï¿½^?ï¿½ï¿½Ì“ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½t?ï¿½ï¿½H?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½_?ï¿½ï¿½?ï¿½ï¿½ß‚ï¿½
 fldnum=1;
 // do
-	graphtitle="A"+"0"+num2str(fldnum)+""//--------------------?¿½O?¿½?¿½?¿½t?¿½^?¿½C?¿½g?¿½İ’è‚µ?¿½æ‚¤
-	title="A"+""+num2str(fldnum)+"_ALL"//---------------------?¿½t?¿½H?¿½?¿½?¿½_?¿½^?¿½C?¿½g?¿½?¿½
+	graphtitle="A"+"0"+num2str(fldnum)+""//--------------------?ï¿½ï¿½O?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½t?ï¿½ï¿½^?ï¿½ï¿½C?ï¿½ï¿½g?ï¿½ï¿½İ’è‚µ?ï¿½ï¿½æ‚¤
+	title="A"+""+num2str(fldnum)+"_ALL"//---------------------?ï¿½ï¿½t?ï¿½ï¿½H?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½_?ï¿½ï¿½^?ï¿½ï¿½C?ï¿½ï¿½g?ï¿½ï¿½?ï¿½ï¿½
 	
 	fldname="root:"+title;
 	print fldname;
@@ -50,13 +50,13 @@ fldnum=1;
 	
 	Duplicate/O wave0,resist;DelayUpdate;
 	Duplicate/O wave0,dif_resist;DelayUpdate;
-	name0="wave0";name1="wave1";name2="resist";name3="dif_resist";//w0:I,w1:V?¿½Ìƒf?¿½[?¿½^?¿½?¿½?¿½?¿½?¿½Ä‚ï¿½?¿½?¿½
+	name0="wave0";name1="wave1";name2="resist";name3="dif_resist";//w0:I,w1:V?ï¿½ï¿½Ìƒf?ï¿½ï¿½[?ï¿½ï¿½^?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½Ä‚ï¿½?ï¿½ï¿½?ï¿½ï¿½
 	//$name0=$name0*1000;
-	$name2=($name1)/($name0)*1000;//wave2(?¿½?¿½R)?¿½?¿½v?¿½Z?¿½?¿½?¿½?¿½
-	Differentiate $name1/X=$name0/D=dif_resist;dif_resist=dif_resist*1000;//wave3(?¿½?¿½?¿½?¿½?¿½?¿½R)?¿½?¿½v?¿½Z?¿½?¿½?¿½?¿½
+	$name2=($name1)/($name0)*1000;//wave2(?ï¿½ï¿½?ï¿½ï¿½R)?ï¿½ï¿½?ï¿½ï¿½v?ï¿½ï¿½Z?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½
+	Differentiate $name1/X=$name0/D=dif_resist;dif_resist=dif_resist*1000;//wave3(?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½R)?ï¿½ï¿½?ï¿½ï¿½v?ï¿½ï¿½Z?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½
 	Display $name1 vs $name0 as title;AppendToGraph/R $name2 vs $name0;AppendToGraph/R $name3 vs $name0 ;
 
-//?¿½È‰ï¿½hklklkhlklkgraph?¿½Ìtrtr
+//?ï¿½ï¿½È‰ï¿½hklklkhlklkgraph?ï¿½ï¿½Ìtrtr
 	ModifyGraph rgb(wave1)=(0,15872,65280);ModifyGraph rgb(resist)=(0,65280,0);
 	setAxis left 0,*;setAxis bottom 0,*;setAxis right 0,*
 	Label bottom "\\Z16 current(mA)"
@@ -80,28 +80,28 @@ end
 Macro ILanalysis()
 variable fldnum,th;
 string name0,name1,name2,name3,name4,fldname,title,graphtitle;
-//?¿½?¿½Æ‚Æ‚È‚ï¿½IL?¿½f?¿½[?¿½^?¿½Ì“ï¿½?¿½?¿½?¿½?¿½?¿½t?¿½H?¿½?¿½?¿½_?¿½?¿½ß‚ï¿½
+//?ï¿½ï¿½?ï¿½ï¿½Æ‚Æ‚È‚ï¿½IL?ï¿½ï¿½f?ï¿½ï¿½[?ï¿½ï¿½^?ï¿½ï¿½Ì“ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½t?ï¿½ï¿½H?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½_?ï¿½ï¿½?ï¿½ï¿½ß‚ï¿½
 fldnum=1;
  //do
-	graphtitle="3QW"+"00"+num2str(fldnum)+""//--------------------?¿½O?¿½?¿½?¿½t?¿½^?¿½C?¿½g?¿½İ’è‚µ?¿½æ‚¤
-	title="k180501_data"+"00"+num2str(fldnum)+""//---------------------?¿½t?¿½H?¿½?¿½?¿½_?¿½^?¿½C?¿½g?¿½?¿½
+	graphtitle="3QW"+"00"+num2str(fldnum)+""//--------------------?ï¿½ï¿½O?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½t?ï¿½ï¿½^?ï¿½ï¿½C?ï¿½ï¿½g?ï¿½ï¿½İ’è‚µ?ï¿½ï¿½æ‚¤
+	title="k180501_data"+"00"+num2str(fldnum)+""//---------------------?ï¿½ï¿½t?ï¿½ï¿½H?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½_?ï¿½ï¿½^?ï¿½ï¿½C?ï¿½ï¿½g?ï¿½ï¿½?ï¿½ï¿½
  
 	fldname="root:"+title;
 	print fldname;
 	SetDataFolder fldname;
 	
-	name0="wave77777";name1="wave1";name2="wave1_Smth";name3="wave1_Smth_Dif"name4="wave1_Smth_Dif_Dif";//w1:I,w2:V?¿½Ìƒf?¿½[?¿½^?¿½?¿½?¿½?¿½?¿½Ä‚ï¿½?¿½?¿½
-//?¿½È‰ï¿½?¿½?¿½Íƒp?¿½[?¿½g
+	name0="wave77777";name1="wave1";name2="wave1_Smth";name3="wave1_Smth_Dif"name4="wave1_Smth_Dif_Dif";//w1:I,w2:V?ï¿½ï¿½Ìƒf?ï¿½ï¿½[?ï¿½ï¿½^?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½Ä‚ï¿½?ï¿½ï¿½?ï¿½ï¿½
+//?ï¿½ï¿½È‰ï¿½?ï¿½ï¿½?ï¿½ï¿½Íƒp?ï¿½ï¿½[?ï¿½ï¿½g
 	//$name0=$name0*1000;
-	Duplicate/O wave1,wave1_Smth;DelayUpdate;smooth 10,wave1_Smth;//IL?¿½?¿½10?¿½?¿½X?¿½?¿½?¿½[?¿½W?¿½?¿½?¿½O
- 	Duplicate/O wave1_Smth,wave1_smth_Dif;DelayUpdate;Differentiate wave1_Smth/X=wave0/D=wave1_Smth_Dif;//?¿½X?¿½?¿½?¿½[?¿½W?¿½?¿½?¿½O?¿½?¿½?¿½?¿½?¿½?¿½Ì‚ï¿½?¿½K?¿½?¿½?¿½?¿½
-	Duplicate/O wave1_Smth_Dif,wave1_Smth_Dif_Dif;DelayUpdate;Differentiate wave1_Smth_Dif/X=wave0/D=wave1_Smth_Dif_Dif;//?¿½?¿½K?¿½?¿½?¿½?¿½
+	Duplicate/O wave1,wave1_Smth;DelayUpdate;smooth 10,wave1_Smth;//IL?ï¿½ï¿½?ï¿½ï¿½10?ï¿½ï¿½?ï¿½ï¿½X?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½[?ï¿½ï¿½W?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½O
+ 	Duplicate/O wave1_Smth,wave1_smth_Dif;DelayUpdate;Differentiate wave1_Smth/X=wave0/D=wave1_Smth_Dif;//?ï¿½ï¿½X?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½[?ï¿½ï¿½W?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½O?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½Ì‚ï¿½?ï¿½ï¿½K?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½
+	Duplicate/O wave1_Smth_Dif,wave1_Smth_Dif_Dif;DelayUpdate;Differentiate wave1_Smth_Dif/X=wave0/D=wave1_Smth_Dif_Dif;//?ï¿½ï¿½?ï¿½ï¿½K?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½
 	Display $name1 vs $name0 as title;AppendToGraph $name2 vs $name0;
 	AppendToGraph/R $name3 vs $name0;AppendToGraph/R $name4 vs $name0 ;
 	
 	wavestats wave1_Smth_Dif_Dif;th=V_max;print V_maxloc,V_max;
 
-//?¿½È‰ï¿½graph?¿½Ìï¿½
+//?ï¿½ï¿½È‰ï¿½graph?ï¿½ï¿½Ìï¿½
 	ModifyGraph rgb($name1)=(0,15872,65280);ModifyGraph rgb($name2)=(0,65280,0);
 	ModifyGraph rgb($name3)=(0,65280,0);ModifyGraph rgb($name4)=(65280,0,52224);
 	setAxis left 0,*;setAxis bottom 0,*;setAxis right 0,*
@@ -134,30 +134,30 @@ silent 1; pauseupdate;
 //--------------------------------------------
 //------------setting parameter---------------
 //--------------------------------------------
-fldnum=1;    //-------------------set the first file number   
-cavity_L=200;//-------------------set cavity length (um)  
-analysis_pt=100;//------------------------------set the data point to use analysis of efficiency and resistance
+fldnum=16;    //-------------------set the first file number   
+cavity_L=300;//-------------------set cavity length (um)  
+analysis_pt=94;//------------------------------set the data point to use analysis of efficiency and resistance
     
 NewDataFolder/O root:analysis;
 setDataFolder root:analysis;
-make /O/N=6/D ridge_number={1,2,3,4,5,6};make/O/N=6/D cavity_length=cavity_L;make/O/N=6/D ridge_width={1.5,2.5,1.5,2.5,1.5,2.5},I_th_column ,i_d,resistance_column,dif_resistance_column;  
+make /O/D ridge_number={1,2,3,4,5};make/O/D cavity_length=cavity_L;make/O/D ridge_width={1.5,2.5,1.5,2.5,1.5,2.5},I_th_column ,i_d,resistance_column,dif_resistance_column;  
 do  //-------------------do loop of filename
     if (fldnum<=9)
         title00="data00"+num2str(fldnum);
     else if(fldnum>=10)
         title00="data0"+num2str(fldnum);
     endif
-    title00="data002_02"//-------------title of folder in which waves are
+//    title00="data002_02"//-------------title of folder in which waves are
     title=title00+"_ALL"
-    graphtitle=title
+    graphtitle=title00
     //title="data"+"00"+num2str(fldnum)+"_ALL"//---------------------
  	//graphtitle="bar05_"+"00"+num2str(fldnum);//----------------graphtitle
- 	IVIL_AnalysisPart(title,graphtitle,fldnum)
+ 	IVIL_AnalysisPart(title,graphtitle,fldnum,analysis_pt)
     setDataFolder root:analysis;
     I_th_column[fldnum-1]=wave_return[0];i_d[fldnum-1]=wave_return[1];resistance_column[fldnum-1]=wave_return[2];dif_resistance_column[fldnum-1]=wave_return[3];
 //	wave_return=[I_th,efficiency,resistanve_analy,difresistance_analy]
     fldnum += 1
-while(fldnum<=20).
+while(fldnum<=15).
 	setDataFolder root:analysis;
 	edit ridge_number ,cavity_length,ridge_width,I_th_column,i_d,resistance_column,dif_resistance_column;
 	display I_th_column vs ridge_width  ;AppendToGraph/R i_d vs ridge_width;
@@ -181,10 +181,10 @@ while(fldnum<=20).
 //
 EndMacro
 
-function IVIL_AnalysisPart(title,graphtitle,fldnum)
+function IVIL_AnalysisPart(title,graphtitle,fldnum,analysis_pt)
 string title,graphtitle  //-----------------------------first of all , declare argument(hikisuu)
-variable fldnum
-variable th,th_pt,I_th,analysis_pt,I_analysis,efficiency,length,deletepoint,delete_start,cavity_L,resistance_analy,dif_resistance_analy;
+variable fldnum,analysis_pt
+variable th,th_pt,I_th,I_analysis,efficiency,length,deletepoint,delete_start,cavity_L,resistance_analy,dif_resistance_analy;
 string name0,name1,name2,name3,name4,name5,name6,name7,name8,name_wave0,name_wave1,name_wave2,name_wave3,fldname,VLgraphtitle,IVgraphtitle,IVtitle,VLtitle,abc;
 silent 1; pauseupdate;
 
@@ -259,7 +259,7 @@ silent 1; pauseupdate;
 	Label right "\\Z16 Resistance (\\F'Symbol'W)"
 	ModifyGraph tick(right)=2,standoff(right)=0,fSize(right)=16,minor(right)=1;
 	ModifyGraph lblPosMode(right)=3,lblPos(right)=50
-	Legend/C/N=text0/J/A=MC IVgraphtitle+"\r\\s(V_sample) sample Voltage (V)\r\\s(resistance) Resistance Resistance (\F'Symbol'W\F'Arial')\r\\F'Arial'\s(dif_smth_resistance) Differential Resistance (\F'Symbol'W\F'Arial')\r\F'Arial'"+num2str(resistance[analysis_pt])+" \F'Symbol'W\F'Arial',"+num2str(dif_smth_resistance[analysis_pt])+" \F'Symbol'W \r\F'Arial' at "+num2str(I_sample[analysis_pt])+" mA, "+num2str(analysis_pt)+"pt";
+	Legend/C/N=text0/J/A=MC IVgraphtitle+"\r\\s(V_sample) sample Voltage (V)\r\\s(resistance) Resistance Resistance (\F'Symbol'W\F'Arial')\r\\F'MS UI Gothic'\s(dif_smth_resistance) Differential Resistance (\F'Symbol'W\F'Arial')\r\F'Arial'"+num2str(resistance[analysis_pt])+" \F'Symbol'W\F'Arial',"+num2str(dif_smth_resistance[analysis_pt])+" \F'Symbol'W \r\F'Arial' at "+num2str(I_sample[analysis_pt])+" mA, "+num2str(analysis_pt)+"pt";
  	Legend/C/N=text0/J/X=15.00/Y=0;
  	Legend/C/N=text0/J/F=0/B=1
 	ModifyGraph width={Aspect,1}
