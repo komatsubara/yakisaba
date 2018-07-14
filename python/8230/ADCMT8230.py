@@ -14,16 +14,18 @@ class ADCMT8230:
     def main(self):
         print(self.wavelength)
     
-#c=ADCMT8230(1,1,1)
-#c.main()
 
 if __name__ =='__main__':
     class ADCMT8230:
         def __init__(self,wavelength,measure_range,smoothing):
-            self.wavelength=wavelength
-            self.measure_range=measure_range
-            self.smoothing=smoothing
-
+            try:
+                self.wavelength=wavelength
+                self.measure_range=measure_range
+                self.smoothing=smoothing
+            except:
+                self.wavelength=1030
+                self.measure_range=20
+                self.smoothing=1
         def main(self):
             print(self.wavelength)
     
