@@ -134,30 +134,37 @@ silent 1; pauseupdate;
 //--------------------------------------------
 //------------setting parameter---------------
 //--------------------------------------------
-fldnum=16;    //-------------------set the first file number   
-cavity_L=300;//-------------------set cavity length (um)  
-analysis_pt=94;//------------------------------set the data point to use analysis of efficiency and resistance
+fldnum=1;    //-------------------set the first file number   
+cavity_L=100;//-------------------set cavity length (um)  
+analysis_pt=200;//------------------------------set the data point to use analysis of efficiency and resistance
     
 NewDataFolder/O root:analysis;
 setDataFolder root:analysis;
 make /O/D ridge_number={1,2,3,4,5};make/O/D cavity_length=cavity_L;make/O/D ridge_width={1.5,2.5,1.5,2.5,1.5,2.5},I_th_column ,i_d,resistance_column,dif_resistance_column;  
+
+Display/N=IL
+Display/N=IV
 do  //-------------------do loop of filename
     if (fldnum<=9)
-        title00="data00"+num2str(fldnum);
+        title00="k180802_data00"+num2str(fldnum);
     else if(fldnum>=10)
-        title00="data0"+num2str(fldnum);
+        title00="k180802_data0"+num2str(fldnum);
     endif
 //    title00="data002_02"//-------------title of folder in which waves are
     title=title00+"_ALL"
     graphtitle=title00
     //title="data"+"00"+num2str(fldnum)+"_ALL"//---------------------
  	//graphtitle="bar05_"+"00"+num2str(fldnum);//----------------graphtitle
+ 	
  	IVIL_AnalysisPart(title,graphtitle,fldnum,analysis_pt)
+// 	DoWindow/F IL
+// 	AppendToGraph/R L vs I_sample
     setDataFolder root:analysis;
     I_th_column[fldnum-1]=wave_return[0];i_d[fldnum-1]=wave_return[1];resistance_column[fldnum-1]=wave_return[2];dif_resistance_column[fldnum-1]=wave_return[3];
 //	wave_return=[I_th,efficiency,resistanve_analy,difresistance_analy]
     fldnum += 1
 while(fldnum<=15).
+
 	setDataFolder root:analysis;
 	edit ridge_number ,cavity_length,ridge_width,I_th_column,i_d,resistance_column,dif_resistance_column;
 	display I_th_column vs ridge_width  ;AppendToGraph/R i_d vs ridge_width;
@@ -296,6 +303,8 @@ silent 1; pauseupdate;
 
 //
     Return_Wave(I_th,efficiency,resistance_analy,dif_resistance_analy)
+ 	AppendToGraph/W=IL L vs I_sample
+ 	AppendToGraph/W=IV V_sample vs I_sample
 End
 
 function Return_Wave(I_th,efficiency,resistance_analy,dif_resistance_analy)
