@@ -146,9 +146,9 @@ Display/N=IL
 Display/N=IV
 do  //-------------------do loop of filename
     if (fldnum<=9)
-        title00="k180802_data00"+num2str(fldnum);
+        title00="data00"+num2str(fldnum);
     else if(fldnum>=10)
-        title00="k180802_data0"+num2str(fldnum);
+        title00="data0"+num2str(fldnum);
     endif
 //    title00="data002_02"//-------------title of folder in which waves are
     title=title00+"_ALL"
