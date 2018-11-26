@@ -607,7 +607,8 @@ End
 
 
 /////////////////////
-//Trace RGB Rainbow//
+//Trace RGB 
+//
 /////////////////////
 Function TraceRGB_Rainbow(traceNum,totalNum)
 	Variable traceNum, totalNum

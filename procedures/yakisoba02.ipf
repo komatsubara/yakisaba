@@ -135,8 +135,8 @@ silent 1; pauseupdate;
 //------------setting parameter---------------
 //--------------------------------------------
 fldnum=1;    //-------------------set the first file number   
-cavity_L=100;//-------------------set cavity length (um)  
-analysis_pt=200;//------------------------------set the data point to use analysis of efficiency and resistance
+cavity_L=300;//-------------------set cavity length (um)  
+analysis_pt=185;//------------------------------set the data point to use analysis of efficiency and resistance
     
 NewDataFolder/O root:analysis;
 setDataFolder root:analysis;
@@ -146,9 +146,9 @@ Display/N=IL
 Display/N=IV
 do  //-------------------do loop of filename
     if (fldnum<=9)
-        title00="k180802_data00"+num2str(fldnum);
+        title00="data00"+num2str(fldnum);
     else if(fldnum>=10)
-        title00="k180802_data0"+num2str(fldnum);
+        title00="data0"+num2str(fldnum);
     endif
 //    title00="data002_02"//-------------title of folder in which waves are
     title=title00+"_ALL"
@@ -185,6 +185,18 @@ while(fldnum<=15).
 	//ModifyGraph width={Aspect,1}
 	//ModifyGraph height=300;
 	ModifyGraph lsize=2
+	
+	ModifyGraph/W=IL tick=2,mirror=1,minor=1,standoff=0
+	Label/W=IL left "\\Z14Power(uW)";DelayUpdate
+	Label/W=IL bottom "\\Z14Current (mA)";DelayUpdate
+	SetAxis/W=IL left 0,20;DelayUpdate
+	SetAxis/W=IL bottom 0,500
+	
+	ModifyGraph/W=IV tick=2,mirror=1,minor=1,standoff=0;DelayUpdate
+	Label/W=IV left "\\Z14Voltage(V)";DelayUpdate
+	Label/W=IV bottom "\\Z14Current (mA)";DelayUpdate
+	SetAxis/W=IV left 0,10;DelayUpdate
+	SetAxis/W=IV bottom 0,500
 //
 EndMacro
 
