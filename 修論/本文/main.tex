@@ -1,0 +1,56 @@
+\documentclass{jreport}
+%\documentclass[article]{•}
+%\documentclass[xelatex,a4paper]{bxjsarticle}
+%\documentclass[a4paper]{bxjsreport}
+%\documentclass[xelatex,a4paper,precisetext,noautoxspacing]{bxjsbook}
+
+%\usepackage{fontspec}
+%\usepackage{zxjatype}
+%\usepackage{xltxtra}
+%\setjamainfont{ipam.ttf}
+%\setjasansfont{ipag.ttf}
+%\setjamonofont{ipag.ttf}
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{bm}
+\usepackage{siunitx}
+
+%\usepackage[colorlinks=true, bookmarks=true,
+%bookmarksnumbered=true, bookmarkstype=toc, linkcolor=blue,
+%urlcolor=blue, citecolor=blue]{hyperref}
+
+
+\title{平成XX年度修士論文\\XXに関する数値シミュレーション}
+\author{Hoge hoge}
+\date{平成31年2月}
+
+\begin{document}
+
+\maketitle
+%\include{abstract}
+%% 目次
+\tableofcontents
+\listoffigures
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  本文
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{introduction}
+\include{solution}
+\include{result}
+\include{conclusion}
+%% reference
+\begin{thebibliography}{99}
+\bibitem{test1} reference
+\bibitem{test2} reference
+\bibitem{test3} reference
+%
+\end{thebibliography}
+
+
+\appendix
+\chapter{付録１}
+
+\end{document}
