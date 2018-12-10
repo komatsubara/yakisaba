@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  5 DEC 2018 00:51
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  10 DEC 2018 23:39
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -569,20 +569,30 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 File: test_fig.png Graphic file (type bmp)
 <test_fig.png>
 
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 17--18
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 19--20
 [][][] 
  []
 
-) [5
+File: ../a/GS_setup.png Graphic file (type bmp)
+<../a/GS_setup.png>
+
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 26--27
+[][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 38.01828pt on input line 29.
+
+[5
 
 
 
-] [6]
+] [6]) [7] [8]
 \openout2 = `result.aux'.
 
  (./result.tex
 第 3 章
-) [7
+) [9
 
 
 
@@ -591,22 +601,22 @@ Overfull \hbox (99.79134pt too wide) in paragraph at lines 17--18
 
  (./conclusion.tex
 第 4 章
-) [8
+) [10
 
 
 
-] [9
+] [11
 
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
 (./sample_structure.aux) (./result.aux) (./conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 11935 strings out of 493648
- 250462 string characters out of 6148806
- 273216 words of memory out of 5000000
- 15442 multiletter control sequences out of 15000+600000
+ 11942 strings out of 493648
+ 250580 string characters out of 6148806
+ 273238 words of memory out of 5000000
+ 15446 multiletter control sequences out of 15000+600000
  546774 words of font info for 88 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,6n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (11 pages, 9896 bytes).
+Output written on main.dvi (13 pages, 12924 bytes).
