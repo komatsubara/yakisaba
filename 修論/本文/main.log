@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  11 DEC 2018 13:33
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  13 DEC 2018 20:54
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -566,13 +566,17 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 
  (./sample_structure.tex
 第 2 章
+File: figure/fig_sample_structure.png Graphic file (type bmp)
+<figure/fig_sample_structure.png>
 
-LaTeX Warning: Reference `fig:IL' on page 5 undefined on input line 17.
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 11--12
+[][][] 
+ []
 
-File: figure/fig_IL_setup.pdf Graphic file (type pdf)
-<figure/fig_IL_setup.pdf>
+File: figure/fig_broadcontact.png Graphic file (type bmp)
+<figure/fig_broadcontact.png>
 
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 19--20
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 17--18
 [][][] 
  []
 
@@ -581,14 +585,25 @@ Overfull \hbox (99.79134pt too wide) in paragraph at lines 19--20
 
 
 ]
-File: figure/fig_2_3_1_01_GS_setup.pdf Graphic file (type pdf)
-<figure/fig_2_3_1_01_GS_setup.pdf>
 
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 27--28
+LaTeX Warning: Reference `fig:IL' on page 6 undefined on input line 27.
+
+File: figure/fig_IL_setup.pdf Graphic file (type pdf)
+<figure/fig_IL_setup.pdf>
+
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 29--30
 [][][] 
  []
 
-) [6] [7]
+[6]
+File: figure/fig_2_3_1_01_GS_setup.pdf Graphic file (type pdf)
+<figure/fig_2_3_1_01_GS_setup.pdf>
+
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 37--38
+[][][] 
+ []
+
+[7]) [8]
 \openout2 = `result.aux'.
 
  (./result.tex
@@ -600,20 +615,20 @@ Overfull \hbox (99.79134pt too wide) in paragraph at lines 5--6
 [][][] 
  []
 
-) [8
+) [9
 
 
 
-] [9]
+] [10]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 第 4 章
-) [10
+) [11
 
 
 
-] [11
+] [12
 
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
@@ -623,12 +638,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11946 strings out of 493648
- 250725 string characters out of 6148806
- 273248 words of memory out of 5000000
- 15450 multiletter control sequences out of 15000+600000
+ 11958 strings out of 493648
+ 250972 string characters out of 6148806
+ 273268 words of memory out of 5000000
+ 15456 multiletter control sequences out of 15000+600000
  546774 words of font info for 88 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,6n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (13 pages, 14304 bytes).
+Output written on main.dvi (14 pages, 15328 bytes).
