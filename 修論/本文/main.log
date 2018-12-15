@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  15 DEC 2018 19:11
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  16 DEC 2018 01:52
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -468,26 +468,52 @@ File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 \Gin@req@height=\dimen175
 \Gin@req@width=\dimen176
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks22
+)
 (./main.aux (./abstract.aux) (./introduction.aux) (./sample_structure.aux)
 (./result.aux) (./consideration.aux) (./conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -496,17 +522,51 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/local/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count277
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=674.33032pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=7.77588pt
+* \footskip=30.0pt
+* \marginparwidth=106.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c__siunitx_mathsf_int=\count280
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count278
+\c__siunitx_mathtt_int=\count281
  [1
 
 ]
@@ -522,9 +582,9 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 
 ])
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 17.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 17.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 18.
  (./main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
@@ -568,84 +628,45 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 第 2 章
 File: figure/fig_sample_structure.png Graphic file (type bmp)
 <figure/fig_sample_structure.png>
-
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 15--16
-[][][] 
- []
-
 File: figure/fig_broadcontact.png Graphic file (type bmp)
 <figure/fig_broadcontact.png>
-
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 26--27
-[][][] 
- []
-
+File: figure/fig_2_1_ridge.png Graphic file (type bmp)
+<figure/fig_2_1_ridge.png>
 [5
 
 
 
 ]
-File: figure/fig_2_1_ridge.png Graphic file (type bmp)
-<figure/fig_2_1_ridge.png>
-
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 35--36
-[][][] 
- []
-
-[6] [7] [8]
 File: figure/fig_2_1_mount.png Graphic file (type bmp)
 <figure/fig_2_1_mount.png>
 
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 48--49
-[][][] 
- []
 
-
-LaTeX Warning: Reference `fig:IL' on page 9 undefined on input line 56.
+LaTeX Warning: Reference `fig:IL' on page 6 undefined on input line 61.
 
 File: figure/fig_IL_setup.pdf Graphic file (type pdf)
 <figure/fig_IL_setup.pdf>
-
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 58--59
-[][][] 
- []
-
+[6]
 File: figure/fig_2_3_1_01_GS_setup.pdf Graphic file (type pdf)
 <figure/fig_2_3_1_01_GS_setup.pdf>
-
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 67--68
-[][][] 
- []
-
-) [9] [10]
+) [7] [8] [9]
 \openout2 = `result.aux'.
 
  (./result.tex
 第 3 章
 File: figure/fig_IL_result.pdf Graphic file (type pdf)
 <figure/fig_IL_result.pdf>
-
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 5--6
-[][][] 
- []
-
 File: figure/fig_efficientcy_vs_L_inverce.png Graphic file (type bmp)
 <figure/fig_efficientcy_vs_L_inverce.png>
-
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 11--12
-[][][] 
- []
-
-) [11
+) [10
 
 
 
-] [12]
+] [11]
 \openout2 = `consideration.aux'.
 
  (./consideration.tex
 第 4 章
-) [13
+) [12
 
 
 
@@ -654,11 +675,11 @@ Overfull \hbox (99.79134pt too wide) in paragraph at lines 11--12
 
  (./conclusion.tex
 第 5 章
-) [14
+) [13
 
 
 
-] [15
+] [14
 
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
@@ -667,17 +688,14 @@ Overfull \hbox (99.79134pt too wide) in paragraph at lines 11--12
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 11979 strings out of 493648
- 251465 string characters out of 6148806
- 274595 words of memory out of 5000000
- 15467 multiletter control sequences out of 15000+600000
+ 12467 strings out of 493648
+ 258772 string characters out of 6148806
+ 289914 words of memory out of 5000000
+ 15940 multiletter control sequences out of 15000+600000
  546774 words of font info for 88 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,6n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (17 pages, 24588 bytes).
+Output written on main.dvi (16 pages, 28560 bytes).
