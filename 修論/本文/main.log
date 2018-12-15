@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  13 DEC 2018 20:54
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  15 DEC 2018 19:11
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -469,7 +469,7 @@ File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 \Gin@req@width=\dimen176
 )
 (./main.aux (./abstract.aux) (./introduction.aux) (./sample_structure.aux)
-(./result.aux) (./conclusion.aux))
+(./result.aux) (./consideration.aux) (./conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -555,9 +555,9 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
 ) [4
 
 
@@ -569,14 +569,14 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 File: figure/fig_sample_structure.png Graphic file (type bmp)
 <figure/fig_sample_structure.png>
 
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 11--12
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 15--16
 [][][] 
  []
 
 File: figure/fig_broadcontact.png Graphic file (type bmp)
 <figure/fig_broadcontact.png>
 
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 17--18
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 26--27
 [][][] 
  []
 
@@ -585,25 +585,39 @@ Overfull \hbox (99.79134pt too wide) in paragraph at lines 17--18
 
 
 ]
+File: figure/fig_2_1_ridge.png Graphic file (type bmp)
+<figure/fig_2_1_ridge.png>
 
-LaTeX Warning: Reference `fig:IL' on page 6 undefined on input line 27.
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 35--36
+[][][] 
+ []
+
+[6] [7] [8]
+File: figure/fig_2_1_mount.png Graphic file (type bmp)
+<figure/fig_2_1_mount.png>
+
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 48--49
+[][][] 
+ []
+
+
+LaTeX Warning: Reference `fig:IL' on page 9 undefined on input line 56.
 
 File: figure/fig_IL_setup.pdf Graphic file (type pdf)
 <figure/fig_IL_setup.pdf>
 
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 29--30
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 58--59
 [][][] 
  []
 
-[6]
 File: figure/fig_2_3_1_01_GS_setup.pdf Graphic file (type pdf)
 <figure/fig_2_3_1_01_GS_setup.pdf>
 
-Overfull \hbox (99.79134pt too wide) in paragraph at lines 37--38
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 67--68
 [][][] 
  []
 
-[7]) [8]
+) [9] [10]
 \openout2 = `result.aux'.
 
  (./result.tex
@@ -615,35 +629,55 @@ Overfull \hbox (99.79134pt too wide) in paragraph at lines 5--6
 [][][] 
  []
 
-) [9
+File: figure/fig_efficientcy_vs_L_inverce.png Graphic file (type bmp)
+<figure/fig_efficientcy_vs_L_inverce.png>
 
+Overfull \hbox (99.79134pt too wide) in paragraph at lines 11--12
+[][][] 
+ []
 
-
-] [10]
-\openout2 = `conclusion.aux'.
-
- (./conclusion.tex
-第 4 章
 ) [11
 
 
 
-] [12
+] [12]
+\openout2 = `consideration.aux'.
+
+ (./consideration.tex
+第 4 章
+) [13
+
+
+
+]
+\openout2 = `conclusion.aux'.
+
+ (./conclusion.tex
+第 5 章
+) [14
+
+
+
+] [15
 
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
-(./sample_structure.aux) (./result.aux) (./conclusion.aux))
+(./sample_structure.aux) (./result.aux) (./consideration.aux) (./conclusion.aux
+))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11958 strings out of 493648
- 250972 string characters out of 6148806
- 273268 words of memory out of 5000000
- 15456 multiletter control sequences out of 15000+600000
+ 11979 strings out of 493648
+ 251465 string characters out of 6148806
+ 274595 words of memory out of 5000000
+ 15467 multiletter control sequences out of 15000+600000
  546774 words of font info for 88 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,6n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (14 pages, 15328 bytes).
+Output written on main.dvi (17 pages, 24588 bytes).
