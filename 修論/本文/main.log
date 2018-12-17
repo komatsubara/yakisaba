@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  16 DEC 2018 14:55
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  16 DEC 2018 18:45
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -495,7 +495,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks22
 )
 (./main.aux (./abstract.aux) (./introduction.aux) (./sample_structure.aux)
-(./result.aux) (./consideration.aux) (./conclusion.aux))
+(./result.aux
+
+LaTeX Warning: Label `table:data_type' multiply defined.
+
+
+LaTeX Warning: Label `fig_3_1_broad_i_th_3QW' multiply defined.
+
+) (./consideration.aux) (./conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -628,45 +635,85 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 第 2 章
 File: figure/fig_sample_structure.png Graphic file (type bmp)
 <figure/fig_sample_structure.png>
-File: figure/fig_broadcontact.png Graphic file (type bmp)
-<figure/fig_broadcontact.png>
-File: figure/fig_2_1_ridge.png Graphic file (type bmp)
-<figure/fig_2_1_ridge.png>
 [5
 
 
 
 ]
+File: figure/fig_broadcontact.png Graphic file (type bmp)
+<figure/fig_broadcontact.png>
+File: figure/fig_2_1_ridge.png Graphic file (type bmp)
+<figure/fig_2_1_ridge.png>
+ [6]
 File: figure/fig_2_1_mount.png Graphic file (type bmp)
 <figure/fig_2_1_mount.png>
 
 
-LaTeX Warning: Reference `fig:IL' on page 6 undefined on input line 61.
+LaTeX Warning: Reference `fig:IL' on page 7 undefined on input line 60.
 
 File: figure/fig_2_2_IL_setup.png Graphic file (type bmp)
 <figure/fig_2_2_IL_setup.png>
-[6]
+[7]
 File: figure/fig_2_3_1_01_GS_setup.pdf Graphic file (type pdf)
 <figure/fig_2_3_1_01_GS_setup.pdf>
-) [7] [8] [9]
+) [8]
 \openout2 = `result.aux'.
 
  (./result.tex
 第 3 章
-File: figure/fig_IL_result.pdf Graphic file (type pdf)
-<figure/fig_IL_result.pdf>
+File: figure/fig_3_1_IL_broad_3QW.png Graphic file (type bmp)
+<figure/fig_3_1_IL_broad_3QW.png>
+File: figure/fig_3_1_broad_i_th_3QW.png Graphic file (type bmp)
+<figure/fig_3_1_broad_i_th_3QW.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figure/fig_3_1_broad_j_th_3QW.png Graphic file (type bmp)
+<figure/fig_3_1_broad_j_th_3QW.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9
+
+
+
+]
+File: figure/fig_3_1_IL_10QW.png Graphic file (type bmp)
+<figure/fig_3_1_IL_10QW.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figure/fig_3_1_broad_slope_10QW.png Graphic file (type bmp)
+<figure/fig_3_1_broad_slope_10QW.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
+<figure/fig_3_1_broad_i_th_10QW.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
+<figure/fig_3_1_broad_i_th_10QW.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10]
 File: figure/fig_efficientcy_vs_L_inverce.png Graphic file (type bmp)
 <figure/fig_efficientcy_vs_L_inverce.png>
-) [10
+File: figure/fig_3_1_eff_in_3QW.png Graphic file (type bmp)
+<figure/fig_3_1_eff_in_3QW.png>
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-] [11]
+[11]) [12] [13] [14]
 \openout2 = `consideration.aux'.
 
  (./consideration.tex
 第 4 章
-) [12
+) [15
 
 
 
@@ -675,11 +722,11 @@ File: figure/fig_efficientcy_vs_L_inverce.png Graphic file (type bmp)
 
  (./conclusion.tex
 第 5 章
-) [13
+) [16
 
 
 
-] [14
+] [17
 
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
@@ -688,14 +735,17 @@ File: figure/fig_efficientcy_vs_L_inverce.png Graphic file (type bmp)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 12467 strings out of 493648
- 258788 string characters out of 6148806
- 289914 words of memory out of 5000000
- 15940 multiletter control sequences out of 15000+600000
+ 12492 strings out of 493648
+ 259582 string characters out of 6148806
+ 290028 words of memory out of 5000000
+ 15959 multiletter control sequences out of 15000+600000
  546774 words of font info for 88 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,6n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,8n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (16 pages, 28808 bytes).
+Output written on main.dvi (19 pages, 36188 bytes).
