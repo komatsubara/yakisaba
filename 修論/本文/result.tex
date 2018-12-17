@@ -1,15 +1,27 @@
+% !TEX root = main.tex
+
 \chapter{実験結果}
 \section{ブロードコンタクトレーザーバー試料に関する測定結果}%=====================================
 ブロードコンタクトレーザーバーに関してはウエハの特性を調べるために定常電流を流して測定を行なった。熱の発生を抑制するためにパルス電流を用いた。電流は...ms秒周期、...μsのパルス電流を流した。μs程度の電流は試料にとっては定常と見なされる。
 まずは定常状態の測定。発振閾値電流を測定することに加えて、発振時の印可電流の増分したいする光出力の増大から発光量子効率を見積もることが目的である。
 様々なパラメータを測定する。ウエハの構造ごとに節を分けている。
 \subsection{3QW}%===============================
+図\ref{fig_3_1_3QW_broacdcontact_IL}に3周期量子井戸レーザーのＩＬカーブおよびIVカーブの結果を示す。代表としてパッド幅をw=50umの物をプロットした。片面からの発光強度である。ヂューティーひは１：２０００である。１1us,2ms各デバイスにおいて出力強度が電流値を上げてくと増加していくことがわかる。またそれぞれのデバイスにおいて発信閾値を持つことが見て取れる。
+\\　ILカーブの発振時に対して直線フィッティングをおこないｘ切片を閾値電流とした。
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_IL_broad_3QW.png}
+	\includegraphics[width=12cm]{figure/fig_3_1_3QW_broadcontact_IL.png}
 		\caption{3MQWのIL結果}
-		\label{fig_3_1_IL_3QW.png}
+		\label{fig_3_1_3QW_broacdcontact_IL}
 \end{figure}
+次に様々なパッド幅に対して実験を行いフィッティングを行なったのでその結果を図\ref{fig_3_1_3QW_broadcontact_Ith}に示す。パッド幅が大きくなるにしたがって閾値電流が線形に増大することがわかる。一方すろーぷは。。。。。。
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=12cm]{figure/fig_3_1_3QW_broadcontact_Ith.png}
+		\caption{3MQWの閾値電流}
+		\label{fig_3_1_3QW_broadcontact_Ith}
+\end{figure}
+\begin{comment}
 閾値の表この表違うかも
 \begin{table}[hbtp]
   \caption{閾値}
@@ -26,28 +38,31 @@
     \hline
   \end{tabular}
 \end{table}
-
+\end{comment}
+\begin{comment}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_broad_i_th_3QW.png}
 		\caption{3MQWの閾値電流}
 		\label{fig_3_1_broad_i_th_3QW}
 \end{figure}
-
+\end{comment}
+\begin{comment}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_broad_j_th_3QW.png}
 		\caption{3MQWの閾値電流密度のパッド幅依存性}
 		\label{fig_3_1_broad_j_th_3QW}
 \end{figure}
-
+\end{comment}
 \newpage
 \subsection{10QW}%===============================
+次に１０周期量子井戸ブロードコンタクトレーザーバーについての結果を示す。ILカーブおよびIVカーブをｗ＝５０をだいひょうとしてしめす。いろわけは共振器ながさのちがいをあらわす。それぞれについてはっしんがかくにんできた。デューティー比は1対1000である。
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_IL_10QW.png}
+	\includegraphics[width=10cm]{figure/fig_3_1_10QW_broadcontact_IL.png}
 		\caption{10MQWのIL結果}
-		\label{fig_3_1_IL_10QW.png}
+		\label{fig_3_1_10QW_broadcontact_IL}
 \end{figure}
 \begin{figure}[h]
 	\centering
@@ -55,6 +70,7 @@
 		\caption{10MQWのスロープ}
 		\label{fig_3_1_IL_broad_slope}
 \end{figure}
+\begin{comment}
 閾値の表この表違うかも
 \begin{table}[hbtp]
   \caption{閾値}
@@ -71,7 +87,7 @@
     \hline
   \end{tabular}
 \end{table}
-
+\end{comment}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_broad_i_th_10QW.png}
