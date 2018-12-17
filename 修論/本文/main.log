@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  16 DEC 2018 18:45
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  17 DEC 2018 16:36
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -622,9 +622,9 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
 ) [4
 
 
@@ -633,15 +633,21 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 
  (./sample_structure.tex
 第 2 章
-File: figure/fig_sample_structure.png Graphic file (type bmp)
-<figure/fig_sample_structure.png>
+
+LaTeX Warning: Reference `fig:sample_structure' on page 5 undefined on input li
+ne 12.
+
+File: figure/fig_2_1_sample_structure.png Graphic file (type bmp)
+<figure/fig_2_1_sample_structure.png>
 [5
 
 
 
 ]
-File: figure/fig_broadcontact.png Graphic file (type bmp)
-<figure/fig_broadcontact.png>
+File: figure/fig_2_1_broadcontact.png Graphic file (type bmp)
+<figure/fig_2_1_broadcontact.png>
+File: figure/fig_2_1_broadcontact_memo.png Graphic file (type bmp)
+<figure/fig_2_1_broadcontact_memo.png>
 File: figure/fig_2_1_ridge.png Graphic file (type bmp)
 <figure/fig_2_1_ridge.png>
  [6]
@@ -649,14 +655,14 @@ File: figure/fig_2_1_mount.png Graphic file (type bmp)
 <figure/fig_2_1_mount.png>
 
 
-LaTeX Warning: Reference `fig:IL' on page 7 undefined on input line 60.
+LaTeX Warning: Reference `fig:IL' on page 7 undefined on input line 67.
 
 File: figure/fig_2_2_IL_setup.png Graphic file (type bmp)
 <figure/fig_2_2_IL_setup.png>
 [7]
 File: figure/fig_2_3_1_01_GS_setup.pdf Graphic file (type pdf)
 <figure/fig_2_3_1_01_GS_setup.pdf>
-) [8]
+) [8] [9]
 \openout2 = `result.aux'.
 
  (./result.tex
@@ -673,7 +679,7 @@ File: figure/fig_3_1_broad_j_th_3QW.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9
+[10
 
 
 
@@ -699,7 +705,7 @@ File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]
+[11]
 File: figure/fig_efficientcy_vs_L_inverce.png Graphic file (type bmp)
 <figure/fig_efficientcy_vs_L_inverce.png>
 File: figure/fig_3_1_eff_in_3QW.png Graphic file (type bmp)
@@ -708,12 +714,12 @@ File: figure/fig_3_1_eff_in_3QW.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11]) [12] [13] [14]
+[12]) [13] [14] [15]
 \openout2 = `consideration.aux'.
 
  (./consideration.tex
 第 4 章
-) [15
+) [16
 
 
 
@@ -722,11 +728,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./conclusion.tex
 第 5 章
-) [16
+) [17
 
 
 
-] [17
+] [18
 
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
@@ -740,12 +746,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12492 strings out of 493648
- 259582 string characters out of 6148806
- 290028 words of memory out of 5000000
- 15959 multiletter control sequences out of 15000+600000
+ 12497 strings out of 493648
+ 259776 string characters out of 6148806
+ 290040 words of memory out of 5000000
+ 15963 multiletter control sequences out of 15000+600000
  546774 words of font info for 88 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,8n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (19 pages, 36188 bytes).
+Output written on main.dvi (20 pages, 36860 bytes).

@@ -10,23 +10,30 @@
 
 \subsection{試料構造}%=====================================
 まずはエピウエハ構造について述べる。量子井戸の周期は3周期と10周期の2種類である。それぞれのエピ構造を図\ref{fig:sample_structure}に示す。nタイプGaAs基板の上にバッファ層が丸々nm,その後n-AlGaSがどうたらこうたらSCH層がどうたらこうたら.。バンドギャップの図があると良い屈折率とかも
-\begin{figure}[h]
+\begin{figure}[t]
 	\centering
-	\includegraphics[width=15cm]{figure/fig_sample_structure}
+	\includegraphics[width=15cm]{figure/fig_2_1_sample_structure}
 	\caption{エピウエハ構造}
-	\label{fig:sample_structure}
+	\label{fig_2_1_sample_structure}
 \end{figure}
 
 \newpage
 \subsection{ブロードコンタクトレーザー}%=======================
 結晶成長の後n側とp側にコンタクトメタルの蒸着を行った。p側の原子はなになに、n側はなになにである。劈開面は001?とかなんとか
-ブロードコンタクトレーザーとは光導波路を形成せずバー(棒)のままのレーザーである。プロセスを簡略化することで早く測定を行うことを目的とした。ウエハの評価測定のために用いた。図\ref{fig:sample_broadcontact}に模式図を示す。図\ref{fig:sample_broadcontact}の上から下に向かって電流が流れ、活性層でキャリアの再結合が起き発光が起こる。また図の手前と奥の劈開面でファブリーペロー共振器を形成しており、反転分布となっているときに光がそこを往復することで誘導放出が起き発振し、紙面の手前と奥方向に(軸を用意した方がいいか?)この文章だと絵をバーっぽくした方がいいか?共振器長は300,500,1000,2000umの4種類を作製した。また電極パッド幅は5,...の...種類を作製した。
+ブロードコンタクトレーザーとは光導波路を形成せずバー(棒)のままのレーザーである。プロセスを簡略化することで早く測定を行うことを目的とした。ウエハの評価測定のために用いた。図\ref{fig:sample_broadcontact}に模式図を示す。図\ref{fig:sample_broadcontact}の上から下に向かって電流が流れ、活性層でキャリアの再結合が起き発光が起こる。また図の手前と奥の劈開面でファブリーペロー共振器を形成しており、反転分布となっているときに光がそこを往復することで誘導放出が起き発振し、紙面の手前と奥方向に(軸を用意した方がいいか?)この文章だと絵をバーっぽくした方がいいか?共振器長は500,1000,2000umの3種類を作製した。また電極パッド幅は3,5,10,30,50,100,300umの6種類を作製した。
 
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_broadcontact.png}
+	\includegraphics[width=10cm]{figure/fig_2_1_broadcontact.png}
 	\caption{ブロードコンタクレーザー}
 	\label{fig:sample_broadcontact}
+\end{figure}
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_2_1_broadcontact_memo.png}
+	\caption{ブロードコンタクレーザーめも}
+	\label{fig:sample_broadcontact_memo}
 \end{figure}
 
 \subsection{リッジ導波路型レーザー}%==========================
@@ -67,6 +74,7 @@
 \subsection{電流注入利得スイッチング実験}%======================
 ナノ秒程度の短いパルス電圧を引火することで利得スイッチング動作を起こし測定を行なった。その実験系の回路図を図\ref{fig:GS_setup}に示す。パルスジェネレータから同軸ケーブルを介して試料へ電気パルスが印加される。パルスジェネレータからで生成された電圧パルスは可変抵抗、RFアンプで増幅されデバイスへと印可される。試料からの発光は対物レンズでコリメートされ、非球面レンズで光ファイバーに集光される。その後フォトダイオードで検出しその電圧を高速オシロスコープでモニタした。
 
+PDの分解能について記述!
 \begin{figure}[htbp]
 	\includegraphics[width=15cm]{figure/fig_2_3_1_01_GS_setup.pdf}
 	\caption{GS実験系}
