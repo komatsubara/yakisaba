@@ -1,7 +1,7 @@
 % !TEX root = main.tex
 
 \chapter{実験結果}
-\section{ブロードコンタクトレーザーバー試料に関する測定結果}%=====================================
+\section{ブロードコンタクトレーザー試料に関する測定結果}%=====================================
 ブロードコンタクトレーザーバーに関してはウエハの特性を調べるために定常電流を流して測定を行なった。熱の発生を抑制するためにパルス電流を用いた。電流は...ms秒周期、...μsのパルス電流を流した。μs程度の電流は試料にとっては定常と見なされる。
 まずは定常状態の測定。発振閾値電流を測定することに加えて、発振時の印可電流の増分したいする光出力の増大から発光量子効率を見積もることが目的である。
 様々なパラメータを測定する。ウエハの構造ごとに節を分けている。
@@ -57,7 +57,7 @@
 \end{comment}
 \newpage
 \subsection{10QW}%===============================
-次に１０周期量子井戸ブロードコンタクトレーザーバーについての結果を示す。ILカーブおよびIVカーブをｗ＝５０をだいひょうとしてしめす。いろわけは共振器ながさのちがいをあらわす。それぞれについてはっしんがかくにんできた。デューティー比は1対1000である。(2us 2ms周期)
+次に１０周期量子井戸ブロードコンタクトレーザーについての結果を示す。ILカーブおよびIVカーブをｗ＝５０をだいひょうとしてしめす。いろわけは共振器ながさのちがいをあらわす。それぞれについてはっしんがかくにんできた。デューティー比は1対1000である。(2us 2ms周期)
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_1_10QW_broadcontact_IL.png}
@@ -79,7 +79,7 @@
  本体閾値電流電流は電流を流す面積に比例して大きくなるはずであるが図を見るとそうなっておらず赤ペンを持っている。そのx切片を含めたパッド幅を有効的な幅と考えて閾値電流密度を算出した。まずは有効パッド幅を見積もった。図\ref{fig_3_1_3QW_broadcontact_Ith}と図\ref{fig_3_1_10QW_broadcontact_Ith}それぞれの(a)においてIthが線形に増加する領域をフィッティングした。そのフィッティング関数のx切片の絶対値が実質的なパッド幅の増分である。その値を表に示した。
  
 \begin{table}[hbtp]
-  \caption{3QWブロードコンタクトレーザーバーの電流広がり}
+  \caption{3QWブロードコンタクトレーザーの電流広がり}
   \label{table_3QW_broadcontact_w_eff}
   \centering
   \begin{tabular}{lcr}
@@ -94,7 +94,7 @@
 \end{table}
 
 \begin{table}[hbtp]
-  \caption{10QWブロードコンタクトレーザーバーの電流広がり}
+  \caption{10QWブロードコンタクトレーザーの電流広がり}
   \label{table_10QW_broadcontact_w_eff}
   \centering
   \begin{tabular}{lcr}
@@ -170,30 +170,43 @@ J_{\rm{th}}=\dfrac{I_{\rm{th}}}{(w+w')L}
 \newpage
 \newpage
 \newpage
-\section{電流注入利得スイッチング}%===================
+\section{リッジ導波路型レーザーに関する実験結果}%===================
+\subsection{定常電流の結果}
 リッジ導波路型レーザーに関して電流注入利得スイッチング実験を行った。その時の光出力の時間はけいを示す。
 励起時間は
-
-\subsection{3QW}%===============================
+\subsection{利得スイッチング動作の結果}
+\subsubsection{3QW}%===============================
 L=100,200,300
 
-\subsection{10QW}%==============================
+\subsubsection{10QW}%==============================
 L=300,400,500
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_10QW_ridge_L300_GS.png}
+	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_L300_GS.png}
 		\caption{10MQW L=300um の利得スイッチング光パルスの時間波形}
-		\label{fig:fig_3_1_10QW_ridge_L400_GS}
+		\label{fig:fig_3_2_10QW_ridge_L400_GS}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_10QW_ridge_L400_GS.png}
+	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_L400_GS.png}
 		\caption{10MQW L=400um の利得スイッチング光パルスの時間波形}
-		\label{fig:fig_3_1_10QW_ridge_L400_GS}
+		\label{fig:fig_3_2_10QW_ridge_L400_GS}
 \end{figure}
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_L500_GS.png}
+		\caption{10MQW L=500um の利得スイッチング光パルスの時間波形}
+		\label{fig:fig_3_2_10QW_ridge_L500_GS}
+\end{figure}
 \subsection{結果の比較}%===========================
+FWHM でコンボリューションした物をまとめた。
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_GS_FWHM.png}
+		\caption{10MQW 利得スイッチングパルスのパルス幅}
+		\label{fig:fig_3_2_10QW_ridge_GS_FWHM}
+\end{figure}
 \subsection{付録かな??コンボリュージョンの説明,電気パルスの確認}%==============
 
 \begin{figure}[h]
