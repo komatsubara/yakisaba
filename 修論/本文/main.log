@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  18 DEC 2018 01:57
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  18 DEC 2018 20:23
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -682,41 +682,64 @@ File: figure/fig_3_1_10QW_broadcontact_IL.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_IL.png>
 File: figure/fig_3_1_10QW_broadcontact_Ith.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_Ith.png>
-File: figure/fig_3_1_broad_slope_10QW.png Graphic file (type bmp)
-<figure/fig_3_1_broad_slope_10QW.png>
- Excluding 'comment' comment.
-File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
-<figure/fig_3_1_broad_i_th_10QW.png>
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
-<figure/fig_3_1_broad_i_th_10QW.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11]
-File: figure/fig_efficientcy_vs_L_inverce.png Graphic file (type bmp)
-<figure/fig_efficientcy_vs_L_inverce.png>
-File: figure/fig_3_1_eff_in_3QW.png Graphic file (type bmp)
-<figure/fig_3_1_eff_in_3QW.png>
+File: figure/fig_3_1_3QW_broadcontact_Jth.png Graphic file (type bmp)
+<figure/fig_3_1_3QW_broadcontact_Jth.png>
+File: figure/fig_3_1_10QW_broadcontact_Jth.png Graphic file (type bmp)
+<figure/fig_3_1_10QW_broadcontact_Jth.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12]) [13] [14] [15]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12]
+File: figure/fig_3_1_3QW_broadcontact_id.png Graphic file (type bmp)
+<figure/fig_3_1_3QW_broadcontact_id.png>
+File: figure/fig_3_1_3QW_broadcontact_id_inverse.png Graphic file (type bmp)
+<figure/fig_3_1_3QW_broadcontact_id_inverse.png>
+File: figure/fig_3_1_10QW_broadcontact_id.png Graphic file (type bmp)
+<figure/fig_3_1_10QW_broadcontact_id.png>
+File: figure/fig_3_1_10QW_broadcontact_id_inverse.png Graphic file (type bmp)
+<figure/fig_3_1_10QW_broadcontact_id_inverse.png>
+ Excluding 'comment' comment. [13]
+File: figure/fig_3_1_10QW_ridge_L300_GS.png Graphic file (type bmp)
+<figure/fig_3_1_10QW_ridge_L300_GS.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figure/fig_3_1_10QW_ridge_L400_GS.png Graphic file (type bmp)
+<figure/fig_3_1_10QW_ridge_L400_GS.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figure/fig_3_1_broad_slope_10QW.png Graphic file (type bmp)
+<figure/fig_3_1_broad_slope_10QW.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
+<figure/fig_3_1_broad_i_th_10QW.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
+<figure/fig_3_1_broad_i_th_10QW.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [14] [15] [16] [17] [18] [19]
 \openout2 = `consideration.aux'.
 
  (./consideration.tex
 第 4 章
-) [16
+) [20
 
 
 
@@ -725,11 +748,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./conclusion.tex
 第 5 章
-) [17
+) [21
 
 
 
-] [18
+] [22
 
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
@@ -738,14 +761,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 12536 strings out of 493648
- 260569 string characters out of 6148806
- 290917 words of memory out of 5000000
- 15998 multiletter control sequences out of 15000+600000
+ 12563 strings out of 493648
+ 261660 string characters out of 6148806
+ 291011 words of memory out of 5000000
+ 16019 multiletter control sequences out of 15000+600000
  546774 words of font info for 88 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,6n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (20 pages, 37412 bytes).
+Output written on main.dvi (24 pages, 45320 bytes).
