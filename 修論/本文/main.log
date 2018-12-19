@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.sjis) (TeX Live 2016/W32TeX) (preloaded format=platex 2017.4.11)  19 DEC 2018 19:07
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.sjis) (TeX Live 2016/W32TeX) (preloaded format=platex 2017.4.11)  19 DEC 2018 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,4 +749,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  32i,9n,33p,10388b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (25 pages, 43248 bytes).
+Output written on main.dvi (25 pages, 43260 bytes).
