@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  19 DEC 2018 13:21
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  19 DEC 2018 19:51
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -734,6 +734,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figure/fig_3_1_broad_slope_10QW.png Graphic file (type bmp)
 <figure/fig_3_1_broad_slope_10QW.png>
+[14] [15] [16]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -747,7 +748,7 @@ File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [14] [15] [16] [17] [18] [19] [20]
+) [17] [18] [19] [20]
 \openout2 = `consideration.aux'.
 
  (./consideration.tex
@@ -787,4 +788,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  32i,9n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (25 pages, 46796 bytes).
+Output written on main.dvi (25 pages, 48364 bytes).

@@ -19,13 +19,14 @@
 \contentsline {subsection}{\numberline {3.1.2}10QW}{11}
 \contentsline {subsection}{\numberline {3.1.3}電流広がりに関する考察}{12}
 \contentsline {subsection}{\numberline {3.1.4}内部量子効率と吸収係数の計算}{13}
+\contentsline {subsection}{\numberline {3.1.5}本節のまとめ}{14}
 \contentsline {section}{\numberline {3.2}リッジ導波路型レーザーに関する実験結果}{14}
 \contentsline {subsection}{\numberline {3.2.1}定常電流の結果}{14}
 \contentsline {subsection}{\numberline {3.2.2}利得スイッチング動作の結果}{14}
 \contentsline {subsubsection}{3QW}{14}
 \contentsline {subsubsection}{10QW}{14}
 \contentsline {subsection}{\numberline {3.2.3}結果の比較}{14}
-\contentsline {subsection}{\numberline {3.2.4}付録かな??コンボリュージョンの説明,電気パルスの確認}{14}
+\contentsline {subsection}{\numberline {3.2.4}付録かな??コンボリュージョンの説明,電気パルスの確認}{17}
 \contentsline {chapter}{\numberline {第4章}考察}{21}
 \contentsline {section}{\numberline {4.1}はじめに}{21}
 \contentsline {section}{\numberline {4.2}パルス幅と共振器長の関係(10QW)}{21}
