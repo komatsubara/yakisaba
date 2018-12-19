@@ -21,15 +21,15 @@
 \contentsline {subsection}{\numberline {3.1.4}外部量子効率、内部量子効率と吸収係数の計算}{14}
 \contentsline {section}{\numberline {3.2}リッジ導波路型レーザーに関する実験結果}{16}
 \contentsline {subsection}{\numberline {3.2.1}定常電流の結果}{16}
-\contentsline {subsection}{\numberline {3.2.2}利得スイッチング動作の結果}{16}
-\contentsline {subsubsection}{3QW}{16}
-\contentsline {subsubsection}{10QW}{17}
-\contentsline {subsection}{\numberline {3.2.3}結果の比較}{18}
-\contentsline {subsection}{\numberline {3.2.4}付録かな??コンボリュージョンの説明,電気パルスの確認}{19}
-\contentsline {chapter}{\numberline {第4章}考察}{21}
-\contentsline {section}{\numberline {4.1}はじめに}{21}
-\contentsline {section}{\numberline {4.2}パルス幅と共振器長の関係(10QW)}{21}
-\contentsline {section}{\numberline {4.3}3QWと10QWの比較}{21}
-\contentsline {chapter}{\numberline {第5章}まとめと展望}{22}
-\contentsline {section}{\numberline {5.1}本研究のまとめ}{22}
-\contentsline {section}{\numberline {5.2}今後の展望}{22}
+\contentsline {subsection}{\numberline {3.2.2}試料の利得スイッチング動作の結果}{16}
+\contentsline {subsection}{\numberline {3.2.3}3QW試料の利得スイッチング動作}{16}
+\contentsline {subsection}{\numberline {3.2.4}10QW試料の利得スイッチング動作}{17}
+\contentsline {subsection}{\numberline {3.2.5}結果の比較}{19}
+\contentsline {subsection}{\numberline {3.2.6}付録かな??コンボリュージョンの説明,電気パルスの確認}{20}
+\contentsline {chapter}{\numberline {第4章}考察}{22}
+\contentsline {section}{\numberline {4.1}はじめに}{22}
+\contentsline {section}{\numberline {4.2}パルス幅と共振器長の関係(10QW)}{22}
+\contentsline {section}{\numberline {4.3}3QWと10QWの比較}{22}
+\contentsline {chapter}{\numberline {第5章}まとめと展望}{23}
+\contentsline {section}{\numberline {5.1}本研究のまとめ}{23}
+\contentsline {section}{\numberline {5.2}今後の展望}{23}
