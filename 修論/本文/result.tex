@@ -4,84 +4,60 @@
 
 本章では3.1節ではブロードコンタクトレーザー、3.2節ではリッジ導波路型レーザーへの電流注入実験についての実験結果を報告する。
 \section{ブロードコンタクトレーザー試料に関する測定結果}%=====================================
-まず、ブロードコンタクトレーザーへ定常電流を流して測定を行った。様々な共振器長、電極パッド幅の試料に対して実験を行うことでウエハの基本的な物性パラメータを見積もることが目的である。
+ブロードコンタクトレーザーへ定常電流を流してILカーブを得る実験を行った。様々な共振器長、電極パッド幅の試料に対して実験を行うことでウエハの基本的な物性パラメータを見積もることが目的である。
 
-本体であればDC電流を印可することで定常発振させることが望ましい。しかし試料への熱の影響が無視できないほど大きくなってしまうため、本研究ではDC電流の代わりにマイクロ秒程度パルス電圧を印可した。マイクロ秒は半導体素子の中が定常状態になるには十分長いの本研究ではD電流は...ms秒周期、...μsのパルス電流を流した。μs程度の電流は試料にとっては定常と見なされる。
-まずは定常状態の測定。発振閾値電流を測定することに加えて、発振時の印可電流の増分したいする光出力の増大から発光量子効率を見積もることが目的である。
-様々なパラメータを測定する。ウエハの構造ごとに節を分けている。
-\subsection{3QW}%===============================
-図\ref{fig_3_1_3QW_broacdcontact_IL}に3周期量子井戸レーザーのＩＬカーブおよびIVカーブの結果を示す。代表としてパッド幅をw=50umの物をプロットした。片面からの発光強度である。ヂューティーひは１：２０００である。１1us,2ms各デバイスにおいて出力強度が電流値を上げてくと増加していくことがわかる。またそれぞれのデバイスにおいて発信閾値を持つことが見て取れる。
-\\　ILカーブの発振時に対して直線フィッティングをおこないｘ切片を閾値電流とした。
+発振閾値電流を測定することに加えて、発振時の印可電流の増分に対する光出力の増大から発光量子効率(微分外部量子効率)を見積もることが目的である。
+また発振閾値電流密度を算出するためにデバイス内の電流の広がりを見積もった。
+3周期ウエハと10周期ウエハごとに節を分けている。
+\subsection{3周期}%===============================
+3周期量子井戸ブロードコンタクトレーザーの結果を示す。図\ref{fig_3_1_3QW_broacdcontact_IL}(a)縦軸に発光強度(片方の端面)、横軸に電流をとったILカーブの結果である。また\ref{fig_3_1_3QW_broacdcontact_IL}(b)は縦軸に試料にかかっている電圧、横軸に電流をとったIVカーブの結果である。共振器長LがL=500,1000,2000umの結果をプロットした。代表としてパッド幅w=50umの結果をプロットした。測定条件は1usパルスを2ms繰り返し周期である。デューティー比は1:2000である。
+
+(a)を見ると各デバイスにおいて光出力強度が電流値を上げてくと増加していき、ある電流値を超えると発振が始まり発光強度が急激に増加することがわかる。その電流値を発振している時のILカーブを直線フィッティングすることで求めた。フィッティング直線のx切片を発振閾値電流$I_{\rm{th}}$とした。またフィッティング直線の傾きを発振時の発光効率$\Delta P/\Delta I$とした。
+ここで表とか作った方がわかりやすいか?
+
+(b)を見ると各デバイスにおいて電流が流れ始めるのが1V付近からであることが見て取れる。また共振器長Lが長いほど同じ電流に対する電圧が低い。これは電流が流れる面積が共振器長Lに比例して大きくなるためデバイスの抵抗値が小さくなっているためである。
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=12cm]{figure/fig_3_1_3QW_broadcontact_IL.png}
-		\caption{3MQWのIL結果}
+	\includegraphics[width=15cm]{figure/fig_3_1_3QW_broadcontact_IL.png}
+		\caption{3MQWのILカーブとIVカーブ}
 		\label{fig_3_1_3QW_broacdcontact_IL}
 \end{figure}
-次に様々なパッド幅に対して実験を行いフィッティングを行なったのでその結果を図\ref{fig_3_1_3QW_broadcontact_Ith}に示す。パッド幅が大きくなるにしたがって閾値電流が線形に増大することがわかる。一方すろーぷは。。。。。。
-\begin{figure}[h]
+
+
+次に様々なパッド幅に対して見積もった発振閾値電流$I_{\rm{th}}$の結果を図\ref{fig_3_1_3QW_broadcontact_Ith}(a)に示す。発振閾値電流$I_{\rm{th}}$、横軸が電極パッド幅wである。(b)は発振時の発光効率である。先のフィッティング直線の傾きにデューティー比をかけ、さらに両端面からの発光の分で2倍したものをプロットした。
+
+図\ref{fig_3_1_3QW_broadcontact_Ith}(a)を見ると、パッド幅wが50umより大きい領域では閾値電流$I_{\rm{th}}$はパッド幅wに対して線形に増加していることがわかる。一方パッド幅wが小さい領域では線形に変化していない。
+
+この原因は電流がパッド幅wに対して無視できないほど広がってしまっているためだと考えられる。このことについて3.1.3節で述べる。
+
+図\ref{fig_3_1_3QW_broadcontact_Ith}(b)を見るとそれぞれの共振器長で概ね横ばいの値を持っている。
+
+\begin{figure}[hb]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_1_3QW_broadcontact_Ith.png}
-		\caption{3MQWの閾値電流}
+		\caption{3MQWの閾値電流と発光効率}
 		\label{fig_3_1_3QW_broadcontact_Ith}
 \end{figure}
-\begin{comment}
-閾値の表この表違うかも
-\begin{table}[hbtp]
-  \caption{閾値}
-  \label{table:data_type}
-  \centering
-  \begin{tabular}{lcr}
-    \hline
-    共振器長  & 宣言  &  ビット幅  \\
-    \hline \hline
-    文字型  & char  & 8 \\
-    整数型  & int   & 32 \\
-    倍精度実数型  & double  & 64 \\
-    倍々精度実数型  &  long double  &  96 \\
-    \hline
-  \end{tabular}
-\end{table}
-\end{comment}
-\begin{comment}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_broad_i_th_3QW.png}
-		\caption{3MQWの閾値電流}
-		\label{fig_3_1_broad_i_th_3QW}
-\end{figure}
-\end{comment}
-\begin{comment}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=15cm]{figure/fig_3_1_broad_j_th_3QW.png}
-		\caption{3MQWの閾値電流密度のパッド幅依存性}
-		\label{fig_3_1_broad_j_th_3QW}
-\end{figure}
-\end{comment}
-\newpage
+\clearpage
 \subsection{10QW}%===============================
-次に１０周期量子井戸ブロードコンタクトレーザーについての結果を示す。ILカーブおよびIVカーブをｗ＝５０をだいひょうとしてしめす。いろわけは共振器ながさのちがいをあらわす。それぞれについてはっしんがかくにんできた。デューティー比は1対1000である。(2us 2ms周期)
+次に10周期量子井戸ブロードコンタクトレーザーについての結果を示す。図\ref{fig:fig_3_1_10QW_broadcontact_IL}に(a)ILカーブおよび(b)IVカーブを示す。w=50umを代表としてプロットした。色分けは共振器長を表す。駆動条件は2usパルスと2ms繰り返し周期で印可した。デューティー比は1:1000である。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_1_10QW_broadcontact_IL.png}
 		\caption{10MQWのIL結果}
-		\label{fig_3_1_10QW_broadcontact_IL}
+		\label{fig:fig_3_1_10QW_broadcontact_IL}
 \end{figure}
-またILカーブの発振時の直線フィッティング結果から閾値電流Ithと傾きdP/dIをプロットした。dP/dIについてはdデューティー比を考慮してまた両端面からの発光を算出している。
+
+次に\ref{fig:fig_3_1_3QW_broadcontact_Ith}(a)に\ref{fig:fig_3_1_10QW_broadcontact_IL}(a)のILカーブの発振時の直線フィッティング結果から閾値電流$I_{\rm{th}}$、(b)傾き$\Delta P/\Delta I$をプロットした。傾きはデューティー比1:1000と両端面からの発光を足し上げていることに注意されたい。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_1_10QW_broadcontact_Ith.png}
 		\caption{10MQWのIL結果}
-		\label{fig_3_1_10QW_broadcontact_Ith}
+		\label{fig:fig_3_1_10QW_broadcontact_Ith}
 \end{figure}
-
-
-\newpage
 \subsection{電流広がりに関する考察}%==================
 レーザーの基本的な特性を知る上で閾値電流密度が大切なパラメータとなる。これを見積もるために先の節の結果からキャリアの広がりを見積もった。\\
  本体閾値電流電流は電流を流す面積に比例して大きくなるはずであるが図を見るとそうなっておらず赤ペンを持っている。そのx切片を含めたパッド幅を有効的な幅と考えて閾値電流密度を算出した。まずは有効パッド幅を見積もった。図\ref{fig_3_1_3QW_broadcontact_Ith}と図\ref{fig_3_1_10QW_broadcontact_Ith}それぞれの(a)においてIthが線形に増加する領域をフィッティングした。そのフィッティング関数のx切片の絶対値が実質的なパッド幅の増分である。その値を表に示した。
- 
 \begin{table}[hbtp]
   \caption{3QWブロードコンタクトレーザーの電流広がり}
   \label{table_3QW_broadcontact_w_eff}
