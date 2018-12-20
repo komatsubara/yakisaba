@@ -1,8 +1,12 @@
 % !TEX root = main.tex
 
 \chapter{実験結果}
+
+本章では3.1節ではブロードコンタクトレーザー、3.2節ではリッジ導波路型レーザーへの電流注入実験についての実験結果を報告する。
 \section{ブロードコンタクトレーザー試料に関する測定結果}%=====================================
-ブロードコンタクトレーザーバーに関してはウエハの特性を調べるために定常電流を流して測定を行なった。熱の発生を抑制するためにパルス電流を用いた。電流は...ms秒周期、...μsのパルス電流を流した。μs程度の電流は試料にとっては定常と見なされる。
+まず、ブロードコンタクトレーザーへ定常電流を流して測定を行った。様々な共振器長、電極パッド幅の試料に対して実験を行うことでウエハの基本的な物性パラメータを見積もることが目的である。
+
+本体であればDC電流を印可することで定常発振させることが望ましい。しかし試料への熱の影響が無視できないほど大きくなってしまうため、本研究ではDC電流の代わりにマイクロ秒程度パルス電圧を印可した。マイクロ秒は半導体素子の中が定常状態になるには十分長いの本研究ではD電流は...ms秒周期、...μsのパルス電流を流した。μs程度の電流は試料にとっては定常と見なされる。
 まずは定常状態の測定。発振閾値電流を測定することに加えて、発振時の印可電流の増分したいする光出力の増大から発光量子効率を見積もることが目的である。
 様々なパラメータを測定する。ウエハの構造ごとに節を分けている。
 \subsection{3QW}%===============================
@@ -194,26 +198,26 @@ L=100,200,300
 L=300,400,500
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_L300_GS.png}
+	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_L300_GS.png}
 		\caption{10MQW L=300um の利得スイッチング光パルスの時間波形}
-		\label{fig:fig_3_2_10QW_ridge_L400_GS}
+		\label{fig:fig_3_2_10QW_ridge_L300_GS}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_L400_GS.png}
+	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_L400_GS.png}
 		\caption{10MQW L=400um の利得スイッチング光パルスの時間波形}
 		\label{fig:fig_3_2_10QW_ridge_L400_GS}
 \end{figure}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_L500_GS.png}
+	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_L500_GS.png}
 		\caption{10MQW L=500um の利得スイッチング光パルスの時間波形}
 		\label{fig:fig_3_2_10QW_ridge_L500_GS}
 \end{figure}
 \clearpage
 \subsection{結果の比較}%===========================
-FWHM でコンボリューションした物をまとめた。
+FWHM をまとめた。でコンボリューション後の値を示した。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_GS_FWHM.png}

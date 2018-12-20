@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  19 DEC 2018 22:16
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  20 DEC 2018 15:50
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -10,8 +10,8 @@ Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/platex/base/jreport.cls
 Document Class: jreport 2017/03/05 v1.7e Standard pLaTeX class
 \c@@paper=\count82
-(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jsize10.clo
-File: jsize10.clo 2017/03/05 v1.7e Standard pLaTeX file (size option)
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jsize11.clo
+File: jsize11.clo 2017/03/05 v1.7e Standard pLaTeX file (size option)
 )
 \c@part=\count83
 \c@chapter=\count84
@@ -498,11 +498,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \CommentStream=\write3
 
 Excluding comment 'comment') (./main.aux (./abstract.aux) (./introduction.aux)
-(./sample_structure.aux) (./result.aux
-
-LaTeX Warning: Label `fig:fig_3_2_10QW_ridge_L400_GS' multiply defined.
-
-) (./consideration.aux) (./conclusion.aux))
+(./sample_structure.aux) (./result.aux) (./consideration.aux) (./conclusion.aux
+) (./appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -548,12 +545,12 @@ File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=7.77588pt
+* \topskip=8.51457pt
 * \footskip=30.0pt
-* \marginparwidth=106.0pt
+* \marginparwidth=98.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -581,9 +578,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 (./abstract.tex
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
  [1
 
@@ -592,30 +589,30 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 19.
- (./main.toc)
+ (./main.toc [1
+
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1
-
-
-] (./main.lof)
+ [2] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [2
+ [3
 
 ] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [3
+
+[4
 
 ]
 \openout2 = `introduction.aux'.
 
-
-(./introduction.tex
+ (./introduction.tex
 第 1 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 2.
@@ -625,21 +622,21 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
-) [4
+[5
 
 
-]
+]) [6]
 \openout2 = `sample_structure.aux'.
 
  (./sample_structure.tex
 第 2 章
 
-LaTeX Warning: Reference `fig:sample_structure' on page 5 undefined on input li
+LaTeX Warning: Reference `fig:sample_structure' on page 7 undefined on input li
 ne 12.
 
 File: figure/fig_2_1_sample_structure.png Graphic file (type bmp)
 <figure/fig_2_1_sample_structure.png>
-[5
+[7
 
 
 
@@ -650,19 +647,19 @@ File: figure/fig_2_1_broadcontact_memo.png Graphic file (type bmp)
 <figure/fig_2_1_broadcontact_memo.png>
 File: figure/fig_2_1_ridge.png Graphic file (type bmp)
 <figure/fig_2_1_ridge.png>
- [6]
+ [8]
 File: figure/fig_2_1_mount.png Graphic file (type bmp)
 <figure/fig_2_1_mount.png>
 
 
-LaTeX Warning: Reference `fig:IL' on page 7 undefined on input line 67.
+LaTeX Warning: Reference `fig:IL' on page 9 undefined on input line 67.
 
 File: figure/fig_2_2_IL_setup.png Graphic file (type bmp)
 <figure/fig_2_2_IL_setup.png>
-[7]
+[9] [10]
 File: figure/fig_2_3_1_01_GS_setup.pdf Graphic file (type pdf)
 <figure/fig_2_3_1_01_GS_setup.pdf>
-) [8] [9]
+) [11]
 \openout2 = `result.aux'.
 
  (./result.tex
@@ -672,36 +669,25 @@ File: figure/fig_3_1_3QW_broadcontact_IL.png Graphic file (type bmp)
 File: figure/fig_3_1_3QW_broadcontact_Ith.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_Ith.png>
 Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10
+Excluding 'comment' comment. [12
 
 
 
-]
+] [13]
 File: figure/fig_3_1_10QW_broadcontact_IL.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_IL.png>
 File: figure/fig_3_1_10QW_broadcontact_Ith.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_Ith.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11]
+ [14]
 File: figure/fig_3_1_3QW_broadcontact_Jth.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_Jth.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: figure/fig_3_1_10QW_broadcontact_Jth.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_Jth.png>
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12] [13]
+[15] [16]
 File: figure/fig_3_1_3QW_broadcontact_id.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_id.png>
 File: figure/fig_3_1_3QW_broadcontact_id_inverse.png Graphic file (type bmp)
@@ -717,9 +703,9 @@ File: figure/fig_3_1_10QW_broadcontact_id_inverse.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14
+[17
 
-] [15]
+] [18]
 File: figure/fig_3_2_3QW_ridge_L100_GS.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_L100_GS.png>
 File: figure/fig_3_2_3QW_ridge_L200_GS.png Graphic file (type bmp)
@@ -730,7 +716,7 @@ File: figure/fig_3_2_3QW_ridge_L300_GS.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16
+[19
 
 ]
 File: figure/fig_3_2_10QW_ridge_L300_GS.png Graphic file (type bmp)
@@ -746,12 +732,12 @@ File: figure/fig_3_2_10QW_ridge_L500_GS.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18]
+[20] [21]
 File: figure/fig_3_2_10QW_ridge_GS_FWHM.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_GS_FWHM.png>
 File: figure/fig_3_2_3QW_ridge_GS_FWHM.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_GS_FWHM.png>
- [19
+ [22
 
 ]
 File: figure/fig_3_1_broad_slope_10QW.png Graphic file (type bmp)
@@ -767,14 +753,14 @@ File: figure/fig_3_1_broad_i_th_10QW.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [20
+) [23
 
-] [21]
+] [24]
 \openout2 = `consideration.aux'.
 
  (./consideration.tex
 第 4 章
-) [22
+) [25
 
 
 
@@ -783,30 +769,40 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./conclusion.tex
 第 5 章
-) [23
+) [26
 
 
 
-] [24
+] [27
 
+
+]
+\openout2 = `appendix.aux'.
+
+ (./appendix.tex
+第 6 章
+) [28
+
+
+] [29
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
 (./sample_structure.aux) (./result.aux) (./consideration.aux) (./conclusion.aux
-))
+) (./appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 12586 strings out of 493648
- 262511 string characters out of 6148806
- 292122 words of memory out of 5000000
- 16036 multiletter control sequences out of 15000+600000
- 546774 words of font info for 88 fonts, out of 8000000 for 9000
+ 12640 strings out of 493648
+ 263197 string characters out of 6148806
+ 292440 words of memory out of 5000000
+ 16072 multiletter control sequences out of 15000+600000
+ 555594 words of font info for 121 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,9n,33p,10386b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (26 pages, 50244 bytes).
+Output written on main.dvi (31 pages, 54616 bytes).
