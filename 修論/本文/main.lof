@@ -1,40 +1,42 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 格子定数}}{6}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces a 利得スイッチングのメカニズム, b過去の研究におけるパルス幅\cite {ref_t_ito}}}{7}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces パルス生成中のキャリア密度、光子密度、利得gの時間変化\cite {ref_1_1_GS}}}{8}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces 格子定数}}{9}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces 歪み補償}}{10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces エピウエハ構造}}{8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ブロードコンタクレーザー}}{9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ブロードコンタクレーザーめも}}{9}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces リッジ導波路型レーザー}}{10}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces 測定デバイス外観}}{11}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces IL実験系回路図}}{12}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces GS実験系}}{14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces エピウエハ構造}}{13}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ブロードコンタクレーザー}}{14}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces リッジ導波路型レーザー}}{15}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 利得スイッチング測定デバイス外観}}{16}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 定常電流注入実験の実験系回路図}}{17}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces GS実験系}}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 3MQWのILカーブとIVカーブ}}{16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 3MQWの閾値電流と発光効率}}{17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 10MQWのIL結果}}{18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 10MQWのIL結果}}{18}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 3MQWの閾値電流密度}}{19}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 10MQWの閾値電流密度}}{20}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 3QW外部量子効率}}{21}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces 3QW外部量子効率の逆数}}{22}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 10QW外部量子効率}}{23}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 10QW外部量子効率の逆数}}{23}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 3周期 リッジ導波路型レーザーのILカーブおよびIVカーブ}}{24}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 3周期 リッジ導波路型レーザーの閾値電流}}{25}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces 3周期 リッジ導波路型レーザーのスロープ効率}}{25}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces 10周期 リッジ導波路型レーザーのILカーブおよびIVカーブ}}{26}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces 10周期 リッジ導波路型レーザーの閾値電流と閾値電流密度}}{27}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces 10周期 リッジ導波路型レーザーのスロープ効率}}{27}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces 3MQW 短パルス駆動時のILカーブ}}{28}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces 10MQW 短パルス駆動時のILカーブ}}{29}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces 3MQW L=100um の利得スイッチング光パルスの時間波形}}{30}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces 3MQW L=200um の利得スイッチング光パルスの時間波形}}{30}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces 3MQW L=300um の利得スイッチング光パルスの時間波形}}{31}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces 10MQW L=300um の利得スイッチング光パルスの時間波形}}{32}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces 10MQW L=400um の利得スイッチング光パルスの時間波形}}{32}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces 10MQW L=500um の利得スイッチング光パルスの時間波形}}{33}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces 10MQW 利得スイッチングパルスのパルス幅}}{34}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces 3MQW 利得スイッチングパルスのパルス幅}}{34}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 3MQWのILカーブとIVカーブ}}{21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 3MQWの閾値電流と発光効率}}{22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 10MQWのIL結果}}{23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 10MQWのIL結果}}{23}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 3MQWの閾値電流密度}}{24}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 10MQWの閾値電流密度}}{25}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 3QW外部量子効率}}{26}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 3QW外部量子効率の逆数}}{27}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 10QW外部量子効率}}{28}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 10QW外部量子効率の逆数}}{28}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 3周期 リッジ導波路型レーザーのILカーブおよびIVカーブ}}{29}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 3周期 リッジ導波路型レーザーの閾値電流}}{30}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces 3周期 リッジ導波路型レーザーのスロープ効率}}{30}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces 10周期 リッジ導波路型レーザーのILカーブおよびIVカーブ}}{31}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces 10周期 リッジ導波路型レーザーの閾値電流と閾値電流密度}}{32}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces 10周期 リッジ導波路型レーザーのスロープ効率}}{32}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces 3MQW 短パルス駆動時のILカーブ}}{33}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces 10MQW 短パルス駆動時のILカーブ}}{34}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces 3MQW L=100um の利得スイッチング光パルスの時間波形}}{35}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces 3MQW L=200um の利得スイッチング光パルスの時間波形}}{35}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces 3MQW L=300um の利得スイッチング光パルスの時間波形}}{36}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces 10MQW L=300um の利得スイッチング光パルスの時間波形}}{37}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces 10MQW L=400um の利得スイッチング光パルスの時間波形}}{37}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces 10MQW L=500um の利得スイッチング光パルスの時間波形}}{38}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces 10MQW 利得スイッチングパルスのパルス幅}}{39}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces 3MQW 利得スイッチングパルスのパルス幅}}{39}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
