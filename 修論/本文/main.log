@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  24 DEC 2018 16:16
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  24 DEC 2018 19:12
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -625,9 +625,6 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 
 LaTeX Warning: Citation `ref_chichkov' on page 6 undefined on input line 9.
 
-
-LaTeX Warning: Citation `h_ito' on page 6 undefined on input line 11.
-
 Excluding 'comment' comment. [6
 
 
@@ -638,22 +635,23 @@ File: figure/fig_1_1_GS_ito.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[7] [8]
 File: figure/fig_1_1_GS_pulse.png Graphic file (type bmp)
 <figure/fig_1_1_GS_pulse.png>
+ [9
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+]
 File: figure/fig_1_1_lattice_constance.png Graphic file (type bmp)
 <figure/fig_1_1_lattice_constance.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: figure/fig_1_1_lattice_strain.png Graphic file (type bmp)
 <figure/fig_1_1_lattice_strain.png>
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8] [9] [10]) [11
+[10
+
+] [11]) [12
 
 ]
 \openout2 = `sample_structure.aux'.
@@ -663,35 +661,35 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Excluding 'comment' comment.
 File: figure/fig_2_1_wafer_structure.png Graphic file (type bmp)
 <figure/fig_2_1_wafer_structure.png>
- [12
+ [13
 
 
 
-] [13]
+] [14]
 File: figure/fig_2_1_broadcontact.png Graphic file (type bmp)
 <figure/fig_2_1_broadcontact.png>
  Excluding 'comment' comment.
 File: figure/fig_2_1_ridge.png Graphic file (type bmp)
 <figure/fig_2_1_ridge.png>
- [14
+ [15
 
 ]
-[15]
+[16]
 File: figure/fig_2_1_mount.png Graphic file (type bmp)
 <figure/fig_2_1_mount.png>
- [16
+ [17
 
 ]
 File: figure/fig_2_2_IL_setup.png Graphic file (type bmp)
 <figure/fig_2_2_IL_setup.png>
- [17
+ [18
 
-] [18
+] [19
 
 ]
 File: figure/fig_2_3_GS_setup.png Graphic file (type bmp)
 <figure/fig_2_3_GS_setup.png>
-) [19
+) [20
 
 ]
 \openout2 = `result.aux'.
@@ -703,21 +701,21 @@ File: figure/fig_3_1_3QW_broadcontact_IL.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20
+[21
 
 
 
-] [21]
+] [22]
 File: figure/fig_3_1_3QW_broadcontact_Ith.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_Ith.png>
- [22
+ [23
 
 ]
 File: figure/fig_3_1_10QW_broadcontact_IL.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_IL.png>
 File: figure/fig_3_1_10QW_broadcontact_Ith.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_Ith.png>
- [23
+ [24
 
 ]
 File: figure/fig_3_1_3QW_broadcontact_Jth.png Graphic file (type bmp)
@@ -728,7 +726,7 @@ File: figure/fig_3_1_10QW_broadcontact_Jth.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24] [25]
+[25] [26]
 File: figure/fig_3_1_3QW_broadcontact_id.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_id.png>
 File: figure/fig_3_1_3QW_broadcontact_id_inverse.png Graphic file (type bmp)
@@ -737,14 +735,14 @@ File: figure/fig_3_1_3QW_broadcontact_id_inverse.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26
+[27
 
-] [27]
+] [28]
 File: figure/fig_3_1_10QW_broadcontact_id.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_id.png>
 File: figure/fig_3_1_10QW_broadcontact_id_inverse.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_id_inverse.png>
- [28
+ [29
 
 ]
 File: figure/fig_3_2_3QW_ridge_IL.png Graphic file (type bmp)
@@ -760,9 +758,9 @@ File: figure/fig_3_2_3QW_ridge_slope.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29
+[30
 
-] [30]
+] [31]
 File: figure/fig_3_2_10QW_ridge_IL.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_IL.png>
 File: figure/fig_3_2_10QW_ridge_Ith.png Graphic file (type bmp)
@@ -776,9 +774,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31
+[32
 
-] [32]
+] [33]
 File: figure/fig_3_2_3QW_ridge_GS_power.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_GS_power.png>
 File: figure/fig_3_2_10QW_ridge_GS_power.png Graphic file (type bmp)
@@ -787,9 +785,9 @@ File: figure/fig_3_2_10QW_ridge_GS_power.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33
+[34
 
-] [34]
+] [35]
 File: figure/fig_3_2_3QW_ridge_L100_GS.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_L100_GS.png>
 File: figure/fig_3_2_3QW_ridge_L200_GS.png Graphic file (type bmp)
@@ -800,9 +798,9 @@ File: figure/fig_3_2_3QW_ridge_L300_GS.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35
+[36
 
-] [36]
+] [37]
 File: figure/fig_3_2_10QW_ridge_L300_GS.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_L300_GS.png>
 File: figure/fig_3_2_10QW_ridge_L400_GS.png Graphic file (type bmp)
@@ -813,23 +811,23 @@ File: figure/fig_3_2_10QW_ridge_L500_GS.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37
+[38
 
-] [38]
+] [39]
 File: figure/fig_3_2_10QW_ridge_GS_FWHM.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_GS_FWHM.png>
 File: figure/fig_3_2_3QW_ridge_GS_FWHM.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_GS_FWHM.png>
- [39
+ [40
 
-] Excluding 'comment' comment.) [40
+] Excluding 'comment' comment.) [41
 
 ]
 \openout2 = `consideration.aux'.
 
  (./consideration.tex
 第 4 章
-) [41
+) [42
 
 
 
@@ -838,7 +836,7 @@ File: figure/fig_3_2_3QW_ridge_GS_FWHM.png Graphic file (type bmp)
 
  (./conclusion.tex
 第 5 章
-) [42
+) [43
 
 
 
@@ -847,7 +845,7 @@ File: figure/fig_3_2_3QW_ridge_GS_FWHM.png Graphic file (type bmp)
 
  (./appendix.tex
 第 6 章
-) [43
+) [44
 
 
 
@@ -863,11 +861,11 @@ LaTeX Font Warning: Font shape `JT1/mc/m/sl' undefined
 LaTeX Font Warning: Font shape `JY1/mc/m/sl' undefined
 (Font)              using `JY1/mc/m/n' instead on input line 2.
 
-) [44
+) [45
 
 
 
-] [45
+] [46
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
 (./sample_structure.aux) (./result.aux) (./consideration.aux) (./conclusion.aux
@@ -884,12 +882,12 @@ LaTeX Warning: There were undefined references.
 ### simple group (level 1) entered at line 112 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12698 strings out of 493648
- 264708 string characters out of 6148806
- 293891 words of memory out of 5000000
- 16113 multiletter control sequences out of 15000+600000
+ 12699 strings out of 493648
+ 264727 string characters out of 6148806
+ 293905 words of memory out of 5000000
+ 16114 multiletter control sequences out of 15000+600000
  555947 words of font info for 122 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,9n,33p,10386b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,12n,33p,10386b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (47 pages, 73848 bytes).
+Output written on main.dvi (48 pages, 77124 bytes).
