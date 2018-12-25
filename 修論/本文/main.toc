@@ -6,38 +6,42 @@
 \contentsline {subsubsection}{利得スイッチング法}{6}
 \contentsline {subsubsection}{利得スイッチング光パルスの短パルス化}{9}
 \contentsline {subsection}{\numberline {1.1.2}InGaAs高利得材料}{10}
-\contentsline {section}{\numberline {1.2}本研究の目的}{12}
-\contentsline {chapter}{\numberline {第2章}試料構造と測定方法}{13}
-\contentsline {section}{\numberline {2.1}はじめに}{13}
-\contentsline {section}{\numberline {2.2}試料作製}{13}
-\contentsline {subsection}{\numberline {2.2.1}試料構造}{13}
-\contentsline {subsection}{\numberline {2.2.2}ブロードコンタクトレーザー}{15}
-\contentsline {subsection}{\numberline {2.2.3}リッジ導波路型レーザー}{15}
-\contentsline {subsection}{\numberline {2.2.4}マウント(ダイボンディング??)}{17}
-\contentsline {section}{\numberline {2.3}測定方法}{18}
-\contentsline {subsection}{\numberline {2.3.1}定常電流注入による測定実験}{18}
-\contentsline {subsection}{\numberline {2.3.2}電流注入利得スイッチング実験}{20}
-\contentsline {chapter}{\numberline {第3章}実験結果}{21}
-\contentsline {section}{\numberline {3.1}ブロードコンタクトレーザー試料に関する測定結果}{21}
-\contentsline {subsection}{\numberline {3.1.1}3周期}{21}
-\contentsline {subsection}{\numberline {3.1.2}10QW}{24}
-\contentsline {subsection}{\numberline {3.1.3}電流広がりに関する考察}{24}
-\contentsline {subsection}{\numberline {3.1.4}外部量子効率、内部量子効率と吸収係数の計算}{27}
-\contentsline {section}{\numberline {3.2}リッジ導波路型レーザーに関する実験結果}{30}
-\contentsline {subsection}{\numberline {3.2.1}定常電流の結果}{30}
-\contentsline {subsection}{\numberline {3.2.2}短パルス電流注入の結果}{34}
-\contentsline {subsection}{\numberline {3.2.3}IL}{34}
-\contentsline {subsection}{\numberline {3.2.4}3QW試料の利得スイッチング動作}{36}
-\contentsline {subsection}{\numberline {3.2.5}10QW試料の利得スイッチング動作}{38}
-\contentsline {subsection}{\numberline {3.2.6}結果の比較}{40}
-\contentsline {subsection}{\numberline {3.2.7}付録かな??コンボリュージョンの説明,電気パルスの確認}{41}
-\contentsline {chapter}{\numberline {第4章}考察}{42}
-\contentsline {section}{\numberline {4.1}はじめに}{42}
-\contentsline {section}{\numberline {4.2}パルス幅と共振器長の関係(10QW)}{42}
-\contentsline {section}{\numberline {4.3}3QWと10QWの比較}{42}
-\contentsline {chapter}{\numberline {第5章}まとめと展望}{43}
-\contentsline {section}{\numberline {5.1}本研究のまとめ}{43}
-\contentsline {section}{\numberline {5.2}今後の展望}{43}
-\contentsline {chapter}{\numberline {第6章}付録}{44}
-\contentsline {section}{\numberline {6.1}deconvolutionの計算?}{44}
-\contentsline {section}{\numberline {6.2}駆動系の電気信号}{44}
+\contentsline {subsubsection}{量子井戸レーザー}{10}
+\contentsline {subsubsection}{多重量子井戸レーザー}{10}
+\contentsline {subsubsection}{量子井戸における歪み効果}{10}
+\contentsline {subsubsection}{歪み補償レーザー}{10}
+\contentsline {section}{\numberline {1.2}本研究の目的}{13}
+\contentsline {chapter}{\numberline {第2章}試料構造と測定方法}{14}
+\contentsline {section}{\numberline {2.1}はじめに}{14}
+\contentsline {section}{\numberline {2.2}試料作製}{14}
+\contentsline {subsection}{\numberline {2.2.1}試料構造}{14}
+\contentsline {subsection}{\numberline {2.2.2}ブロードコンタクトレーザー}{16}
+\contentsline {subsection}{\numberline {2.2.3}リッジ導波路型レーザー}{16}
+\contentsline {subsection}{\numberline {2.2.4}マウント(ダイボンディング??)}{18}
+\contentsline {section}{\numberline {2.3}測定方法}{19}
+\contentsline {subsection}{\numberline {2.3.1}定常電流注入による測定実験}{19}
+\contentsline {subsection}{\numberline {2.3.2}電流注入利得スイッチング実験}{21}
+\contentsline {chapter}{\numberline {第3章}実験結果}{22}
+\contentsline {section}{\numberline {3.1}ブロードコンタクトレーザー試料に関する測定結果}{22}
+\contentsline {subsection}{\numberline {3.1.1}3周期}{22}
+\contentsline {subsection}{\numberline {3.1.2}10QW}{25}
+\contentsline {subsection}{\numberline {3.1.3}電流広がりに関する考察}{25}
+\contentsline {subsection}{\numberline {3.1.4}外部量子効率、内部量子効率と吸収係数の計算}{28}
+\contentsline {section}{\numberline {3.2}リッジ導波路型レーザーに関する実験結果}{31}
+\contentsline {subsection}{\numberline {3.2.1}定常電流の結果}{31}
+\contentsline {subsection}{\numberline {3.2.2}短パルス電流注入の結果}{35}
+\contentsline {subsection}{\numberline {3.2.3}IL}{35}
+\contentsline {subsection}{\numberline {3.2.4}3QW試料の利得スイッチング動作}{37}
+\contentsline {subsection}{\numberline {3.2.5}10QW試料の利得スイッチング動作}{39}
+\contentsline {subsection}{\numberline {3.2.6}結果の比較}{41}
+\contentsline {subsection}{\numberline {3.2.7}付録かな??コンボリュージョンの説明,電気パルスの確認}{42}
+\contentsline {chapter}{\numberline {第4章}考察}{43}
+\contentsline {section}{\numberline {4.1}はじめに}{43}
+\contentsline {section}{\numberline {4.2}パルス幅と共振器長の関係(10QW)}{43}
+\contentsline {section}{\numberline {4.3}3QWと10QWの比較}{43}
+\contentsline {chapter}{\numberline {第5章}まとめと展望}{44}
+\contentsline {section}{\numberline {5.1}本研究のまとめ}{44}
+\contentsline {section}{\numberline {5.2}今後の展望}{44}
+\contentsline {chapter}{\numberline {第6章}付録}{45}
+\contentsline {section}{\numberline {6.1}deconvolutionの計算?}{45}
+\contentsline {section}{\numberline {6.2}駆動系の電気信号}{45}
