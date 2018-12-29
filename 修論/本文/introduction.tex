@@ -118,15 +118,18 @@ $\alpha_{a}$は平均吸収損失、cは光速、$\alpha_{m}$は共振器の反�
 
 M周期多重量子井戸レーザーを単一量子井戸レーザーと比較した場合を考える。
 半導体レーザーの発振条件は誘導放出の利得(光閉じ込め係数かけるモード利得)が全体の損失に等しいというものであるから、
+%\begin{eqnarray}
+%\Gamma g_{mod}=\alpha^{total}= \xi a_{\rm{ac}} +(1-\xi)a_{\rm{ex}}+\rm{ln}(1/R)/L
+%\end{eqnarray}
 \begin{eqnarray}
-\Gamma g_{mod}=\alpha^{total}=\xi a_{\rm{ac}} +(1-\xi)a_{\rm{ex}}+\rm{ln}(1/R)/L
+\Gamma g_{mod}=\alpha^{total}= \Gamma \alpha_{\rm{ac}} +(1-\Gamma)\alpha_{\rm{ex}}+(1/L)\rm{ln}(1/R)
 \end{eqnarray}
-と書ける。
-ここで$\Gamma$は近似的に
+と書ける。$\alpha_{\rm{ac}}$はキャリアが注入される活性層(active layer)の損失、$\alpha_{\rm{ex}}$はクラッド層の損失の平均を表す。
+$L_{z}$を量子井戸の厚さ、光波の実効的な広がりの厚さを$L_{0}$とすると、$L_{z}\ll L_{0}$の場合光閉じ込め係数$\Gamma$は近似的に
 \begin{equation}
 \Gamma = ML_{z}/L_{0}
 \end{equation}
-と書ける。$L_{z}$は量子井戸の厚さ、$L_{0}$は典型的なコア層の厚さであり$1000$\AA  である。
+と書ける。$L_{0}$は典型的に0.1umである。
 一方注入電流については
 \begin{equation}
 J_{M}=MJ_{M=1}
@@ -136,7 +139,7 @@ J_{M}=MJ_{M=1}
 \begin{equation}
 J_{M=1}=eN/\tau_{r}
 \end{equation}
-と表せる。式(\ref{eq:J_M})は多重量子井戸においては単一量子井戸と比較してM倍のモード利得が得られる反面必要な注入電流もM倍になることを示したいる。もし単一量子井戸のバルク利得が注入電流と線形な関係にあるならば、つまり
+と表せる。式(\ref{eq:J_M})は多重量子井戸においては単一量子井戸と比較してM倍キャリア数まで収容が可能であり、M倍のモード利得が得られる。その反面必要な注入電流もM倍になる。(透明電流密度)もし単一量子井戸のバルク利得が注入電流と線形な関係にあるならば、つまり
 \begin{eqnarray}
 g=a(J_{M=1}-J_{g})
 \end{eqnarray}
@@ -150,6 +153,10 @@ J^{\rm{th}}_{M=1}&=&\alpha^{total}/ \Gamma + J_{g}\nonumber\\
 J_{M}=\alpha^{totla}/(aL_{z}/L_{0}) + MJ_{g}
 \end{equation}
 となる。常に単一量子井戸レーザーの方が低い閾値電流を与えることになる。これはバルク利得が注入電流に対して線形な場合の結論である。
+
+
+モード利得のずほしい
+
 
 言いたいこと
 要は多重にするとモード利得が大きくなるため高速化に適している。
@@ -210,7 +217,7 @@ h_{c}=\dfrac{b(1-\nu \cos ^2 \alpha)}{2\pi f (1+\nu ) \cos \lambda}\left(\rm{ln}
 本研究では活性層を厚く積むことで光閉じ込め係数
 $\Gamma$を大きくすることが狙いである。
 
-
+ここ調べて書く!!
 
 
 \begin{figure}[h]
