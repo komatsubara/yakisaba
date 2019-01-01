@@ -27,18 +27,23 @@
 \contentsline {subsection}{\numberline {3.1.2}10周期歪補償量子井戸ブロードコンタクトレーザー}{25}
 \contentsline {subsection}{\numberline {3.1.3}電流広がりに関する考察}{26}
 \contentsline {subsection}{\numberline {3.1.4}外部量子効率、内部量子効率と吸収係数の計算}{28}
-\contentsline {section}{\numberline {3.2}リッジ導波路型レーザーに関する実験結果}{31}
-\contentsline {subsection}{\numberline {3.2.1}定常電流の結果}{31}
-\contentsline {subsubsection}{3周期歪量子井戸リッジ導波路型レーザーの結果}{31}
-\contentsline {subsection}{\numberline {3.2.2}短パルス電流注入の結果}{35}
-\contentsline {subsection}{\numberline {3.2.3}IL}{35}
-\contentsline {subsection}{\numberline {3.2.4}3QW試料の利得スイッチング動作}{37}
-\contentsline {subsection}{\numberline {3.2.5}10QW試料の利得スイッチング動作}{39}
-\contentsline {subsection}{\numberline {3.2.6}結果の比較}{41}
-\contentsline {section}{\numberline {3.3}考察}{42}
-\contentsline {chapter}{\numberline {第4章}まとめと展望}{43}
-\contentsline {section}{\numberline {4.1}本研究のまとめ}{43}
-\contentsline {section}{\numberline {4.2}今後の展望}{43}
-\contentsline {chapter}{\numberline {第5章}付録}{44}
-\contentsline {section}{\numberline {5.1}deconvolutionの計算?}{44}
-\contentsline {section}{\numberline {5.2}駆動系の電気信号}{44}
+\contentsline {subsection}{\numberline {3.1.5}透明電流密度の見積もり}{31}
+\contentsline {section}{\numberline {3.2}リッジ導波路型レーザーに関する実験結果}{33}
+\contentsline {subsection}{\numberline {3.2.1}定常電流の結果}{33}
+\contentsline {subsubsection}{3周期歪量子井戸リッジ導波路型レーザーの結果}{33}
+\contentsline {subsubsection}{10周期歪補償量子井戸リッジ導波路レーザー}{35}
+\contentsline {subsection}{\numberline {3.2.2}短パルス電流注入の結果}{37}
+\contentsline {subsection}{\numberline {3.2.3}IL}{37}
+\contentsline {subsection}{\numberline {3.2.4}3QW試料の利得スイッチング動作}{39}
+\contentsline {subsection}{\numberline {3.2.5}10QW試料の利得スイッチング動作}{41}
+\contentsline {subsection}{\numberline {3.2.6}結果の比較}{43}
+\contentsline {section}{\numberline {3.3}考察}{44}
+\contentsline {subsection}{\numberline {3.3.1}自然放出光?}{44}
+\contentsline {subsection}{\numberline {3.3.2}閾値電流}{44}
+\contentsline {subsection}{\numberline {3.3.3}利得スイッチングパルスのパルス幅の比較}{44}
+\contentsline {chapter}{\numberline {第4章}まとめと展望}{45}
+\contentsline {section}{\numberline {4.1}本研究のまとめ}{45}
+\contentsline {section}{\numberline {4.2}今後の展望}{45}
+\contentsline {chapter}{\numberline {第5章}付録}{46}
+\contentsline {section}{\numberline {5.1}deconvolutionの計算?}{46}
+\contentsline {section}{\numberline {5.2}駆動系の電気信号}{46}

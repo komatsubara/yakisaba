@@ -92,12 +92,12 @@
 3.1.1節と3.1.2節でILカーブから3周期歪量子井戸ブロードコンタクトレーザーと10周期歪補償ブロードコンタクトレーザーについて閾値電流$I_{\rm{th}}$を見積もった。この値から閾値電流密度$J_{\rm{th}}$を求めることが大切である。
 レーザーの基本的な特性を知る上で閾値電流密度が大切なパラメータであるからである。発振閾値電流$I_{\rm{th}}$を電流が流れた面積で割ることで閾値電流密度$J_{\rm{th}}$が求まる。
 
-通常閾値電流$I_{\rm{th}}$は電流を流す面積に比例して大きくなる。面積とは電極パッド幅wと共振器長Lの積で表される。つまり$I_{\rm{th}}$はwに対して線形に増加するはずである。しかし図\ref{fig:fig_3_1_3QW_broacdcontact_IL} (a)や\ref{fig:fig_3_1_10QW_broadcontact_IL}(a) を見るとそうなっていない。そこで発振閾値電流$I_{\rm{th}}$が線形に増加する領域を直線フィッティングし、その直線のx切片を含めたパッド幅を有効的なパッド幅と考えて閾値電流密度を算出した。まずは有効パッド幅を見積もった。フィッティング関数のx切片の絶対値が実質的なパッド幅の増分w'である。その値を表に示した。
-\begin{table}[hbtp]
+通常閾値電流$I_{\rm{th}}$は電流を流す面積に比例して大きくなる。面積とは電極パッド幅wと共振器長Lの積で表される。つまり$I_{\rm{th}}$はwに対して線形に増加するはずである。しかし図\ref{fig:fig_3_1_3QW_broacdcontact_IL} (a)や\ref{fig:fig_3_1_10QW_broadcontact_IL}(a) を見るとそうなっていない。そこで発振閾値電流$I_{\rm{th}}$が線形に増加する領域を直線フィッティングし、その直線のx切片を含めたパッド幅を有効的なパッド幅と考えて閾値電流密度を算出した。まずは有効パッド幅を見積もった。フィッティング関数のx切片の絶対値が実質的なパッド幅の増分w'である。その値を表\ref{table:table_3QW_broadcontact_w_eff}と表\ref{table:table_10QW_broadcontact_w_eff}に示した。
+\begin{table}[h]
   \caption{3周期歪量子井戸ブロードコンタクトレーザーの電流広がり}
   \label{table:table_3QW_broadcontact_w_eff}
   \centering
-  \begin{tabular}{lcr}
+  \begin{tabular}{cc}
     \hline
     共振器長L (um)  & パッド幅の増分(電流の広がり) w' (um)   \\
     \hline \hline
@@ -108,11 +108,11 @@
   \end{tabular}
 \end{table}
 
-\begin{table}[hbtp]
+\begin{table}[h]
   \caption{10周期歪補償ブロードコンタクトレーザーの電流広がり}
   \label{table:table_10QW_broadcontact_w_eff}
   \centering
-  \begin{tabular}{lcr}
+  \begin{tabular}{cc}
     \hline
     共振器長L (um)  & パッド幅の増分(電流の広がり) w' (um)   \\
     \hline \hline
@@ -122,6 +122,8 @@
     \hline
   \end{tabular}
 \end{table}
+
+3QWでは58umから65um程度の広がりであることが見積もられた。10QWでは値のばらつきが大きくL=500のw'とL=2000umのw'を比較すると2倍程度異なってしまっている。これは共振器の長い試料について、wが大きい試料に対しての実験結果がないため、w'の見積もりが小さくなってしまったためであると考えられる。
 この表の値w'と閾値電流$I_{\rm{th}}$(mA)から式(\ref{eq:Jth})の関係を用いて閾値電流密度$J_{\rm{th}} \rm{(kA/cm^2)}$を算出した。
 \begin{eqnarray}
 J_{\rm{th}}=\dfrac{I_{\rm{th}}}{(w+w')L}
@@ -144,6 +146,10 @@ J_{\rm{th}}=\dfrac{I_{\rm{th}}}{(w+w')L}
 		\label{fig:fig_3_1_10QW_broadcontact_Jth}
 \end{figure}
 3周期歪量子井戸ブロードコンタクトレーザーでは$0.20\sim 0.35 \rm{(kA/cm^{2})}$、10周期歪補償ブロードコンタクトレーザーでは$0.40 \rm{(kA/cm^{2})}$程度と見積もられた。
+
+3QWでは　wが50より大きい領域で、共振器長が長くなるほどJthが小さくなることがわかる。これは共振器長が長くなるほどミラーロスに対する内部ロスが大きくなっていき、発振が起こりにくくなっているためである。
+
+一方10QWではL=2000umの値が他の２つに比べて大きくなってしまっている。これはw'が小さく見積もられており、Jthが大きく見積もられたためだと考えられる。w'の解析に用いたプロット点数が少ないことが原因である。
 \clearpage
 \subsection{外部量子効率、内部量子効率と吸収係数の計算}%=============
 次にILカーブの発振時の傾きに相当するスロープ効率$\Delta P/\Delta I$から試料の内部微分量子効率$\eta_{i}$および吸収係数$\alpha$を算出した。まずはスロープ効率$2 \Delta P/\Delta I \rm{(W/A)}$から外部微分量子効率$\eta_{\rm{d}}$を算出した。式({\ref{eq:eta_d})の関係を用いた。
@@ -155,7 +161,7 @@ eは電気素量、hはプランク定数、$\nu$は発振周波数であり、1
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_3QW_broadcontact_id.png}
-	\caption{3QW外部量子効率}
+	\caption{3周期歪量子井戸ブロードコンタクトレーザーの外部量子効率}
 	\label{fig:fig_3_1_3QW_broadcontact_id}
 \end{figure}
 
@@ -165,15 +171,19 @@ $\eta_{\rm{d}}$は共振器長Lを用いて式(\ref{eq:eta_inverse})と書き表
 \dfrac{1}{\eta_{\rm{d}}}=\dfrac{\alpha_{\rm{int}}}{\rm{ln}(1/R)\eta_{int}}L+\dfrac{1}{\eta_{\rm{int}}}
 \label{eq:eta_inverse}
 \end{eqnarray}
-$\alpha$は共振器内の平均の内部損失、Rは共振器のミラーロス、$\eta_{\rm{int}}$は内部微分量子効率である。Rは半導体デバイスの屈折率と空気の屈折率の差から0.32と仮定できる。見積もった$\eta_{\rm{d}}$の逆数を共振器長に対してプロットし直線フィッティングを行なった。これを図\ref{fig:fig_3_1_3QW_broadcontact_id_inverse}に示す。例としてパッド幅w=100umの結果を示す。式(\ref{eq:eta_inverse})よりこのフィッティング直線のy切片から内部量子効率$\eta_{\rm{int}}$を見積もると$\eta_{\rm{int}}$=0.96と計算できる。また、直線の傾きから内部ロス$\alpha_{\rm{int}}$を見積もると$\alpha_{\rm{int}}$=11.8 (/cm)と計算できた。
+$\alpha_{int}$は共振器内の平均の内部損失、Rは共振器の端面での反射率、$\eta_{\rm{int}}$は内部微分量子効率である。Rは半導体デバイスの屈折率と空気の屈折率の差から0.32と仮定した。見積もった$\eta_{\rm{d}}$の逆数を共振器長に対してプロットし直線フィッティングを行なった。これを図\ref{fig:fig_3_1_3QW_broadcontact_id_inverse}に示す。横軸は共振器長L、縦軸に外部微分量子効率の逆数$1/\eta_{\rm{d}}$である。例としてパッド幅w=100umの結果を示す。式(\ref{eq:eta_inverse})よりこのフィッティング直線のy切片から内部量子効率$\eta_{\rm{int}}$を見積もると$\eta_{\rm{int}}$=0.96と計算できる。また、直線の傾きから内部損失$\alpha_{\rm{int}}$を見積もると$\alpha_{\rm{int}}$=11.8 (/cm)と計算できた。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_3QW_broadcontact_id_inverse.png}
-	\caption{3QW外部量子効率の逆数}
+	\caption{3周期歪量子井戸レーザーの外部量子効率の逆数}
 	\label{fig:fig_3_1_3QW_broadcontact_id_inverse}
 \end{figure}
-\clearpage
-同様の解析を10QWについても行った。こちらはw=50um の結果を示している。10周期に関しては$\eta_{\rm{int}}$=0.94、$\alpha_{\rm{int}}$=18.0 (/cm)となった。
+
+
+
+\newpage
+
+同様の解析を10周期歪補償量子井戸ブロードコンタクトレーザーの結果についても行った。図\ref{fig:fig_3_1_10QW_broadcontact_id}に外部微分量子効率、図\ref{fig:fig_3_1_10QW_broadcontact_id_inverse}こちらはw=50um の結果を示している。10周期に関しては$\eta_{\rm{int}}$=0.94、$\alpha_{\rm{int}}$=18.0 (/cm)となった。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_10QW_broadcontact_id.png}
@@ -188,6 +198,36 @@ $\alpha$は共振器内の平均の内部損失、Rは共振器のミラーロ�
 	\label{fig:fig_3_1_10QW_broadcontact_id_inverse}
 \end{figure}
 
+\clearpage
+\subsection{透明電流密度の見積もり}
+
+次に透明電流密度$J_{0}$の見積もりを行った。共振器内の正味の利得$g_{\rm{net}}$は
+\begin{eqnarray}
+g_{\rm{net}}=\Gamma G-\alpha_{int}-\alpha_{m}
+\label{eq:eta_j0}
+\end{eqnarray}
+と書ける。線形利得$G=g_{0}(J-J_{0})$を仮定すると閾値電流密度は
+\begin{eqnarray}
+J_{th}=J_{0}+\dfrac{\alpha_{int}}{\Gamma g_{0}}+\dfrac{1}{\Gamma g_{0}}\rm{ln}\left(\dfrac{1}{R}\right)\dfrac{1}{L}
+\label{eq:j_th}
+\end{eqnarray}
+と書ける。この式にしたがうと$J_{\rm{th}}$は$1/L$に比例する。図\ref{fig:fig_3_1_3QW_broadcontact_j0}に$1/L$に対して$J_{\rm{th}}$をプロットした。色分けは共振器長を表す。
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_1_3QW_broadcontact_j0.png}
+	\caption{3周期歪量子井戸ブロードコンタクトレーザーの透明電流密度の見積もり}
+	\label{fig:fig_3_1_3QW_broadcontact_j0}
+\end{figure}
+図\ref{fig:fig_3_1_3QW_broadcontact_j0}のプロットのなかで、図\ref{fig:fig_3_1_3QW_broadcontact_Jth}において$J_{\rm{th}}$が一定となっているwが50以上のプロットに対して線形フィッティングを行った。赤い直線がフィッティング直線である。フィッティング結果から式(\ref{eq:j_th})の関係を用いて$\Gamma g_{0}$と$J_{0}$を見積もると$\Gamma g_{0}=151              \rm{ kA^{-1}}$、$J_{0}=0.0782 \rm{kA/cm^{2}}$を得た。
+
+
+同様の解析を10周期歪補償量子井戸ブロードコンタクトレーザーについても行なった。図\ref{fig:fig_3_1_10QW_broadcontact_j0}に$J_{\rm{th}}$対$1/L$のプロットを示す。フィッティング結果から$\Gamma g_{0}$と$J_{0}$を見積もると$\Gamma g0=558   \rm{kA^{-1}}$、$J_{0}=0.357 \rm{kA/cm^{2}}$を得た。
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_1_10QW_broadcontact_j0.png}
+	\caption{10QWの透明電流密度の見積もり}
+	\label{fig:fig_3_1_10QW_broadcontact_j0}
+\end{figure}
 
 \clearpage
 \section{リッジ導波路型レーザーに関する実験結果}%===================
@@ -207,41 +247,50 @@ $\alpha$は共振器内の平均の内部損失、Rは共振器のミラーロ�
 \end{figure}
 
 
-次にILカーブから見積もった閾値電流$I_{\rm{th}}$、$J_{\rm{th}}$を図\ref{fig:fig_3_2_3QW_ridge_Ith}(a)に示す。
+次にILカーブから見積もった閾値電流$I_{\rm{th}}$、$J_{\rm{th}}$と閾値電流密度を図\ref{fig:fig_3_2_3QW_ridge_Ith}に示す。図中の丸プロットが閾値電流$I_{\rm{th}}$であり左の軸に対してのプロットした。十字プロットは閾値電流を共振器長とリッジ幅の積で割った値の閾値電流密度$J_{\rm{th}}$であり右の軸に対してのプロットである。横軸は共振器長である。色分けはリッジ幅の違いを表している。紫がリッジ幅1.5 um、黄色が2.5 umである。
+
+これを見ると閾値電流は共振器長に対して概ね線形に増加しており最短では50mA程度となっている。またリッジ幅の差異に対する差異が見られていない。これは電流が広がってしまっているためだと考えられる。
+
+閾値電流密度はLが300より大きい共振器長において概ね横ばいとなっており10から20 $\rm{kA/cm^2}$の値を持っている。
+
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=15cm]{figure/fig_3_2_3QW_ridge_Ith.png}
-		\caption{3周期歪量子井戸リッジ導波路型レーザーの$I_{\rm{th}}$、$J_{\rm{th}}$およびSlope、$\eta_{\rm
-		{d}}$}
+	\includegraphics[width=10cm]{figure/fig_3_2_3QW_ridge_Ith.png}
+		\caption{3周期歪量子井戸リッジ導波路型レーザーの$I_{\rm{th}}$、$J_{\rm{th}}$}
 		\label{fig:fig_3_2_3QW_ridge_Ith}
 \end{figure}
-\begin{comment}
+次にILカーブの発振領域の発光効率$2 \Delta P/\Delta I$および外部量子効率$\eta_{\rm{d}}$を共振器長に対してプロットした結果を図\ref{fig:fig_3_2_3QW_ridge_slope}に示す。
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=15cm]{figure/fig_3_2_3QW_ridge_slope.png}
-		\caption{3周期 リッジ導波路型レーザーのスロープ効率}
+	\includegraphics[width=10cm]{figure/fig_3_2_3QW_ridge_slope.png}
+		\caption{3周期歪量子井戸リッジ導波路型レーザーのスロープおよび微分外部量子効率}
 		\label{fig:fig_3_2_3QW_ridge_slope}
 \end{figure}
-\end{comment}
+
 \clearpage
-次に10周期の結果を示す。
+\subsubsection{10周期歪補償量子井戸リッジ導波路レーザー}
+次に10周期歪補償量子井戸リッジ導波路レーザーの結果を示す。図\ref{fig:fig_3_2_10QW_ridge_IL}(a)にILカーブ、(b)にIVカーブを示す。
+
+\ref{fig:fig_3_2_10QW_ridge_IL}(a)を見るとそれぞれの共振器長において発振したことがわかる。L=400umの赤い線を見るとI=200mA付近からどの試料においても発光量が下がってきている。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_IL.png}
 		\caption{10周期 リッジ導波路型レーザーのILカーブおよびIVカーブ}
 		\label{fig:fig_3_2_10QW_ridge_IL}
 \end{figure}
-ILカーブから閾値電流と発進時の傾きを出した。それを示す。
+次にILカーブから閾値電流$I_{\rm{th}}$と閾値電流密度$J_{\rm{th}}$を出した。その結果を図\ref{fig:fig_3_2_10QW_ridge_Ith}に示す。閾値電流は共振器長に対して線形に増加しており最小で90mA程度となった。色分けはリッジ幅の違いを表すが、閾値電流においてリッジ幅の際は見られない。閾値電流密度は10から20$\rm{kA/cm^{2}}$程度となった。
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_Ith.png}
-		\caption{10周期 リッジ導波路型レーザーの閾値電流と閾値電流密度}
+	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_Ith.png}
+		\caption{10周期歪補償量子井戸リッジ導波路型レーザーの閾値電流と閾値電流密度}
 		\label{fig:fig_3_2_10QW_ridge_Ith}
 \end{figure}
+ILカーブの発振時の傾きから見積もったスロープ効率$2\Delta P/\Delta I$および外部微分量子効率$\eta_{\rm{d}}$を図\ref{fig:fig_3_2_10QW_ridge_slope}に示す。
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_slope.png}
-		\caption{10周期 リッジ導波路型レーザーのスロープ効率}
+	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_slope.png}
+		\caption{10周期歪補償量子井戸リッジ導波路型レーザーのスロープおよび外部微分量子効率}
 		\label{fig:fig_3_2_10QW_ridge_slope}
 \end{figure}
 \clearpage
@@ -349,3 +398,7 @@ FWHM をまとめた。でコンボリューション後の値を示した。
 \end{figure}
 \end{comment}
 \section{考察}%========================================
+
+\subsection{自然放出光?}
+\subsection{閾値電流}
+\subsection{利得スイッチングパルスのパルス幅の比較}
