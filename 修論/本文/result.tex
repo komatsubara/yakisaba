@@ -286,7 +286,8 @@ J_{th}=J_{0}+\dfrac{\alpha_{int}}{\Gamma g_{0}}+\dfrac{1}{\Gamma g_{0}}\rm{ln}\l
 		\caption{10周期歪補償量子井戸リッジ導波路型レーザーの閾値電流と閾値電流密度}
 		\label{fig:fig_3_2_10QW_ridge_Ith}
 \end{figure}
-ILカーブの発振時の傾きから見積もったスロープ効率$2\Delta P/\Delta I$および外部微分量子効率$\eta_{\rm{d}}$を図\ref{fig:fig_3_2_10QW_ridge_slope}に示す。
+ILカーブの発振時の傾きから見積もったスロープ効率$2\Delta P/\Delta I$および外部微分量子効率$\eta_{\rm{d}}$を図\ref{fig:fig_3_2_10QW_ridge_slope}に示す。通常$\eta_{d}$は共振器長に対しては減少するはずであるがL=300um,400umではLの増加に対して減少していない。
+$\eta_{d}$は発振波長1030nmとして計算した。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_slope.png}
@@ -295,67 +296,99 @@ ILカーブの発振時の傾きから見積もったスロープ効率$2\Delta 
 \end{figure}
 \clearpage
 \subsection{短パルス電流注入の結果}
-リッジ導波路型レーザーに関して電流注入利得スイッチング実験を行った。そのILと時間波形を示す。
-\subsection{IL}
-10周期と3周期一個づつ
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=15cm]{figure/fig_3_2_3QW_ridge_GS_power.png}
-		\caption{3MQW 短パルス駆動時のILカーブ}
-		\label{fig:fig_3_2_3QW_ridge_GS_power}
-\end{figure}
+
+次にリッジ導波路型レーザーに関して1ns矩形波電気パルスを印可し電流注入利得スイッチング実験を行った。そのILカーブと時間波形を示す。
+\subsection{ILカーブ}
+短パルス駆動時のILカーブを示す。その際電流に換算することが困難であったため、横軸はパルスの電圧である。
+\subsubsection{3周期歪量子井戸レーザーのILカーブ}
+図\ref{fig:fig_3_2_3QW_ridge_GS_power}に3周期歪量子井戸リッジ導波路型レーザーの短パルス駆動時のILカーブを示す。励起パルスのパルス幅は1nsである。3つの異なる共振器長において発振が確認できた。共振器長はL=100um、200um、300umである。試料はレーザーバーの状態のものを用いた。同軸ケーブルの芯線をむき出しにしたものを試料の近く1cm程度(L=200umは3cm程度と遠い)まで近づけ、芯線とレーザーの電極を金線でワイヤリングを行った。したがって回路全体の特性インピーダンスにマッチしているか定かでない。
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_GS_power.png}
-		\caption{10MQW 短パルス駆動時のILカーブ}
+	\includegraphics[width=10cm]{figure/fig_3_2_3QW_ridge_GS_power.png}
+		\caption{3周期歪量子井戸 短パルス駆動時のILカーブ}
+		\label{fig:fig_3_2_3QW_ridge_GS_power}
+\end{figure}
+
+
+\newpage
+\subsubsection{10周期歪補償量子井戸レーザーのILカーブ}
+次に図\ref{fig:fig_3_2_10QW_ridge_GS_power}に10周期歪補償量子井戸リッジ導波路型レーザーの短パルス駆動時のILカーブを示す。共振器長はL=300um、400um、500umである。10周期試料は全てCANタイプの試料である。したがってインピーダンスマッチが取れており、高速電気パルスが形状を崩さず入っているとみなしている。
+
+図\ref{fig:fig_3_2_10QW_ridge_GS_power}を見ると3つの異なる共振器長の試料に対して発振が確認できた。
+%発振閾値書くか？
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_GS_power.png}
+		\caption{10歪補償量子井戸リッジ導波路型レーザーの短パルス駆動時のILカーブ}
 		\label{fig:fig_3_2_10QW_ridge_GS_power}
 \end{figure}
 \clearpage
-\subsection{3QW試料の利得スイッチング動作}%===============================
-時間波形を示す。図\ref{fig:fig_3_2_3QW_ridge_L100_GS}(a)に3周期量子井戸レーザーの励起強度を変えたときの時間波形を示す。図\ref{fig:fig_3_2_3QW_ridge_L100_GS}(b)には強度を規格化したプロットをしめす。これらを見ると励起強度を大きくするに従ってピーク強度が高くなっていき、また立ち上がりが早くなっていることがわかる。
+\subsection{3周期歪量子井戸試料の利得スイッチング動作}%===============================
+次にフォトダイオードで光を検出し高速オシロスコープで電気信号をモニタした時間波形を示す。図\ref{fig:fig_3_2_3QW_ridge_L100_GS}(a)に3周期歪量子井戸レーザーの共振器長L=100um試料の利得スイッチング動作の時間波形を示す。励起強度を変えた実験結果を示す。図\ref{fig:fig_3_2_3QW_ridge_L100_GS}(b)には強度を規格化したプロットをしめす。(a)を見ると励起強度をあげるにしたがってピーク強度が高くなって行くが途中で頭打ちになっている。(b)を見ると21V程度までは励起強度の増加につれて立ち上がりが早くなっているがそれより強励起ではわずかに遅くなっていっている。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_2_3QW_ridge_L100_GS.png}
-		\caption{3MQW L=100um の利得スイッチング光パルスの時間波形}
+		\caption{3周期歪量子井戸レーザー L=100um の利得スイッチング光パルスの時間波形}
 		\label{fig:fig_3_2_3QW_ridge_L100_GS}
 \end{figure}
+
+
+図\ref{fig:fig_3_2_3QW_ridge_L200_GS}にはL=200um試料の結果を示す。(a)を見ると励起強度を増加させるにしたがって1つめの光パルス強度は途中までは増加するもののあるところから減衰することがわかる。また途中から第2の光パルスが見られる。電流注入利得スイッチングに特有の緩和振動である。(b)を見ると光パルスの立ち上がりは励起強度とともに遅くなっていく様子が見られる。
+%2番目のパルスの地上がり時間からなんかわからんの？それが緩和振動なのかどうか
+
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_2_3QW_ridge_L200_GS.png}
-		\caption{3MQW L=200um の利得スイッチング光パルスの時間波形}
+		\caption{3周期歪量子井戸レーザー L=200um の利得スイッチング光パルスの時間波形}
 		\label{fig:fig_3_2_3QW_ridge_L200_GS}
 \end{figure}
+
+
+
+図\ref{fig:fig_3_2_3QW_ridge_L300_GS}にはL=300um試料の結果を示す。(a)の青い矢印は第1ピークの場所の移り変わりを表している。(a)を見ると第1パルスは一度極大値を持ったのち遅くなっている。また途中から第2パルスが見られるようになり第2パルスの方が第1パルスよりも大きくなる場合が見られる。(b)を見ると励起強度を上げていくと20.0Vまではシングルパルスであることがわかる。20.0Vで立ち上がり時間が遅くなり、それ以上の励起強度では複数のピークを持ったまま立ち上がり時間が早くなっていく様子がわかる。長い電流パルスの影響により飽和していると考えられる。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_2_3QW_ridge_L300_GS.png}
-		\caption{3MQW L=300um の利得スイッチング光パルスの時間波形}
+		\caption{3周期歪量子井戸レーザー L=300um の利得スイッチング光パルスの時間波形}
 		\label{fig:fig_3_2_3QW_ridge_L300_GS}
 \end{figure}
-\newpage
+
+
+L=100um、200um、L=300umで見られた立ち上がりが遅くなる現象およびは通常の利得スイッチングの動作とは異なる。その原因は励起パルスが正常に印加されていないためではないかと考えられる。どの試料も配線する際の金線の長さが長く、インピーダンスが大きくなってしまったため、短電圧パルスが形を保てなかったと同時に励起強度も低くなってしまったと推測できる。
 \clearpage
-\subsection{10QW試料の利得スイッチング動作}%==============================
-L=300,400,500
+\subsection{10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチング動作}%==============================
+次に10周期歪補償量子井戸試料の利得スイッチング時間波形の結果を示す。
+
+図\ref{fig:fig_3_2_10QW_ridge_L300_GS}には共振器長300umの結果を示す。(a)は時間波形の生データ、(b)は規格化したデータである。(a) を見ると励起強度をあげるにしたがって第1ピーク強度は大きくなっている。(b)を見ると最初はシングルピークだった光パルスが27Vを超えたところから緩和振動がみられ複数ピークになっている。第1ピークは励起強度とともに早く立ち上がる様子が見られる。典型的な利得スイッチング動作である。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_L300_GS.png}
-		\caption{10MQW L=300um の利得スイッチング光パルスの時間波形}
+		\caption{10周期歪補償リッジ導波路型レーザー L=300um の利得スイッチング光パルスの時間波形}
 		\label{fig:fig_3_2_10QW_ridge_L300_GS}
 \end{figure}
 
+
+図\ref{fig:fig_3_2_10QW_ridge_L400_GS}には共振器長L=400umの試料の結果を示す。(a)を見ると第1ピークは励起強度とともに大きくなっていく様子が見える。(b)を見ると励起強度を上げると緩和振動が見られるようになっていくことがわかる。また第1ピークの立ち上がり時間が早くなっていっている。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_L400_GS.png}
-		\caption{10MQW L=400um の利得スイッチング光パルスの時間波形}
+		\caption{10歪補償リッジ導波路型レーザー L=400um の利得スイッチング光パルスの時間波形}
 		\label{fig:fig_3_2_10QW_ridge_L400_GS}
 \end{figure}
+
+%横軸の時間同じにできないの?
+図\ref{fig:fig_3_2_10QW_ridge_L500_GS}に共振器長L=500の試料の時間波形を示す。(a)を見ると第1ピークが励起強度とともに増大していくことがわかる。(b)を見ると励起強度の増大とともに立ち上がり時間が早くなっていっている。さらに26.6(V)を超えると緩和振動の第2パルスが見られ始める。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_2_10QW_ridge_L500_GS.png}
-		\caption{10MQW L=500um の利得スイッチング光パルスの時間波形}
+		\caption{10周期歪補償リッジ導波路型レーザー L=500um の利得スイッチング光パルスの時間波形}
 		\label{fig:fig_3_2_10QW_ridge_L500_GS}
 \end{figure}
+
+
+10周期歪量子井戸リッジ導波路型レーザーについては典型的な利得スイッチング動作が見られた。
 \clearpage
 \subsection{結果の比較}%===========================
 FWHM をまとめた。でコンボリューション後の値を示した。

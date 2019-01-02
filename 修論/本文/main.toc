@@ -33,9 +33,11 @@
 \contentsline {subsubsection}{3周期歪量子井戸リッジ導波路型レーザーの結果}{33}
 \contentsline {subsubsection}{10周期歪補償量子井戸リッジ導波路レーザー}{35}
 \contentsline {subsection}{\numberline {3.2.2}短パルス電流注入の結果}{37}
-\contentsline {subsection}{\numberline {3.2.3}IL}{37}
-\contentsline {subsection}{\numberline {3.2.4}3QW試料の利得スイッチング動作}{39}
-\contentsline {subsection}{\numberline {3.2.5}10QW試料の利得スイッチング動作}{41}
+\contentsline {subsection}{\numberline {3.2.3}ILカーブ}{37}
+\contentsline {subsubsection}{3周期歪量子井戸レーザーのILカーブ}{37}
+\contentsline {subsubsection}{10周期歪補償量子井戸レーザーのILカーブ}{38}
+\contentsline {subsection}{\numberline {3.2.4}3周期歪量子井戸試料の利得スイッチング動作}{39}
+\contentsline {subsection}{\numberline {3.2.5}10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチング動作}{41}
 \contentsline {subsection}{\numberline {3.2.6}結果の比較}{43}
 \contentsline {section}{\numberline {3.3}考察}{44}
 \contentsline {subsection}{\numberline {3.3.1}自然放出光?}{44}
@@ -47,3 +49,4 @@
 \contentsline {chapter}{\numberline {第5章}付録}{46}
 \contentsline {section}{\numberline {5.1}deconvolutionの計算?}{46}
 \contentsline {section}{\numberline {5.2}駆動系の電気信号}{46}
+\contentsline {section}{\numberline {5.3}GaAsの発振}{46}
