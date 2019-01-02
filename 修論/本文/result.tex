@@ -387,24 +387,37 @@ L=100um、200um、L=300umで見られた立ち上がりが遅くなる現象お�
 		\label{fig:fig_3_2_10QW_ridge_L500_GS}
 \end{figure}
 
-
+\newpage
 10周期歪量子井戸リッジ導波路型レーザーについては典型的な利得スイッチング動作が見られた。
 \clearpage
-\subsection{結果の比較}%===========================
-FWHM をまとめた。でコンボリューション後の値を示した。
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_GS_FWHM.png}
-		\caption{10MQW 利得スイッチングパルスのパルス幅}
-		\label{fig:fig_3_2_10QW_ridge_GS_FWHM}
-\end{figure}
+\subsection{利得スイッチングパルスのパルス幅}%===========================
+次に利得スイッチング光パルスの第1パルスのパルス幅を示す。ここでパルス幅は半値全幅FWHMとしている。また光の検出に持ちいた25GHzフォトダイオードによる広がりを考慮してdeconvolutionを行った結果を示す。
 
+図\ref{fig:fig_3_2_3QW_ridge_GS_FWHM}に3周期歪量子井戸リッジ導波路型レーザーの利得スイッチング光パルスのパルス幅を示す。縦軸FWHM、横軸が励起強度である。色分けは共振器長の違いを表す。
+
+L=100um、200umでは励起強度を上げるとパルス幅が長くなっていっている。これはインピーダンスマッチが取れていない事による電気パルスの不具合だと考えられる。L=300umではパルス幅30ps程度の値を示し。飽和が起こっている。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_2_3QW_ridge_GS_FWHM.png}
-		\caption{3MQW 利得スイッチングパルスのパルス幅}
+		\caption{3周期歪量子井戸リッジ導波路型レーザーの光パルス幅}
 		\label{fig:fig_3_2_3QW_ridge_GS_FWHM}
 \end{figure}
+
+
+次に10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチングパルスのパルス幅を図\ref{fig:fig_3_2_10QW_ridge_GS_FWHM}に示す。色分けは共振器長の違いを表す。
+
+%横軸揃えられないのか
+
+励起強度をあげていくとパルス幅は短くなる様子がどの共振器長でも見て取れる。L=300umでは30Vより強励起ではパルス幅は短くなることはなく29ps程度で横ばいになっている。L=400um、L=500umでも印加電圧30V付近でパルス幅の変化が小さくなっており、飽和が起きている。
+最短では...psであった。
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_GS_FWHM.png}
+		\caption{10周期歪補償量子井戸リッジ導波路型レーザーの光パルス幅}
+		\label{fig:fig_3_2_10QW_ridge_GS_FWHM}
+\end{figure}
+
+
 \clearpage　
 %\subsection{付録かな??コンボリュージョンの説明,電気パルスの確認}%==============
 \begin{comment}
@@ -431,7 +444,12 @@ FWHM をまとめた。でコンボリューション後の値を示した。
 \end{figure}
 \end{comment}
 \section{考察}%========================================
+%3周期歪量子井戸レーザーと10周期歪補償量子井戸レーザーの差異について比較および考察を行った。
 
-\subsection{自然放出光?}
 \subsection{閾値電流}
+%まず閾値電流は
+\subsection{自然放出光}
+%まずILカーブでの発振前の光量であるが
+\subsection{ILカーブのだらだら}
+
 \subsection{利得スイッチングパルスのパルス幅の比較}
