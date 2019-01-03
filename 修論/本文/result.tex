@@ -166,14 +166,20 @@ eは電気素量、hはプランク定数、$\nu$は発振周波数であり、1
 	\label{fig:fig_3_1_3QW_broadcontact_id}
 \end{figure}
 
-
+ここで$\eta_{d}$は共振器内での全発光にしめる共振器損失の割合であるから
+\begin{eqnarray}
+\eta_{d}=\eta_{int}\dfrac{\alpha_{m}}{\alpha_{int} +\alpha_{m}}
+\end{eqnarray}
+である。$\alpha_{int}$は共振器内の平均の内部損失、Rは共振器の端面での反射率、$\eta_{\rm{int}}$は内部微分量子効率である。
 $\eta_{\rm{d}}$は共振器長Lを用いて式(\ref{eq:eta_inverse})と書き表される。
 \begin{eqnarray}
 \dfrac{1}{\eta_{\rm{d}}}=\dfrac{\alpha_{\rm{int}}}{\rm{ln}(1/R)\eta_{int}}L+\dfrac{1}{\eta_{\rm{int}}}
 \label{eq:eta_inverse}
 \end{eqnarray}
-$\alpha_{int}$は共振器内の平均の内部損失、Rは共振器の端面での反射率、$\eta_{\rm{int}}$は内部微分量子効率である。
-RはGaAsの屈折率と空気の屈折率の差から0.30と仮定した。見積もった$\eta_{\rm{d}}$の逆数を共振器長に対してプロットし直線フィッティングを行なった。これを図\ref{fig:fig_3_1_3QW_broadcontact_id_inverse}に示す。横軸は共振器長L、縦軸に外部微分量子効率の逆数$1/\eta_{\rm{d}}$である。例としてパッド幅$w$=100 \si{\micro\metre}の結果を示す。式(\ref{eq:eta_inverse})よりこのフィッティング直線のy切片から内部量子効率$\eta_{\rm{int}}$を見積もると$\eta_{\rm{int}}$=0.96と計算できる。また、直線の傾きから内部損失$\alpha_{\rm{int}}$を見積もると$\alpha_{\rm{int}}$=11.8 /cmと計算できた。
+
+
+
+RはGaAsの屈折率と空気の屈折率の差から0.32と仮定した。見積もった$\eta_{\rm{d}}$の逆数を共振器長に対してプロットし直線フィッティングを行なった。これを図\ref{fig:fig_3_1_3QW_broadcontact_id_inverse}に示す。横軸は共振器長L、縦軸に外部微分量子効率の逆数$1/\eta_{\rm{d}}$である。例としてパッド幅$w$=100 \si{\micro\metre}の結果を示す。式(\ref{eq:eta_inverse})よりこのフィッティング直線のy切片から内部量子効率$\eta_{\rm{int}}$を見積もると$\eta_{\rm{int}}$=0.96と計算できる。また、直線の傾きから内部損失$\alpha_{\rm{int}}$を見積もると$\alpha_{\rm{int}}$=11.8 /cmと計算できた。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_3QW_broadcontact_id_inverse.png}
@@ -266,7 +272,7 @@ J_{th}=J_{0}+\dfrac{\alpha_{int}}{\Gamma g_{0}}+\dfrac{1}{\Gamma g_{0}}\rm{ln}\l
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_2_3QW_ridge_slope.png}
-		\caption{3周期歪量子井戸リッジ導波路型レーザーのスロープおよび微分外部量子効率}
+		\caption{3周期歪量子井戸リッジ導波路型レーザーのスロープおよび外部微分量子効率}
 		\label{fig:fig_3_2_3QW_ridge_slope}
 \end{figure}
 
@@ -349,7 +355,7 @@ $\eta_{d}$は発振波長1030nmとして計算した。
 
 
 
-図\ref{fig:fig_3_2_3QW_ridge_L300_GS}にはL=300\si{\micro\metre}試料の結果を示す。(a)の青い矢印は第1ピークの場所の移り変わりを表している。(a)を見ると第1パルスは一度極大値を持ったのち遅くなっている。また途中から第2パルスが見られるようになり第2パルスの方が第1パルスよりも大きくなる場合が見られる。(b)を見ると励起強度を上げていくと20.0Vまではシングルパルスであることがわかる。20.0Vで立ち上がり時間が遅くなり、それ以上の励起強度では複数のピークを持ったまま立ち上がり時間が早くなっていく様子がわかる。長い電流パルスの影響により飽和していると考えられる。
+図\ref{fig:fig_3_2_3QW_ridge_L300_GS}にはL=300\si{\micro\metre}試料の結果を示す。(a)の青い矢印は第1ピークの場所の移り変わりを表している。(a)を見ると第1パルスは一度極大値を持ったのち遅くなっている。また途中から第2パルスが見られるようになり第2パルスの方が第1パルスよりも大きくなる場合が見られる。(b)を見ると励起強度を上げていくと20.0Vまではシングルパルスであることがわかる。20.0Vで立ち上がり時間が遅くなり、それ以上の励起強度では複数のピークを持ったまま立ち上がり時間が早くなっていく様子がわかる。長い電流パルスの影響による緩和振動であると考えられる。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15cm]{figure/fig_3_2_3QW_ridge_L300_GS.png}
@@ -393,11 +399,11 @@ L=100\si{\micro\metre}、200\si{\micro\metre}、L=300\si{\micro\metre}で見ら�
 10周期歪量子井戸リッジ導波路型レーザーについては典型的な利得スイッチング動作が見られた。
 \clearpage
 \subsection{利得スイッチングパルスのパルス幅}%===========================
-次に利得スイッチング光パルスの第1パルスのパルス幅を示す。ここでパルス幅は半値全幅FWHMとしている。また光の検出に持ちいた25GHzフォトダイオードによる広がりを考慮してdeconvolutionを行った結果を示す。
+次に利得スイッチング光パルスの第1パルスのパルス幅を示す。ここでパルス幅は半値全幅FWHMとしている。また光の検出に用いた25 GHzフォトダイオードによるパルス広がりを考慮してdeconvolutionを行った結果を示す。
 
 図\ref{fig:fig_3_2_3QW_ridge_GS_FWHM}に3周期歪量子井戸リッジ導波路型レーザーの利得スイッチング光パルスのパルス幅を示す。縦軸FWHM、横軸が励起強度である。色分けは共振器長の違いを表す。
 
-L=100\si{\micro\metre}、200\si{\micro\metre}では励起強度を上げるとパルス幅が長くなっていっている。これはインピーダンスマッチが取れていない事による電気パルスの不具合だと考えられる。L=300\si{\micro\metre}ではパルス幅30ps程度の値を示し。飽和が起こっている。
+L=100 \si{\micro\metre}、200 \si{\micro\metre}では励起強度を上げるとパルス幅が長くなっていっている。これはインピーダンスマッチが取れていない事による電気パルスの不具合だと考えられる。L=300 \si{\micro\metre}ではパルス幅30ps程度の値を示し。飽和が起こっている。最短パルス幅はL=300 \si{\micro m}、23.4 V印加で28.9 psであった。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_2_3QW_ridge_GS_FWHM.png}
@@ -405,13 +411,9 @@ L=100\si{\micro\metre}、200\si{\micro\metre}では励起強度を上げると�
 		\label{fig:fig_3_2_3QW_ridge_GS_FWHM}
 \end{figure}
 
-
+\newpage
 次に10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチングパルスのパルス幅を図\ref{fig:fig_3_2_10QW_ridge_GS_FWHM}に示す。色分けは共振器長の違いを表す。
-
-%横軸揃えられないのか
-
-励起強度をあげていくとパルス幅は短くなる様子がどの共振器長でも見て取れる。L=300\si{\micro\metre}では30Vより強励起ではパルス幅は短くなることはなく29ps程度で横ばいになっている。L=400\si{\micro\metre}、L=500\si{\micro\metre}でも印加電圧30V付近でパルス幅の変化が小さくなっており、飽和が起きている。
-最短では...psであった。
+励起強度をあげていくとパルス幅は短くなる様子がどの共振器長でも見て取れる。L=300 \si{\micro\metre}では30Vより強励起ではパルス幅は短くなることはなく29 ps程度で横ばいになっている。L=400 \si{\micro\metre}、L=500 \si{\micro\metre}でも印加電圧30V付近でパルス幅の変化が小さくなっており、飽和が起きている。最短パルス幅はL=400 \si{\micro\metre}で26.5 psであった。
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_2_10QW_ridge_GS_FWHM.png}
@@ -421,30 +423,6 @@ L=100\si{\micro\metre}、200\si{\micro\metre}では励起強度を上げると�
 
 
 \clearpage　
-%\subsection{付録かな??コンボリュージョンの説明,電気パルスの確認}%==============
-\begin{comment}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_broad_slope_10QW.png}
-		\caption{10MQWのスロープ}
-		\label{fig_3_1_IL_broad_slope}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_broad_i_th_10QW.png}
-		\caption{10MQWの閾値電流}
-		\label{fig_3_1_broad_i_th_3QW}
-\end{figure}
-
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_broad_i_th_10QW.png}
-		\caption{10MQWの閾値電流密度のパッド幅依存性}
-		\label{fig_3_1_broad_j_th_10QW}
-\end{figure}
-\end{comment}
 \section{考察}%========================================
 %3周期歪量子井戸レーザーと10周期歪補償量子井戸レーザーの差異について比較および考察を行った。
 
