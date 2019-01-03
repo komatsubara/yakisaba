@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  3 JAN 2019 16:40
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  3 JAN 2019 21:58
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -596,18 +596,23 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2] (./main.lof [3
+ [2] (./main.lof
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [3
 
 ])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [4] (./main.lot)
+ [4]
+(./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
-
-[5
+ [5
 
 ]
 \openout2 = `introduction.aux'.
@@ -657,52 +662,61 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figure/fig_1_2_strain_vs_d.png Graphic file (type bmp)
 <figure/fig_1_2_strain_vs_d.png>
  Excluding 'comment' comment. [13]
+
+LaTeX Warning: Reference `fig:fig_lattice_strain_Ith' on page 14 undefined on i
+nput line 248.
+
 File: figure/fig_1_1_lattice_strain_Ith.png Graphic file (type bmp)
 <figure/fig_1_1_lattice_strain_Ith.png>
- [14]
+[14]
+Overfull \hbox (36.88235pt too wide) in paragraph at lines 272--273
+\JY1/mc/m/n/10.95 レ ーザ ーと \OT1/cmr/m/n/10.95 In-GaAs/GaAsP \JY1/mc/m/n/10.
+95 系 \OT1/cmr/m/n/10.95 4 \JY1/mc/m/n/10.95 周期歪補償量子井戸レ ーザ ーの線形
+利得をそれぞれ $\OML/cmm/m/it/10.95 dg=dn$\OT1/cmr/m/n/10.95 =1.0$\OMS/cmsy/m/n
+/10.95 ^^B\OT1/cmr/m/n/10.95 10[][]$\JY1/mc/m/n/10.95 、
+ []
+
 File: figure/fig_1_1_lattice_strain.png Graphic file (type bmp)
 <figure/fig_1_1_lattice_strain.png>
- [15
+[15
 
-]) [16
-
-]
+]) [16]
 \openout2 = `sample_structure.aux'.
 
  (./sample_structure.tex
 第 2 章
-File: figure/fig_2_1_wafer_structure.png Graphic file (type bmp)
-<figure/fig_2_1_wafer_structure.png>
+
+LaTeX Warning: Command \r invalid in math mode on input line 26.
+
 [17
 
 
 
 ]
+File: figure/fig_2_1_wafer_structure.png Graphic file (type bmp)
+<figure/fig_2_1_wafer_structure.png>
 File: figure/fig_2_1_broadcontact.png Graphic file (type bmp)
 <figure/fig_2_1_broadcontact.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[18]
 File: figure/fig_2_1_ridge.png Graphic file (type bmp)
 <figure/fig_2_1_ridge.png>
-[18] [19]
+ [19]
 File: figure/fig_2_1_mount.png Graphic file (type bmp)
 <figure/fig_2_1_mount.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20] [21]
+ [20]
 File: figure/fig_2_2_IL_setup.png Graphic file (type bmp)
 <figure/fig_2_2_IL_setup.png>
- [22
+ [21
 
 ]
 File: figure/fig_2_3_GS_setup.png Graphic file (type bmp)
 <figure/fig_2_3_GS_setup.png>
 
-Overfull \hbox (28.91614pt too wide) in paragraph at lines 144--156
+Overfull \hbox (28.91614pt too wide) in paragraph at lines 153--165
  [][][] 
  []
 
@@ -710,28 +724,28 @@ Overfull \hbox (28.91614pt too wide) in paragraph at lines 144--156
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23
+[22
 
-] [24]
+] [23]
 \openout2 = `result.aux'.
 
  (./result.tex
 第 3 章
 File: figure/fig_3_1_3QW_broadcontact_IL.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_IL.png>
-[25
+[24
 
 
 
 ]
 File: figure/fig_3_1_3QW_broadcontact_Ith.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_Ith.png>
- [26]
+ [25]
 File: figure/fig_3_1_10QW_broadcontact_IL.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_IL.png>
 File: figure/fig_3_1_10QW_broadcontact_Ith.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_Ith.png>
- [27
+ [26
 
 ]
 File: figure/fig_3_1_3QW_broadcontact_Jth.png Graphic file (type bmp)
@@ -745,7 +759,7 @@ File: figure/fig_3_1_10QW_broadcontact_Jth.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28] [29]
+[27] [28]
 File: figure/fig_3_1_3QW_broadcontact_id.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_id.png>
 File: figure/fig_3_1_3QW_broadcontact_id_inverse.png Graphic file (type bmp)
@@ -754,7 +768,7 @@ File: figure/fig_3_1_3QW_broadcontact_id_inverse.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30
+[29
 
 ]
 File: figure/fig_3_1_10QW_broadcontact_id.png Graphic file (type bmp)
@@ -765,14 +779,14 @@ File: figure/fig_3_1_10QW_broadcontact_id_inverse.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32]
+[30] [31]
 File: figure/fig_3_1_3QW_broadcontact_j0.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_j0.png>
 File: figure/fig_3_1_10QW_broadcontact_j0.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_j0.png>
- [33
+ [32
 
-] [34]
+] [33]
 File: figure/fig_3_2_3QW_ridge_IL.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_IL.png>
 File: figure/fig_3_2_3QW_ridge_Ith.png Graphic file (type bmp)
@@ -786,9 +800,9 @@ File: figure/fig_3_2_3QW_ridge_slope.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35
+[34
 
-] [36]
+] [35]
 File: figure/fig_3_2_10QW_ridge_IL.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_IL.png>
 File: figure/fig_3_2_10QW_ridge_Ith.png Graphic file (type bmp)
@@ -799,26 +813,26 @@ File: figure/fig_3_2_10QW_ridge_slope.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37
+[36
 
-] [38]
+] [37]
 File: figure/fig_3_2_3QW_ridge_GS_power.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_GS_power.png>
- [39
+ [38
 
 ]
 File: figure/fig_3_2_10QW_ridge_GS_power.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_GS_power.png>
- [40]
+ [39]
 File: figure/fig_3_2_3QW_ridge_L100_GS.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_L100_GS.png>
 File: figure/fig_3_2_3QW_ridge_L200_GS.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_L200_GS.png>
 File: figure/fig_3_2_3QW_ridge_L300_GS.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_L300_GS.png>
- [41
+ [40
 
-] [42]
+] [41]
 File: figure/fig_3_2_10QW_ridge_L300_GS.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_L300_GS.png>
 File: figure/fig_3_2_10QW_ridge_L400_GS.png Graphic file (type bmp)
@@ -829,9 +843,9 @@ File: figure/fig_3_2_10QW_ridge_L500_GS.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43
+[42
 
-] [44]
+] [43]
 File: figure/fig_3_2_3QW_ridge_GS_FWHM.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_GS_FWHM.png>
 File: figure/fig_3_2_10QW_ridge_GS_FWHM.png Graphic file (type bmp)
@@ -840,16 +854,16 @@ File: figure/fig_3_2_10QW_ridge_GS_FWHM.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[45
+[44
 
-] [46] Excluding 'comment' comment.) [47
+] [45] Excluding 'comment' comment.) [46
 
 ]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 第 4 章
-) [48
+) [47
 
 
 
@@ -858,7 +872,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./appendix.tex
 第 5 章
-) [49
+) [48
 
 
 
@@ -874,11 +888,11 @@ LaTeX Font Warning: Font shape `JT1/mc/m/sl' undefined
 LaTeX Font Warning: Font shape `JY1/mc/m/sl' undefined
 (Font)              using `JY1/mc/m/n' instead on input line 2.
 
-[50
+[49
 
 
 
-]) [51] Excluding 'comment' comment. [52
+]) [50] Excluding 'comment' comment. [51
 
 ] (./main.aux (./abstract.aux)
 (./introduction.aux) (./sample_structure.aux) (./result.aux) (./conclusion.aux)
@@ -886,18 +900,21 @@ LaTeX Font Warning: Font shape `JY1/mc/m/sl' undefined
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 155 ({)
+### simple group (level 1) entered at line 156 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12733 strings out of 493648
- 265669 string characters out of 6148806
- 293997 words of memory out of 5000000
- 16149 multiletter control sequences out of 15000+600000
- 555947 words of font info for 122 fonts, out of 8000000 for 9000
+ 12769 strings out of 493648
+ 266733 string characters out of 6148806
+ 294013 words of memory out of 5000000
+ 16177 multiletter control sequences out of 15000+600000
+ 557343 words of font info for 127 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,12n,33p,10386b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,14n,33p,10386b,1019s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (54 pages, 134912 bytes).
+Output written on main.dvi (53 pages, 138956 bytes).
