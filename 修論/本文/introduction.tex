@@ -78,8 +78,10 @@ g_{\rm{th}}=\alpha+\dfrac{1}{L}\rm{ln}\left(\dfrac{1}{R}\right)
 次にキャリアの再結合時間$\tau(n)$はバンド間の発光再結合寿命$\tau_{r(n)}$と非発光再結合寿命と$\tau_{nr}(n)$を用いて
 \begin{eqnarray}
 \dfrac{1}{\tau}=\dfrac{1}{\tau_{r}}+\dfrac{1}{\tau_{nr}}
+s
+\label{eq:tau_r}
 \end{eqnarray}
-で与えられる。$1/\tau_{n}$と$1/\tau_{nr}$はそれぞれ割合であるから、内部量子効率$\eta_{int}$は
+で与えられる。$1/\tau_{n}$と$1/\tau_{nr}$はそれぞれ割合であるから、内部量子効率$\eta_{int}$は全キャリアの再結合のうちの発光再結合の割合であるから
 \begin{eqnarray}
 \eta_{int}=\dfrac{1/\tau_{r}}{1/\tau_{r}+1/\tau_{nr}}
 \end{eqnarray}
@@ -127,12 +129,12 @@ g_{s} & n-n_{0}\gg g_{s}/g_{0}\nonumber
 \tau_{p}=\dfrac{n_{\rm{eq}}}{c(\alpha_{a}+\rm{ln}(1/R)/L)}
 \end{eqnarray}
 とかける\cite{ref_iga}。
-$n_{\rm{eq}}$は等価屈折率$\alpha_{a}$は共振器内部の損失、cは光速、Lは共振器長、Rは共振器のミラー端面の反射率である。
+$n_{\rm{eq}}$は等価屈折率、$\alpha_{a}$は共振器内部の損失、cは光速、Lは共振器長、Rは共振器のミラー端面の反射率である。
 この式を見ると端面反射率Rを小さくすること、共振器長Lを短くなるようレーザー設計することが$\tau_{p}$を小さくすることに有効であることがわかる。
 
 通常端面反射率を下げるためにはためには誘電体膜をコーティングする手法が用いられる。コーティングは光の高出力化のためにも用いられている一般的な手法である。
 
-利得飽和$g_{s}$は用いる材料によって決まってしまうパラメータであるためデザインの段階で決めることはできない。そこで式(\ref{eq:late_eq_2})の第1項、誘導放出の項に注目してみると$g(n)$の代わりに$\Gamma$を大きくすることが有効であるとわかる。$\Gamma g(n)$を大きくすることができるためである。$\Gamma$が大きくなるような結晶構造をデザインすることが利得スイッチングパルスの短パルス化につながる。
+利得飽和$g_{s}$は用いる材料によって決定されるパラメータであるためデザインの段階で決めることはできない。そこで式(\ref{eq:late_eq_2})の第1項、誘導放出の項に注目してみると$g(n)$の代わりに$\Gamma$を大きくすることが有効であるとわかる。$\Gamma g(n)$を大きくすることができるためである。$\Gamma$が大きくなるような結晶構造をデザインすることが利得スイッチングパルスの短パルス化につながる。
 %多重量子井戸にすることと$g_{s}$には関係があるんだっけ？ない
 %このように利得スイッチングには興味深い非線形性が含まれており詳細に理解を進めることは半導体レーザーそのものの理解にも繋がりうる。
 \clearpage
@@ -195,6 +197,7 @@ J^{\rm{th}}_{M=1}&=&\alpha^{total}/ a\Gamma + J_{g}\nonumber\\
 と書ける。また多重量子井戸レーザーでは式(\ref{eq:J_M})より
 \begin{equation}
 J_{M}^{t\rm{h}}=\alpha^{totla}/(aL_{z}/L_{0}) + MJ_{g}
+\label{eq:Mj0}
 \end{equation}
 となる。常に単一量子井戸レーザーの方が低い閾値電流を与えることになる。これは材料利得が注入電流に対して線形な場合の結論である。実際には励起強度を上げていくと(つまり擬似フェルミ準位を増加させていくと)サブバンド端では利得が飽和する。
 
@@ -283,7 +286,7 @@ h_{c}=\dfrac{b(1-\nu \cos ^2 \alpha)}{2\pi f (1+\nu ) \cos \lambda}\left(\rm{ln}
 	\centering
 	\includegraphics[width=10cm]{figure/fig_1_1_lattice_strain_Ith.png}
 	\caption{単一歪み量子井戸レーザーの閾値電流密度\cite{ref_thijs}}
-	\label{fig:fig_latice_strain_Ith}
+	\label{fig:fig_lattice_strain_Ith}
 \end{figure}
 
 %じゃあ3QWの利得計算してみれば？ってなるよね
@@ -317,7 +320,7 @@ h_{c}=\dfrac{b(1-\nu \cos ^2 \alpha)}{2\pi f (1+\nu ) \cos \lambda}\left(\rm{ln}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_1_1_lattice_strain.png}
-	\caption{歪み補償}
+	\caption{格子整合の模式図}
 	\label{fig:fig_1_1_lattice_strain_comp}
 \end{figure}
 %N.K.Duttaらは歪補償4周期InGaAs/GaAsPレーザーで$\Delta g/\Delta n =2.1 \times 10^{-15}$というそれまでのレーザーよりも高い値を報告している。また。歪み補償があるものとないもので変調感度が3dB低下する周波数が似た構造のレーザーでそれぞれ32GHz、35GHzと報告している。

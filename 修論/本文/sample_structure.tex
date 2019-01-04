@@ -11,6 +11,12 @@
 (1)InGaAs/GaAs系3周期歪量子井戸構造\\
 (2)InGaAs/GaAsP系10周期歪補償量子井戸構造\\
 である。それぞれのエピ構造を図\ref{fig:fig_2_1_wafer_structure}に示す。
+\begin{figure}[hb]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_2_1_wafer_structure}
+	\caption{エピウエハ構造}
+	\label{fig:fig_2_1_wafer_structure}
+\end{figure}
 下からnタイプGaAs基板、nタイプAlGaAsクラッド層、non-GaAs SCH層(Separate Confinement Hetero-Structure)、活性層、non-GaAs　SCH層、p-InGaPエッチングストップ層、p-GaAs層、p-AlGaAsクラッド層、p-GaAsハイドープコンタクト層となっている。
 %バンドギャップの話して発光領域の話
 活性層には(1)3周期多重量子井戸のエピウエハでは量子井戸層を$\rm{In_{0.255}Ga_{0.745}As}$、バリア層をGaAsを用いた。GaAs基板に格子整合を行った。$\rm{In_{1-x}Ga_{x}As_{y}P_{1-y}}$4元混晶の格子定数はべガードの法則
@@ -28,17 +34,32 @@ a(x,y)=5.8687-0.4176x+0.1896y+0.0125xy
 
 となる。このときの格子不整合は
 \begin{eqnarray}
-\dfrac{\Delta a}{a}=\dfrac{<a>-a_{\rm{GaAs}}}{a_{\rm{GaAs}}}=\dfrac{5.691-5.653}{5.653}=0.0068
+\dfrac{\Delta a}{a}=\dfrac{<a> - a_{\rm{GaAs}}}{a_{\rm{GaAs}}}=\dfrac{5.691-5.653}{5.653}=0.0068
 \end{eqnarray}
-また図\ref{fig:fig_2_1_wafer_structure}にはバンドギャップ$E_{g}$と屈折率nの変化を模式的に表した。光は活性層とSCH層、p-InGaAs層、p-GaAs層に閉じ込められると考えている。またキャリアは$E_{g}$の小さい量子井戸へ流れ込む。量子井戸で再結合がおこる。
+となる
+また図\ref{fig:fig_2_1_wafer_structure}にはバンドギャップ$E_{g}$と屈折率nの変化を模式的に表した。用いられている結晶の諸パラメータをまとめた。表\ref{table:table_2_1_parameter}に示す。
+\begin{table}[h]
+  \caption{結晶の諸パラメータ}
+    \label{table:table_2_1_parameter}
+  \centering
+  \begin{tabular}{ccc}
+    \hline
+      結晶&格子定数 (\AA) & $E_{g} (\rm{eV})$  \\
+    \hline \hline
+    GaAs  & 5.653&  1.424  \\
+    $\rm{In_{0.255}Ga_{0.745}As}$&  5.756& 1.068  \\
+    $\rm{GaAs_{0.71}P_{0.29}}$  &  5.594&1.772 \\
+    $\rm{In_{0.485}Ga_{0.515}P}$& 5.653& 1.891\\
+    $\rm{Al_{0.20}Ga_{0.80}As}$&5.655& 1.655\\
+    $\rm{Al_{0.55}Ga_{0.45}As}$&5.657& 2.150\\
+       \hline
+  \end{tabular}
+\end{table}
+
+光は活性層とSCH層、p-GaAsP層、p-GaAs層に閉じ込められると考えている。またキャリアは$E_{g}$の小さい量子井戸へ流れ込む。量子井戸で再結合がおこる。
 
 エピウエハ完成後フォトリソグラフィによって電極パターンを形成した。それについて次節で述べていく。
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=10cm]{figure/fig_2_1_wafer_structure}
-	\caption{エピウエハ構造}
-	\label{fig:fig_2_1_wafer_structure}
-\end{figure}
+
 %\clearpage
 \subsection{ブロードコンタクトレーザー}%=======================
 ブロードコンタクトレーザーとは光導波路を形成せずコンタクト電極をベタに蒸着したレーザーデバイスである。リッジ形成プロセスを簡略化することで早く測定を行うことを目的とした。ウエハの評価測定のために用いた。
