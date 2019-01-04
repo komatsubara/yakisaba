@@ -47,11 +47,10 @@
 \contentsline {subsection}{\numberline {3.2.6}10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチング動作}{47}
 \contentsline {subsubsection}{10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチング実験のまとめ}{48}
 \contentsline {subsection}{\numberline {3.2.7}利得スイッチング実験のまとめ}{49}
+\contentsline {subsubsection}{3周期歪量子井戸レーザーと10周期歪補償レーザーの結果の比較}{49}
+\contentsline {subsubsection}{利得スイッチングパルスの共振器長依存性について}{49}
 \contentsline {chapter}{\numberline {第4章}まとめと展望}{50}
 \contentsline {section}{\numberline {4.1}本研究のまとめ}{50}
 \contentsline {section}{\numberline {4.2}今後の展望}{50}
 \contentsline {chapter}{\numberline {第5章}付録}{51}
-\contentsline {section}{\numberline {5.1}deconvolutionの計算}{51}
-\contentsline {section}{\numberline {5.2}駆動系の電気信号}{51}
-\contentsline {section}{\numberline {5.3}GaAsの発振}{51}
-\contentsline {section}{\numberline {5.4}格子状数、$E_{g}$の計算}{51}
+\contentsline {section}{\numberline {5.1}格子定数、$E_{g}$の計算}{51}
