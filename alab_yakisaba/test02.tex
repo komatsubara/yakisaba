@@ -1,15 +1,67 @@
 \documentclass[11pt]{jreport}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsmath}
 \usepackage{color}    
 %\usepackage{hoge}
+\usepackage[dvipdfmx]{graphicx}
 \usepackage{jumoline} 
-\usepackage{proofread} % これより先に color と jumoline を読み込んでおく
+% これより先に color と jumoline を読み込んでおく
+%\usepackage{proofread}
+\usepackage{comment}
+%\noproofreadmark  % 最終原稿のときに有効化する
+\newif\ifnoproofreadmark \noproofreadmarkfalse
+\def\noproofreadmark{\noproofreadmarktrue}
+
+\def\addspan#1{%
+ \ifnoproofreadmark%
+   #1%
+ \else%
+  \textcolor{red}{#1}%
+ \fi%
+}
+
+\def\delspan#1{%
+ \ifnoproofreadmark%
+  \empty%
+ \else%
+  {\Midline{#1}}%
+ \fi%
+}
+
+\def\delspanx#1{%
+ \ifnoproofreadmark%
+  \empty%
+ \else%
+  #1%
+ \fi%
+}
+
+\def\strikemath#1{%
+ \ifnoproofreadmark%
+   \empty%
+ \else%
+   {\setjumocolor{red}\Midline{{\mbox{$\displaystyle #1$}}}}%
+ \fi%
+}
 % \noproofreadmark  % 最終原稿のときに有効化する
+
 \MidlineHeight=0.5ex
 \UMOlineThickness=0.2ex % お好みで決める
 
+\newif\ifdraft
+\ifdraft
+%草案
+\else
+%本番
+\fi
 \begin{document}
-\delspan{削除する部分は delspan で，}\addspan{追加部分は addspan で指定する．}
-
+%a
+%\textcolor{blue}{青}
+%\Midline{青いうえ}
+\addspan{xつ描きくけおk}
+\delspan{削除する部分は delspan で，}
+\addspan{追加部分は addspan で指定する．}
+%
 \delspan{数式などのコマンドは {$y = ax + b$} のように中括弧でくくる．}
 \addspan{これは delspan も addspan も同様．}
 
@@ -22,8 +74,8 @@ strikemath でくくる．そのままだと，noproofreadmark が指定され�
   
 \delspanx{%
 \begin{align}
- \strikemath{\dot{x}} & \strikemath{= ax + bu}\\
- \strikemath{y} & \strikemath{= cx}
+ \dot{x} & = ax + bu\\
+ y & = cx
 \end{align}
 }%
 \addspan{
@@ -32,3 +84,5 @@ strikemath でくくる．そのままだと，noproofreadmark が指定され�
  y_k & = cx_k
 \end{align}
 }
+%\end{comment}
+\end{document}
