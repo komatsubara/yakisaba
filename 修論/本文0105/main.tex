@@ -1,10 +1,53 @@
-\documentclass[11pt]{jreport}
+\documentclass[11pt,dvipdfmx]{jreport}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{bm}
 \usepackage{siunitx}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage[top=30truemm,bottom=30truemm,left=25truemm,right=25truemm]{geometry}
 \usepackage{comment}
+\usepackage{jumoline} 
+\usepackage{color}
+% これより先に color と jumoline を読み込んでおく
+%======================================
+\newif\ifnoproofreadmark \noproofreadmarkfalse
+\def\noproofreadmark{\noproofreadmarktrue}
+
+\def\addspan#1{%
+ \ifnoproofreadmark%
+   #1%
+ \else%
+  \textcolor{red}{#1}%
+ \fi%
+}
+
+\def\delspan#1{%
+ \ifnoproofreadmark%
+  \empty%
+ \else%
+  {\Midline{#1}}%
+ \fi%
+}
+
+\def\delspanx#1{%
+ \ifnoproofreadmark%
+  \empty%
+ \else%
+  #1%
+ \fi%
+}
+
+\def\strikemath#1{%
+ \ifnoproofreadmark%
+   \empty%
+ \else%
+   {\setjumocolor{red}\Midline{{\mbox{$\displaystyle #1$}}}}%
+ \fi%
+}
+%=================================================
+ %\noproofreadmark  % 最終原稿のときに有効化する
+
+\MidlineHeight=0.5ex
+\UMOlineThickness=0.2ex % お好みで決める
 
 
 \title{
@@ -19,6 +62,8 @@ lasers\\[5cm]}
 \LARGE 指導教員 秋山　英文　教授\\[1cm]
 \LARGE 学籍番号 35-176043\\
 \LARGE 小松原　望}
+
+
 \begin{document}
 \maketitle			%タイトル
 \include{abstract}	%要旨
@@ -38,7 +83,8 @@ lasers\\[5cm]}
 \include{appendix} 		%付録
 %% reference
 \include{reference} %参考文献
-
+\delspan{アイウエオ}\\
+\addspan{かきくけこ}
 謝辞\\
 %\begin{comment}
 秋山英文教授には2年間の修士課程を通して物理への向き合い方だけではなく、人としての生き方を教えていただいたように思う。先生の下で過ごすことができたことを誇りに思う。

@@ -1,4 +1,6 @@
 \documentclass[11pt]{jreport}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsmath}
 \usepackage{color}    
 %\usepackage{hoge}
 \usepackage[dvipdfmx]{graphicx}
@@ -6,12 +8,12 @@
 % これより先に color と jumoline を読み込んでおく
 %\usepackage{proofread}
 \usepackage{comment}
-% \noproofreadmark  % 最終原稿のときに有効化する
-\newif\if@noproofreadmark \@noproofreadmarkfalse
-\def\noproofreadmark{\@noproofreadmarktrue}
+%\noproofreadmark  % 最終原稿のときに有効化する
+\newif\ifnoproofreadmark \noproofreadmarkfalse
+\def\noproofreadmark{\noproofreadmarktrue}
 
 \def\addspan#1{%
- \if@noproofreadmark%
+ \ifnoproofreadmark%
    #1%
  \else%
   \textcolor{red}{#1}%
@@ -19,15 +21,15 @@
 }
 
 \def\delspan#1{%
- \if@noproofreadmark%
+ \ifnoproofreadmark%
   \empty%
  \else%
-  {\setjumocolor{red}\Midline{#1}}%
+  {\Midline{#1}}%
  \fi%
 }
 
 \def\delspanx#1{%
- \if@noproofreadmark%
+ \ifnoproofreadmark%
   \empty%
  \else%
   #1%
@@ -35,47 +37,52 @@
 }
 
 \def\strikemath#1{%
- \if@noproofreadmark%
+ \ifnoproofreadmark%
    \empty%
  \else%
    {\setjumocolor{red}\Midline{{\mbox{$\displaystyle #1$}}}}%
  \fi%
 }
- \noproofreadmark  % 最終原稿のときに有効化する
+% \noproofreadmark  % 最終原稿のときに有効化する
 
 \MidlineHeight=0.5ex
 \UMOlineThickness=0.2ex % お好みで決める
 
-
+\newif\ifdraft
+\ifdraft
+%草案
+\else
+%本番
+\fi
 \begin{document}
-a
-\textcolor{blue}{青}
-\Midline{青いうえ}
-
-%\delspan{削除する部分は delspan で，}
+%a
+%\textcolor{blue}{青}
+%\Midline{青いうえ}
+\addspan{xつ描きくけおk}
+\delspan{削除する部分は delspan で，}
 \addspan{追加部分は addspan で指定する．}
 %
-%\delspan{数式などのコマンドは {$y = ax + b$} のように中括弧でくくる．}
+\delspan{数式などのコマンドは {$y = ax + b$} のように中括弧でくくる．}
 \addspan{これは delspan も addspan も同様．}
 
-%\delspan{%
+\delspan{%
  delspan の場合，中括弧を開いた直後で改行するのであれば，コメントマーク \% が必要になるっぽい．
-%}
+}
 
 ディスプレイスタイルの数式は，addspan はできるが delspan できない．打消線を入れるには，数式の \& で区切られた各辺を 
 strikemath でくくる．そのままだと，noproofreadmark が指定されたときに数式全体が消えてくれないので，全体を改めて delspanx (delspan ではない)で囲む．(noproofreadmark を使わない場合は必要ない)
   
-%\delspanx{%
-%\begin{align}
- %\strikemath{\dot{x}} & \strikemath{= ax + bu}\\
- %\strikemath{y} & \strikemath{= cx}
-%\end{align}
-%}%
-%\addspan{
-%\begin{align}
-% x_{k+1} &= ax_k + bu_k\\
-% y_k & = cx_k
-%\end{align}
-%}
+\delspanx{%
+\begin{align}
+ \dot{x} & = ax + bu\\
+ y & = cx
+\end{align}
+}%
+\addspan{
+\begin{align}
+ x_{k+1} &= ax_k + bu_k\\
+ y_k & = cx_k
+\end{align}
+}
 %\end{comment}
 \end{document}
