@@ -1,0 +1,34 @@
+\documentclass[11pt]{jreport}
+\usepackage{color}    
+%\usepackage{hoge}
+%\usepackage{jumoline} 
+%\usepackage{proofread} % これより先に color と jumoline を読み込んでおく
+% \noproofreadmark  % 最終原稿のときに有効化する
+\MidlineHeight=0.5ex
+\UMOlineThickness=0.2ex % お好みで決める
+
+\begin{document}
+\delspan{削除する部分は delspan で，}\addspan{追加部分は addspan で指定する．}
+
+\delspan{数式などのコマンドは {$y = ax + b$} のように中括弧でくくる．}
+\addspan{これは delspan も addspan も同様．}
+
+\delspan{%
+ delspan の場合，中括弧を開いた直後で改行するのであれば，コメントマーク \% が必要になるっぽい．
+}
+
+ディスプレイスタイルの数式は，addspan はできるが delspan できない．打消線を入れるには，数式の \& で区切られた各辺を 
+strikemath でくくる．そのままだと，noproofreadmark が指定されたときに数式全体が消えてくれないので，全体を改めて delspanx (delspan ではない)で囲む．(noproofreadmark を使わない場合は必要ない)
+  
+\delspanx{%
+\begin{align}
+ \strikemath{\dot{x}} & \strikemath{= ax + bu}\\
+ \strikemath{y} & \strikemath{= cx}
+\end{align}
+}%
+\addspan{
+\begin{align}
+ x_{k+1} &= ax_k + bu_k\\
+ y_k & = cx_k
+\end{align}
+}
