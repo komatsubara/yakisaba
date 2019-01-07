@@ -27,7 +27,26 @@
   {\Midline{#1}}%
  \fi%
 }
+%\begin{comment}
+%\newif\ifnoproofreadmarkk \noproofreadmark02false
+%\def\noproofreadmark{\noproofreadmarktrue}
+\def\adsp02#1{%
+ \ifnoproofreadmark%
+   #1%
+ \else%
+  \textcolor{blue}{#1}%
+ \fi%
+}
 
+\def\delsp02#1{%
+ \ifnoproofreadmark%
+  \empty%
+ \else%
+  {\Midline{#1}}%
+ \fi%
+}
+%\end{comment}
+\begin{comment}
 \def\delspanx#1{%
  \ifnoproofreadmark%
   \empty%
@@ -42,10 +61,11 @@
  \else%
    {\setjumocolor{red}\Midline{{\mbox{$\displaystyle #1$}}}}%
  \fi%
-}
+ }
+\end{comment}
 %=================================================
-%\noproofreadmark  % 最終原稿のときに有効化する
-
+\noproofreadmark  % 最終原稿のときに有効化する
+%\noproofreadmark02
 \MidlineHeight=0.5ex
 \UMOlineThickness=0.2ex % お好みで決める
 
