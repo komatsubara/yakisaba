@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  5 JAN 2019 16:17
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  7 JAN 2019 13:44
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1351,6 +1351,69 @@ l.8  利
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+! Undefined control sequence.
+l.8 ...光パルスの立ち上がりは半導体材料の\delspan
+                                                 {利得飽和}\addspan{飽和モード
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 ...りは半導体材料の\delspan{利得飽和}\addspan
+                                                 {飽和モード利得}が、立ち下がり
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 ...レーザーの共振器長を短くすることで\addspan
+                                                 {短くすることができ、光パルス
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 ...ルスの}短パルス化が見込まれる。一方\addspan
+                                                  {飽和モード利得}\delspan{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 ...れる。一方\addspan{飽和モード利得}\delspan
+                                                 {利得飽和に関して}は\delspan{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 ...ド利得}\delspan{利得飽和に関して}は\delspan
+                                                  {レーザーデバイス設計の時...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 ...数を高くすることで高い利得を実現し\addspan
+                                                 {光}パルスの短パルス化を図れる
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (29.62216pt too wide) in paragraph at lines 8--9
 [][]\JY1/mc/m/n/10 利
@@ -1687,6 +1750,36 @@ Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
  []
 
 
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 飽
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 和
+ []
+
+
+Overfull \hbox (18.74432pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 モ ー
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 ド
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 利
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 得
+ []
+
+
 Overfull \hbox (14.1623pt too wide) in paragraph at lines 8--9
 \JY1/mc/m/n/10 が 、
  []
@@ -1968,6 +2061,76 @@ Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
 
 
 Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 く
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 す
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 こ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 と
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 が
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 で
+ []
+
+
+Overfull \hbox (14.1623pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 き 、
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 光
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 パ
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 ル
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 ス
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 短
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
 \JY1/mc/m/n/10 パ
  []
 
@@ -2024,6 +2187,36 @@ Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
 
 Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
 \JY1/mc/m/n/10 方
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 飽
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 和
+ []
+
+
+Overfull \hbox (18.74432pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 モ ー
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 ド
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 利
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 得
  []
 
 
@@ -2359,6 +2552,11 @@ Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
 
 Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
 \JY1/mc/m/n/10 し
+ []
+
+
+Overfull \hbox (9.62216pt too wide) in paragraph at lines 8--9
+\JY1/mc/m/n/10 光
  []
 
 
@@ -3360,9 +3558,9 @@ or  <return>  to continue without it.
 Here is how much of TeX's memory you used:
  8 strings out of 493648
  85 string characters out of 6148806
- 68002 words of memory out of 5000000
+ 69062 words of memory out of 5000000
  3697 multiletter control sequences out of 15000+600000
  7511 words of font info for 31 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 16i,4n,10p,562b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 16i,4n,10p,692b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
 Output written on abstract.dvi (1 page, 904 bytes).

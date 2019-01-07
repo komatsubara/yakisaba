@@ -2,10 +2,10 @@
 \contentsline {section}{\numberline {1.1}研究背景}{6}
 \contentsline {subsection}{\numberline {1.1.1}半導体レーザー}{6}
 \contentsline {subsubsection}{半導体レーザーの現状}{6}
-\contentsline {subsubsection}{超短パルス発生}{6}
-\contentsline {subsubsection}{利得スイッチング法}{6}
-\contentsline {subsubsection}{半導体レーザーの特性}{7}
-\contentsline {subsubsection}{利得スイッチング}{8}
+\contentsline {subsubsection}{半導体レーザーの基礎特性}{6}
+\contentsline {subsubsection}{超短パルス発生}{7}
+\contentsline {subsubsection}{利得スイッチング法}{7}
+\contentsline {subsubsection}{利得スイッチングパルスの詳細な理解}{9}
 \contentsline {subsubsection}{利得スイッチングパルスの短パルス化}{10}
 \contentsline {subsection}{\numberline {1.1.2}InGaAs高利得材料}{11}
 \contentsline {subsubsection}{量子井戸レーザー}{11}
