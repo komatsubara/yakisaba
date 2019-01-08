@@ -16,7 +16,7 @@
  \ifnoproofreadmark%
    #1%
  \else%
-  \textcolor{red}{#1}%
+  \textcolor{black}{#1}%
  \fi%
 }
 
@@ -34,7 +34,7 @@
  \ifnoproofreadmark%
    #1%
  \else%
-  \textcolor{blue}{#1}%
+  \textcolor{black}{#1}%
  \fi%
 }
 
@@ -45,6 +45,27 @@
   {\Midline{#1}}%
  \fi%
 }
+
+
+
+%\begin{comment}
+\def\adsppp03#1{%
+ \ifnoproofreadmark%
+   #1%
+ \else%
+  \textcolor{magenta}{#1}% greenの修正は副査への説明の後
+ \fi%
+}
+
+\def\delsppp03#1{%
+ \ifnoproofreadmark%
+  \empty%
+ \else%
+  {\Midline{#1}}%
+ \fi%
+}
+
+
 %\end{comment}
 \begin{comment}
 \def\delspanx#1{%
@@ -64,7 +85,7 @@
  }
 \end{comment}
 %=================================================
-\noproofreadmark  % 最終原稿のときに有効化する
+%\noproofreadmark  % 最終原稿のときに有効化する
 %\noproofreadmark02
 \MidlineHeight=0.5ex
 \UMOlineThickness=0.2ex % お好みで決める
@@ -103,12 +124,12 @@ lasers\\[5cm]}
 \include{appendix} 		%付録
 %% reference
 \include{reference} %参考文献
-謝辞\\
+謝辞\\%その人の研究への貢献を謝辞の形で述べるところ
 %\begin{comment}
 秋山英文教授には2年間の修士課程を通して物理への向き合い方だけではなく、人としての生き方を教えていただいたように思う。先生の下で過ごすことができたことを誇りに思う。
 
 
-挟間優治助教授は居室での席が近かったことも合間って研究室生活を意義のあるものにしていただいたと感じている。物理に関する疑問からプログラムの書き方などなど多岐にわたるドバイスをいただいた。感謝申し上げる。
+挟間優治助教授は居室での席が近かったことも合間って研究室生活を意義のあるものにしていただいたと感じている。物理に関する疑問からプログラムの書き方などなど多岐にわたるドバイスをいただいた。感謝申し上げる。\adsppp03{Igor Proを利用した解析プログラムを作る上での貴重なアドバイスをいただいた。ILカーブノフィッティングプログラムや利得スイッチングのシミュレーションなどに繋がった}
 
 
 秋山研究室メンバーの同期である柴田桂成氏は本質的な物理への探究心を持った人物であり、日々の会話の中で多大なる刺激をもらうことができた。
