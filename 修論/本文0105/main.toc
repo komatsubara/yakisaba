@@ -37,7 +37,7 @@
 \contentsline {subsubsection}{10周期歪補償量子井戸リッジ導波路レーザー}{40}
 \contentsline {subsection}{\numberline {3.2.2}リッジ導波路型レーザーへの定常電流注入実験の結果まとめ}{41}
 \contentsline {subsubsection}{3周期歪量子井戸試料と10周期歪補償量子井戸試料の比較}{41}
-\contentsline {subsubsection}{10周期歪補償リッジ導波路型レーザーのILカーブの発光減衰について}{41}
+\contentsline {subsubsection}{10周期歪補償リッジ導波路型レーザーのILカーブのドループについて}{41}
 \contentsline {subsection}{\numberline {3.2.3}短パルス電流注入の結果}{42}
 \contentsline {subsection}{\numberline {3.2.4}ILカーブ}{42}
 \contentsline {subsubsection}{3周期歪量子井戸レーザーのILカーブ}{42}
