@@ -11,53 +11,51 @@
 %======================================
 \newif\ifnoproofreadmark \noproofreadmarkfalse
 \def\noproofreadmark{\noproofreadmarktrue}
-
+%============================the first modification ,,, always variable 
 \def\addspan#1{%
- \ifnoproofreadmark%
-   #1%
- \else%
+ % \ifnoproofreadmark%
+  % #1%
+% \else%
   \textcolor{black}{#1}%
- \fi%
+ %\fi%
 }
 
 \def\delspan#1{%
- \ifnoproofreadmark%
-  \empty%
- \else%
-  {\Midline{#1}}%
- \fi%
+% \ifnoproofreadmark%
+ \empty%
+% \else%
+ % {\Midline{#1}}%
+ %\fi%
 }
+%===============================the second mocification ... always variable
 %\begin{comment}
-%\newif\ifnoproofreadmarkk \noproofreadmark02false
-%\def\noproofreadmark{\noproofreadmarktrue}
 \def\adsp02#1{%
- \ifnoproofreadmark%
-   #1%
- \else%
+ %\ifnoproofreadmark%
+  % #1%
+% \else%
   \textcolor{black}{#1}%
- \fi%
+ %\fi%
 }
 
 \def\delsp02#1{%
- \ifnoproofreadmark%
+ %\ifnoproofreadmark%
   \empty%
- \else%
-  {\Midline{#1}}%
- \fi%
+ %\else%
+  %{\Midline{#1}}%
+ %\fi%
 }
+%===================================the third modification 
 
 
-
-%\begin{comment}
-\def\adsppp03#1{%
+\def\adsppp#1{%
  \ifnoproofreadmark%
    #1%
  \else%
-  \textcolor{magenta}{#1}% greenの修正は副査への説明の後
+  \textcolor{red}{#1}% greenの修正は副査への説明の後
  \fi%
 }
 
-\def\delsppp03#1{%
+\def\delsppp#1{%
  \ifnoproofreadmark%
   \empty%
  \else%
@@ -66,7 +64,6 @@
 }
 
 
-%\end{comment}
 \begin{comment}
 \def\delspanx#1{%
  \ifnoproofreadmark%
@@ -114,7 +111,7 @@ lasers\\[5cm]}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%  本文
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include{introduction}	%序論
 \include{sample_structure}		%試料構造と測定方法
