@@ -150,6 +150,7 @@ do  //-------------------do loop of filename
     else if(fldnum>=10)
         title00="data0"+num2str(fldnum);
     endif
+    title="anritsu_L300077_ALL"
 //    title00="data002_02"//-------------title of folder in which waves are
     title=title00+"_ALL"
     graphtitle=title00
