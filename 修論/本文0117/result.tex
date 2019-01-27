@@ -2,13 +2,13 @@
 \chapter{実験結果}
 本章では3.1節ではブロードコンタクトレーザー、3.2節ではリッジ導波路型レーザーへの電流注入実験についての結果を報告する。
 \section{ブロードコンタクトレーザー試料に関する測定結果}%=====================================
-ブロードコンタクトレーザーへ定常電流を流してILカーブを得る実験を行った。様々な共振器長$L$、電極パッド幅$w$の試料に対して実験を行うことでウエハの基本的な物性パラメータを見積もることが目的である。
+ブロードコンタクトレーザーへ定常電流を流してILカーブ\adsppp{(注入電流vs発光強度の曲線)}を得る実験を行った。様々な共振器長$L$、電極パッド幅$w$の試料に対して実験を行うことでウエハの基本的な物性パラメータを見積もることが目的である。
 
 具体的には発振閾値電流$I_{\rm{th}}$を測定することに加えて、発振時の印可電流の増分に対する光出力の増大から発光量子効率(微分外部量子効率)を見積もることが目的である。
 また発振閾値電流密度を算出するためにデバイス内の電流の広がりを見積もった。
 3周期ウエハと10周期ウエハごとに節を分けている。
 \subsection{3周期歪量子井戸ブロードコンタクトレーザー}%===============================
-3周期量子井戸ブロードコンタクトレーザーの結果を示す。図\ref{fig:fig_3_1_3QW_broacdcontact_IL}(a)縦軸に発光強度(片方の端面)、横軸に電流をとったILカーブの結果を示す。また\ref{fig:fig_3_1_3QW_broacdcontact_IL}(b)は縦軸に試料にかかっている電圧、横軸に電流をとったIVカーブの結果である。共振器長$L$が$L$=500,1000,2000\si{ \micro\metre}の結果をプロットした。代表としてパッド幅$w$=50\si{ \micro\metre}の結果をプロットした。印可電流は1\si{ \micro\metre}パルスを2 ms繰り返し周期で流しており、デューティー比は1:2000である。
+3周期量子井戸ブロードコンタクトレーザーの結果を示す。図\ref{fig:fig_3_1_3QW_broacdcontact_IL}(a)縦軸に発光強度(片方の端面)、横軸に電流をとったILカーブの結果を示す。また\ref{fig:fig_3_1_3QW_broacdcontact_IL}(b)は縦軸に試料にかかっている電圧、横軸に電流をとったIVカーブの結果である。共振器長$L$が$L$=500、 1000、 2000\si{ \micro\metre}の結果をプロットした。代表としてパッド幅$w$=50\si{ \micro\metre}の結果をプロットした。印可電流は1\si{ \micro\metre}パルスを2 ms繰り返し周期で流しており、デューティー比は1:2000である。
 
 \begin{figure}[h]
 	\centering
@@ -136,18 +136,18 @@ J_{\rm{th}}=\dfrac{I_{\rm{th}}}{(w+w')L}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_3QW_broadcontact_Jth.png}
+	\includegraphics[width=9cm]{figure/fig_3_1_3QW_broadcontact_Jth.png}
 		\caption{3周期歪量子井戸ブロードコンタクトレーザーの閾値電流密度}
 		\label{fig:fig_3_1_3QW_broadcontact_Jth}
 \end{figure}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=10cm]{figure/fig_3_1_10QW_broadcontact_Jth.png}
+	\includegraphics[width=9cm]{figure/fig_3_1_10QW_broadcontact_Jth.png}
 		\caption{10周期歪補償量子井戸ブロードコンタクトレーザの閾値電流密度}
 		\label{fig:fig_3_1_10QW_broadcontact_Jth}
 \end{figure}
-3周期歪量子井戸ブロードコンタクトレーザーでは$0.20\sim 0.35  \rm{ kA/cm^{2}}$、10周期歪補償ブロードコンタクトレーザーでは$0.40 \rm{ kA/cm^{2}}$程度と見積もられた。
+3周期歪量子井戸ブロードコンタクトレーザーでは$0.20\sim 0.35\ \si{ \rm{  kA/cm^{2}}}$、10周期歪補償ブロードコンタクトレーザーでは$0.40\ \rm{  kA/cm^{2}}$程度と見積もられた。
 
 3周期歪量子井戸ブロードコンタクトレーザーでは　$w$が50 \si{\micro\metre}より大きい領域で、共振器長が長くなるほど閾値電流密度$J_{\rm{th}}$が小さくなることがわかる。
 %これは共振器長が長くなるほどミラーロスに対する内部ロスが大きくなっていき、発振が起こりにくくなっているためである。
@@ -155,6 +155,45 @@ J_{\rm{th}}=\dfrac{I_{\rm{th}}}{(w+w')L}
 一方10周期歪補償量子井戸ブロードコンタクトレーザーではL=2000 \si{\micro\metre}の値が他の２つに比べて大きくなってしまっている。これは$w'$が小さく見積もられており、$J_{\rm{th}}$が大きく見積もられたためだと考えられる。$w'$の解析に用いたプロット点数が少ないことが原因である。
 
 パッド幅$w$の広がり$w'$が数十\si{\micro\metre}とパッド幅に対して優位なほど広がっているという推察を得たが、この原因としてウエハの結晶構造が考えられる。図\ref{fig:fig_2_1_wafer_structure}のエピウエハ構造において活性層の上のSCH層の上に100 nm厚のp-$\rm{In_{0.485}Ga_{0.515}P}$層が挿入されている。このp-$\rm{In_{0.485}Ga_{0.515}P}$のバンドギャップは1.891 eVは上下を挟んでいるGaAsのバンドギャップ1.424 eVに比べて0.467 eV大きい。このバンドギャップの差によりキャリアが拡散され結晶面内へ広がってしまったと考えられる。
+\clearpage
+\subsection{電流広がり評価に用いたモデルに関する考察}%==================
+%このことは考えず、このことは考えるそういうモデルのもとで広がりはこのように評価される。
+本研究では
+\begin{eqnarray}
+I=J_(w+w')L
+\end{eqnarray}
+という関係を仮定し、有効パッド幅$(w+w')$及び閾値電流密度$J_{\rm{th}}$を見積もった。本節でこのモデルについて述べる。
+
+閾値電流のパッド幅依存性の振る舞いをフィッティングするモデルとして
+\begin{eqnarray}
+I&=&\sqrt{(JwL)^2+\sigma^2}\\
+&=&\sqrt{(JwL)^2+(Jw'L)^2}
+\label{eq:w_prime}
+\end{eqnarray}
+のようなという双曲線モデルも考えられる。このモデルを用いたフィッティング結果を図\ref{fig:fig_3_1_w_prime}示す。データは3周期試料である。この結果を表に示す。
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_1_w_prime.png}
+	\caption{双曲線モデルを用いた閾値電流フィッティング}
+	\label{fig:fig_3_1_w_prime}
+\end{figure}
+
+\begin{table}[h]
+  \caption{双曲線モデルを用いた閾値電流密度の見積もり結果}
+  \label{table:table_w_prime}
+  \centering
+  \begin{tabular}{cccc}
+    \hline
+    共振器長$L$ (\si{\micro\metre})  &  閾値電流密度 $J_{\rm{th}} \ (kA/cm^2)$ &$\sigma$\ (\si{A})& パッド幅の増分(電流の広がり)  $w'$ (\si{\micro\metre}) \\
+    \hline \hline
+     500 & 0.37 & 0.14 &76\\
+    1000  & 0.25 & 0.23&92\\
+    2000  & 0.23 & 0.44&96\\ 
+    \hline
+  \end{tabular}
+\end{table}
 
 \clearpage
 \subsection{外部量子効率、内部量子効率と吸収係数の計算}%=============
@@ -200,16 +239,121 @@ RはGaAsの屈折率と空気の屈折率の差から0.32と仮定した。見�
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_10QW_broadcontact_id.png}
-	\caption{10QW外部量子効率}
+	\caption{10周期歪補償量子井戸レーザーの外部量子効率}
 	\label{fig:fig_3_1_10QW_broadcontact_id}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=10cm]{figure/fig_3_1_10QW_broadcontact_id_inverse.png}
-	\caption{10QW外部量子効率の逆数}
+	\caption{10周期歪補償量子井戸レーザーの外部量子効率の逆数}
 	\label{fig:fig_3_1_10QW_broadcontact_id_inverse}
 \end{figure}
+\clearpage
+\subsection{外部量子効率、内部量子効率と吸収係数の計算その2}%=============
+次にILカーブの発振時の傾きに相当するスロープ効率$\Delta P/\Delta I$から試料の内部量子効率$\eta_{i}$および吸収係数$\alpha$を算出した。スロープ効率$2 \Delta P/\Delta I \rm{ (W/A)}$は式({\ref{eq:eta_d})の関係を用いて外部量子効率$\eta_{\rm{d}}$へと換算した。
+\begin{eqnarray}
+\eta_{\rm{d}}=\dfrac{e}{h\nu}2\dfrac{\Delta P}{\Delta I} 
+\label{eq:eta_d}
+\end{eqnarray}
+$e$は電気素量、$h$はプランク定数、$\nu$は発振波長であり、1050 nmとした。$\eta_{\rm{d}}$はキャリアの注入数に対する取り出せる光子の数の割合である。
+
+
+さらに$\eta_{d}$は共振器内での全発光にしめる共振器損失の割合であるから
+\begin{eqnarray}
+\eta_{d}=\eta_{int}\dfrac{\alpha_{m}}{\alpha_{int} +\alpha_{m}}
+\end{eqnarray}
+である。$\alpha_{int}$は共振器内の平均の内部損失、Rは共振器の端面での反射率、$\eta_{\rm{int}}$は内部量子効率である。
+$\eta_{\rm{d}}$は共振器長$L$を用いて式(\ref{eq:eta_inverse})と書き表される。
+\begin{eqnarray}
+\dfrac{1}{\eta_{\rm{d}}}=\dfrac{\alpha_{\rm{int}}}{\rm{ln}(1/R)\eta_{int}}L+\dfrac{1}{\eta_{\rm{int}}}
+\label{eq:eta_inverse}
+\end{eqnarray}
+
+
+
+RはGaAsの屈折率と空気の屈折率の差から0.32と仮定した。
+
+以下見積もった$\eta_{\rm{d}}$の逆数を共振器長に対してプロットし直線フィッティングを行った。
+\subsubsection{3周期歪量子井戸レーザーの外部量子効率、内部量子効率と吸収係数
+の計算}
+図\ref{fig:fig_3_1_3QW_broadcontact_id_02}に3周期歪量子井戸レーザーの外部量子効率対共振器長のプロットを示す。図\ref{fig:fig_3_1_3QW_broadcontact_id_inverse_02}に3周期歪量子井戸レーザーの外部量子効率の逆数と共振器長の関係及びそれらの直線フィットを示す。どちらの図においても色分けはパッド幅$w$の違いを表す。共振器長が長いほど外部量子効率が小さくなることがわかる。
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_1_3QW_broadcontact_id_02.png}
+	\caption{3周期歪量子井戸レーザーの外部量子効率}
+	\label{fig:fig_3_1_3QW_broadcontact_id_02}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{figure/fig_3_1_3QW_broadcontact_id_inverse_02.png}
+	\caption{3周期歪量子井戸レーザーの外部量子効率の逆数と共振器長の関係}
+	\label{fig:fig_3_1_3QW_broadcontact_id_inverse_02}
+\end{figure}
+図\ref{fig:fig_3_1_3QW_broadcontact_id_inverse_02}の直線フィッティングから式(\ref{eq:eta_inverse})の関係を用いて算出した内部量子効率及び吸収係数の結果を表\ref{table:table_3QW_i_int}にまとめる。
+\begin{table}[h]
+  \caption{3周期試料のパッド幅ごとの内部量子効率及び吸収係数}
+  \label{table:table_3QW_i_int}
+  \centering
+  \begin{tabular}{ccc}
+    \hline
+    パッド幅$w$ (\si{\micro\metre})  &  内部量子効率 $\eta_{\rm{int}} $ &吸収係数 $\alpha\ $\ (/\si{cm}) \\
+    \hline \hline
+     3 & 1.8 & 27 \\
+    5  & -1.2 & -43\\
+    10  & -0.71 & -29\\ 
+    30& 1.5& 26\\
+    50& 1.1&16 \\
+    100& 0.96& 12\\
+    300&1.3 & 18\\
+    \hline
+  \end{tabular}
+\end{table}
+
+
+これを見ると$w=5, 10$において内部量子効率$\eta_{\rm{int}}$が負の値を持っている。理由として、図\ref{fig:fig_3_1_3QW_broadcontact_id_inverse_02}で分かるようにこれらのパッド幅では$L=0.2\ \si{cm}$でのプロットが非常に大きくなっていることが考えられる。これはスロープ効率が低く見積もられたことに起因する。また表\ref{table:table_3QW_i_int}の$w=3, 30, 50, 300\ \si{\micro\metre}$では内部量子効率$\eta_{\rm{int}}$が1より大きくなってしまっている。$w=300\ \si{\micro\metre}$は発振に必要な電流が大きく発振しにくかったため、$L=2000\ \si{\micro\metre}$のプロットが得られず、フィッティング精度が特に低いためと考えられる。$w=3, 30, 50\ \si{\micro\metre}$では
+
+\subsubsection{10周期歪量子井戸レーザーの外部量子効率、内部量子効率と吸収係数
+の計算}
+10周期歪補償量子井戸レーザーについても同様の解析を行った。図\ref{fig:fig_3_1_10QW_broadcontact_id_02}に10周期歪量子井戸レーザーの外部量子効率対共振器長のプロットを示す。図\ref{fig:fig_3_1_10QW_broadcontact_id_inverse_02}に10周期歪量子井戸レーザーの外部量子効率の逆数と共振器長の関係及びそれらの直線フィットを示す。どちらの図においても色分けはパッド幅$w$の違いを表す。共振器長が長いほど外部量子効率が小さくなることがわかる。
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=9cm]{figure/fig_3_1_10QW_broadcontact_id_02.png}
+	\caption{10周期歪補償量子井戸レーザーの外部量子効率と共振器長の関係}
+	\label{fig:fig_3_1_10QW_broadcontact_id_02}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=9cm]{figure/fig_3_1_10QW_broadcontact_id_inverse_02.png}
+	\caption{10周期歪補償量子井戸レーザーの外部量子効率の逆数と共振器長の関係}
+	\label{fig:fig_3_1_10QW_broadcontact_id_inverse_02}
+\end{figure}
+
+\newpage
+図\ref{fig:fig_3_1_10QW_broadcontact_id_inverse_02}の直線フィッティングから式(\ref{eq:eta_inverse})の関係を用いて算出した内部量子効率及び吸収係数の結果を表\ref{table:table_10QW_i_int}にまとめる。
+%\newpage
+\begin{table}[h]
+  \caption{10周期試料のパッド幅ごとの内部量子効率及び吸収係数}
+  \label{table:table_10QW_i_int}
+  \centering
+  \begin{tabular}{ccc}
+    \hline
+    パッド幅$w$ (\si{\micro\metre})  &  内部量子効率 $\eta_{\rm{int}} $ &吸収係数 $\alpha\ $\ (/\si{cm}) \\
+    \hline \hline
+     3 & 0.56 & 6.8 \\
+    5  & 0.62 & 2.0\\
+    10  & 0.87 & 11\\ 
+    30& 7.0& 2.7$\times 10^2$\\
+    50& 0.94&18 \\
+    100& 0.94& 13\\
+    300&- & -\\
+    \hline
+  \end{tabular}
+\end{table}
+$w=30\ \si{\micro\metre}$における内部量子効率が7.0となっているが、これは共振器長$L=1000,\  2000\ \si{\micro\metre}$において外部量子効率が小さく見積もられたためだと考えられる。原因としては以下のようなことが考えられる。この試料に関して測定時にプローバーと電極の間で焦げるような現象が起き閾値電流よりも十分大きい電流を流すことができなかった。そのため発振時のフィッティングも発振直後の領域であり誘導放出による発光効率を十分に評価できなかったと考えられる。
 
 \clearpage
 \subsection{透明電流密度の見積もり}
