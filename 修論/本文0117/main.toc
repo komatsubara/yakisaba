@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {2.2.4}マウント}{20}
 \contentsline {section}{\numberline {2.3}測定方法}{23}
 \contentsline {subsection}{\numberline {2.3.1}定常電流注入による測定実験}{23}
-\contentsline {subsection}{\numberline {2.3.2}電流注入利得スイッチング実験}{24}
+\contentsline {subsection}{\numberline {2.3.2}ナノ秒電流注入利得スイッチング実験}{24}
 \contentsline {chapter}{\numberline {第3章}実験結果}{26}
 \contentsline {section}{\numberline {3.1}ブロードコンタクトレーザー試料に関する測定結果}{26}
 \contentsline {subsection}{\numberline {3.1.1}3周期歪量子井戸ブロードコンタクトレーザー}{26}
@@ -53,8 +53,10 @@
 \contentsline {subsection}{\numberline {3.2.7}利得スイッチング実験のまとめ}{53}
 \contentsline {subsubsection}{3周期歪量子井戸レーザーと10周期歪補償レーザーの結果の比較}{53}
 \contentsline {subsubsection}{利得スイッチングパルスの共振器長依存性について}{53}
-\contentsline {chapter}{\numberline {第4章}まとめと展望}{54}
-\contentsline {section}{\numberline {4.1}本研究のまとめ}{54}
-\contentsline {section}{\numberline {4.2}今後の展望}{55}
-\contentsline {chapter}{\numberline {第5章}付録}{56}
-\contentsline {section}{\numberline {5.1}格子定数、$E_{g}$の計算}{56}
+\contentsline {chapter}{\numberline {第4章}まとめと展望}{55}
+\contentsline {section}{\numberline {4.1}本研究のまとめ}{55}
+\contentsline {section}{\numberline {4.2}今後の展望}{56}
+\contentsline {chapter}{\numberline {第5章}付録}{57}
+\contentsline {section}{\numberline {5.1}リッジ導波路型レーザーにおいて観測されたドループに関する追加実験}{57}
+\contentsline {section}{\numberline {5.2}リッジ導波路型レーザーにおけるFIB加工レーザー試料の測定}{58}
+\contentsline {section}{\numberline {5.3}格子定数、$E_{g}$の計算}{60}
