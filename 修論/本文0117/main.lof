@@ -29,30 +29,30 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces 3周期歪量子井戸レーザーの外部量子効率}}{35}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces 3周期歪量子井戸レーザーの外部量子効率の逆数と共振器長の関係}}{36}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces 10周期歪補償量子井戸レーザーの外部量子効率と共振器長の関係}}{37}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces 10周期歪補償量子井戸レーザーの外部量子効率の逆数と共振器長の関係}}{37}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces 3周期歪量子井戸ブロードコンタクトレーザーの透明電流密度の見積もり}}{39}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces 10周期歪補償量子井戸ブロードコンタクトレーザーの透明電流密度の見積もり}}{40}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces モード利得の電流密度依存性}}{41}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces 3周期歪量子井戸リッジ導波路型レーザーのILカーブおよびIVカーブ}}{42}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces 3周期歪量子井戸リッジ導波路型レーザーの$I_{\rm {th}}$、$J_{\rm {th}}$}}{43}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces 3周期歪量子井戸リッジ導波路型レーザーのスロープおよび外部微分量子効率}}{43}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces 10周期歪量子井戸リッジ導波路型レーザーのILカーブおよびIVカーブ}}{44}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザーの閾値電流と閾値電流密度}}{44}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザーのスロープおよび外部微分量子効率}}{45}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces 3周期歪量子井戸 短パルス駆動時のILカーブ}}{46}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces 10歪補償量子井戸リッジ導波路型レーザーの短パルス駆動時のILカーブ}}{47}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces 3周期歪量子井戸レーザー $L$=100 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{48}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces 3周期歪量子井戸レーザー $L$=200 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{48}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces 3周期歪量子井戸レーザー$ L$=300 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{49}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces 3周期歪量子井戸リッジ導波路型レーザーの光パルス幅}}{50}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザー $L$=300 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{51}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces 10歪補償量子井戸リッジ導波路型レーザー $L$=400 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{51}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザー $L$=500 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{52}
-\contentsline {figure}{\numberline {3.34}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザーの光パルス幅}}{52}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces 利得スイッチングパルスの励起強度依存性}}{54}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces 10周期歪補償量子井戸レーザーの外部量子効率の逆数と共振器長の関係}}{38}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces 3周期歪量子井戸ブロードコンタクトレーザーの透明電流密度の見積もり}}{40}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces 10周期歪補償量子井戸ブロードコンタクトレーザーの透明電流密度の見積もり}}{41}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces モード利得の電流密度依存性}}{42}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces 3周期歪量子井戸リッジ導波路型レーザーのILカーブおよびIVカーブ}}{43}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces 3周期歪量子井戸リッジ導波路型レーザーの$I_{\rm {th}}$、$J_{\rm {th}}$}}{44}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces 3周期歪量子井戸リッジ導波路型レーザーのスロープおよび外部微分量子効率}}{44}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces 10周期歪量子井戸リッジ導波路型レーザーのILカーブおよびIVカーブ}}{45}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザーの閾値電流と閾値電流密度}}{45}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザーのスロープおよび外部微分量子効率}}{46}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces 3周期歪量子井戸 短パルス駆動時のILカーブ}}{47}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces 10歪補償量子井戸リッジ導波路型レーザーの短パルス駆動時のILカーブ}}{48}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces 3周期歪量子井戸レーザー $L$=100 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{49}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces 3周期歪量子井戸レーザー $L$=200 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{49}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces 3周期歪量子井戸レーザー$ L$=300 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{50}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces 3周期歪量子井戸リッジ導波路型レーザーの光パルス幅}}{51}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザー $L$=300 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{52}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces 10歪補償量子井戸リッジ導波路型レーザー $L$=400 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{52}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザー $L$=500 \si {\micro \metre } の利得スイッチング光パルスの時間波形}}{53}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces 10周期歪補償量子井戸リッジ導波路型レーザーの光パルス幅}}{53}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces 利得スイッチングパルスの励起強度依存性の数値計算結果}}{55}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces エピダウン試料マウントの様子}}{57}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces エピダウン試料のILカーブ}}{58}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces FIB試料の端面写真}}{59}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces FIB試料のILカーブ}}{59}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces エピダウン試料マウントの様子}}{58}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces エピダウン試料のILカーブ}}{59}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces FIB試料の端面写真}}{60}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces FIB試料のILカーブ}}{60}
