@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  28 JAN 2019 18:18
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  28 JAN 2019 19:20
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -531,14 +531,8 @@ Package color Info: Driver file: dvipdfmx.def on input line 147.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 Excluding 'comment' comment. (./main.aux (./abstract.aux) (./introduction.aux)
-(./sample_structure.aux) (./result.aux
-
-LaTeX Warning: Label `eq:eta_d' multiply defined.
-
-
-LaTeX Warning: Label `eq:eta_inverse' multiply defined.
-
-) (./conclusion.aux) (./appendix.aux) (./reference.aux))
+(./sample_structure.aux) (./result.aux) (./conclusion.aux) (./appendix.aux)
+(./reference.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
@@ -665,83 +659,10 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^81 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^81 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
 [6
 
 
 ] Excluding 'comment' comment. [7] Excluding 'comment' comment.
-Missing character: There is no ^^82 in font cmr10!
-Missing character: There is no ^^a0 in font cmr10!
-Missing character: There is no ^^81 in font cmr10!
 File: figure/fig_1_1_GS_ito.png Graphic file (type bmp)
 <figure/fig_1_1_GS_ito.png>
 
@@ -877,33 +798,13 @@ File: figure/fig_3_1_10QW_broadcontact_Jth.png Graphic file (type bmp)
 File: figure/fig_3_1_w_prime.png Graphic file (type bmp)
 <figure/fig_3_1_w_prime.png>
 
-Overfull \hbox (21.42061pt too wide) in paragraph at lines 187--196
+Overfull \hbox (21.42061pt too wide) in paragraph at lines 190--199
  [][][] 
  []
 
-[31
+Excluding 'comment' comment. [31
 
 ]
-File: figure/fig_3_1_3QW_broadcontact_id.png Graphic file (type bmp)
-<figure/fig_3_1_3QW_broadcontact_id.png>
-File: figure/fig_3_1_3QW_broadcontact_id_inverse.png Graphic file (type bmp)
-<figure/fig_3_1_3QW_broadcontact_id_inverse.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[32
-
-]
-File: figure/fig_3_1_10QW_broadcontact_id.png Graphic file (type bmp)
-<figure/fig_3_1_10QW_broadcontact_id.png>
-File: figure/fig_3_1_10QW_broadcontact_id_inverse.png Graphic file (type bmp)
-<figure/fig_3_1_10QW_broadcontact_id_inverse.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[33] [34]
 File: figure/fig_3_1_3QW_broadcontact_id_02.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_id_02.png>
 File: figure/fig_3_1_3QW_broadcontact_id_inverse_02.png Graphic file (type bmp)
@@ -916,13 +817,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35
+[32
 
 ]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36]
+[33]
 File: figure/fig_3_1_10QW_broadcontact_id_02.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_id_02.png>
 File: figure/fig_3_1_10QW_broadcontact_id_inverse_02.png Graphic file (type bmp
@@ -935,21 +836,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37]
+[34]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38] [39]
+[35] [36]
 File: figure/fig_3_1_3QW_broadcontact_j0.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_j0.png>
 File: figure/fig_3_1_10QW_broadcontact_j0.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_j0.png>
- [40
+ [37
 
 ]
 File: figure/fig_3_1_broadcontact_modal_gain.png Graphic file (type bmp)
 <figure/fig_3_1_broadcontact_modal_gain.png>
- [41] [42]
+ [38] [39]
 File: figure/fig_3_2_3QW_ridge_IL.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_IL.png>
 File: figure/fig_3_2_3QW_ridge_Ith.png Graphic file (type bmp)
@@ -960,38 +861,38 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figure/fig_3_2_3QW_ridge_slope.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_slope.png>
-[43
+[40
 
-] [44]
+] [41]
 File: figure/fig_3_2_10QW_ridge_IL.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_IL.png>
 File: figure/fig_3_2_10QW_ridge_Ith.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_Ith.png>
 File: figure/fig_3_2_10QW_ridge_slope.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_slope.png>
- [45
+ [42
 
-] [46]
+] [43]
 File: figure/fig_3_2_3QW_ridge_GS_power.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_GS_power.png>
- [47
+ [44
 
 ]
 File: figure/fig_3_2_10QW_ridge_GS_power.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_GS_power.png>
- [48]
+ [45]
 File: figure/fig_3_2_3QW_ridge_L100_GS.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_L100_GS.png>
 File: figure/fig_3_2_3QW_ridge_L200_GS.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_L200_GS.png>
 File: figure/fig_3_2_3QW_ridge_L300_GS.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_L300_GS.png>
- [49
+ [46
 
 ]
 File: figure/fig_3_2_3QW_ridge_GS_FWHM.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_GS_FWHM.png>
- [50] [51]
+ [47] [48]
 File: figure/fig_3_2_10QW_ridge_L300_GS.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_L300_GS.png>
 File: figure/fig_3_2_10QW_ridge_L400_GS.png Graphic file (type bmp)
@@ -1002,24 +903,24 @@ File: figure/fig_3_2_10QW_ridge_L500_GS.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52
+[49
 
 ]
 File: figure/fig_3_2_10QW_ridge_GS_FWHM.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_GS_FWHM.png>
- [53] [54]
+ [50] [51]
 File: figure/fig_3_2_GS_sim.png Graphic file (type bmp)
 <figure/fig_3_2_GS_sim.png>
-) [55]
+) [52]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 第 4 章
-[56
+[53
 
 
 
-]) [57]
+]) [54]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
@@ -1028,7 +929,7 @@ File: figure/fig_5_1_epidown_mount.png Graphic file (type bmp)
 <figure/fig_5_1_epidown_mount.png>
 File: figure/fig_5_1_epidown_IL.png Graphic file (type bmp)
 <figure/fig_5_1_epidown_IL.png>
-[58
+[55
 
 
 
@@ -1044,7 +945,7 @@ File: figure/fig_5_2_FIB_IL.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59] [60]) [61
+[56] [57]) [58
 
 ]
 \openout2 = `reference.aux'.
@@ -1058,11 +959,11 @@ LaTeX Font Warning: Font shape `JT1/mc/m/sl' undefined
 LaTeX Font Warning: Font shape `JY1/mc/m/sl' undefined
 (Font)              using `JY1/mc/m/n' instead on input line 4.
 
-[62
+[59
 
 
 
-]) [63] [64
+]) [60] [61
 
 ] (./main.aux (./abstract.aux) (./introduction.aux)
 (./sample_structure.aux) (./result.aux) (./conclusion.aux) (./appendix.aux)
@@ -1070,22 +971,18 @@ LaTeX Font Warning: Font shape `JY1/mc/m/sl' undefined
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### simple group (level 2) entered at line 254 ({)
-### simple group (level 1) entered at line 200 ({)
+### simple group (level 1) entered at line 258 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13107 strings out of 493648
- 272894 string characters out of 6148806
- 296665 words of memory out of 5000000
- 16488 multiletter control sequences out of 15000+600000
+ 13091 strings out of 493648
+ 272210 string characters out of 6148806
+ 296575 words of memory out of 5000000
+ 16476 multiletter control sequences out of 15000+600000
  562149 words of font info for 143 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,15n,33p,10386b,1072s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,15n,33p,10386b,1030s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (66 pages, 226048 bytes).
+Output written on main.dvi (63 pages, 219504 bytes).
