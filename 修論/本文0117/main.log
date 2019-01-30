@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  30 JAN 2019 17:23
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  30 JAN 2019 22:40
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -780,6 +780,19 @@ File: figure/fig_3_1_10QW_broadcontact_Ith.png Graphic file (type bmp)
  [28
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+File: figure/fig_3_1_w_prime_figure.png Graphic file (type bmp)
+<figure/fig_3_1_w_prime_figure.png>
+
+[29]
+File: figure/fig_3_1_w_prime.png Graphic file (type bmp)
+<figure/fig_3_1_w_prime.png>
+ [30]
 File: figure/fig_3_1_3QW_broadcontact_Jth.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_Jth.png>
 
@@ -788,21 +801,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figure/fig_3_1_10QW_broadcontact_Jth.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_Jth.png>
-[29] [30]
-File: figure/fig_3_1_w_prime_figure.png Graphic file (type bmp)
-<figure/fig_3_1_w_prime_figure.png>
-File: figure/fig_3_1_w_prime.png Graphic file (type bmp)
-<figure/fig_3_1_w_prime.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Excluding 'comment' comment. [31
-
-] [32]
+[31] [32] Excluding 'comment' comment.
 File: figure/fig_3_1_3QW_broadcontact_id_02.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_id_02.png>
 
@@ -815,23 +814,18 @@ File: figure/fig_3_1_3QW_broadcontact_id_inverse_02.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[33
+
+
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 379.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 379.
- [33
-
-] [34]
-Excluding 'comment' comment. [35]
+Excluding 'comment' comment. Excluding 'comment' comment. [34] [35]
 File: figure/fig_3_1_10QW_broadcontact_id_02.png Graphic file (type bmp)
 <figure/fig_3_1_10QW_broadcontact_id_02.png>
 File: figure/fig_3_1_10QW_broadcontact_id_inverse_02.png Graphic file (type bmp
@@ -843,7 +837,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [36
 
-] [37]
+] Excluding 'comment' comment. [37]
 File: figure/fig_3_1_3QW_broadcontact_j0.png Graphic file (type bmp)
 <figure/fig_3_1_3QW_broadcontact_j0.png>
 File: figure/fig_3_1_10QW_broadcontact_j0.png Graphic file (type bmp)
@@ -853,7 +847,8 @@ File: figure/fig_3_1_10QW_broadcontact_j0.png Graphic file (type bmp)
 ] Excluding 'comment' comment.
 File: figure/fig_3_1_broadcontact_modal_gain.png Graphic file (type bmp)
 <figure/fig_3_1_broadcontact_modal_gain.png>
- [39] [40]
+
+[39] [40]
 File: figure/fig_3_2_3QW_ridge_IL.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_IL.png>
 File: figure/fig_3_2_3QW_ridge_Ith.png Graphic file (type bmp)
@@ -977,15 +972,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 278 ({)
+### simple group (level 1) entered at line 305 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13113 strings out of 493648
- 272656 string characters out of 6148806
- 299598 words of memory out of 5000000
- 16494 multiletter control sequences out of 15000+600000
+ 13114 strings out of 493648
+ 272676 string characters out of 6148806
+ 296609 words of memory out of 5000000
+ 16495 multiletter control sequences out of 15000+600000
  562149 words of font info for 143 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,15n,33p,10386b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,21n,33p,10386b,1030s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (64 pages, 231016 bytes).
+Output written on main.dvi (64 pages, 226184 bytes).
