@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  30 JAN 2019 14:25
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  30 JAN 2019 17:13
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -690,20 +690,14 @@ File: figure/fig_1_1_lattice_strain02.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[13]
 File: figure/fig_1_2_strain_vs_d.png Graphic file (type bmp)
 <figure/fig_1_2_strain_vs_d.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Excluding 'comment' comment. [13]
+ Excluding 'comment' comment. [14]
 File: figure/fig_1_1_lattice_strain_Ith.png Graphic file (type bmp)
 <figure/fig_1_1_lattice_strain_Ith.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14] [15]
-Overfull \hbox (31.36342pt too wide) in paragraph at lines 363--364
+ [15]
+Overfull \hbox (31.36342pt too wide) in paragraph at lines 368--369
 \JY1/mc/m/n/10.95 レ ーザ ーと \OT1/cmr/m/n/10.95 In-GaAs/GaAsP \JY1/mc/m/n/10.
 95 系 \OT1/cmr/m/n/10.95 4 \JY1/mc/m/n/10.95 周期歪補償量子井戸レ ーザ ーの線形
 利得をそれぞれ $\OML/cmm/m/it/10.95 dg=dn$\OT1/cmr/m/n/10.95 =1.0$\OMS/cmsy/m/n
@@ -999,4 +993,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  32i,15n,33p,10386b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (64 pages, 230596 bytes).
+Output written on main.dvi (64 pages, 230976 bytes).
