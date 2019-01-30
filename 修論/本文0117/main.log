@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  30 JAN 2019 17:13
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  30 JAN 2019 17:23
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -798,11 +798,6 @@ File: figure/fig_3_1_w_prime.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (66.4224pt too wide) in paragraph at lines 203--217
- [][][] 
- []
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Excluding 'comment' comment. [31
@@ -987,10 +982,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  13113 strings out of 493648
  272656 string characters out of 6148806
- 301598 words of memory out of 5000000
+ 299598 words of memory out of 5000000
  16494 multiletter control sequences out of 15000+600000
  562149 words of font info for 143 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,15n,33p,10386b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (64 pages, 230976 bytes).
+Output written on main.dvi (64 pages, 231016 bytes).
