@@ -39,17 +39,16 @@
 \contentsline {subsubsection}{3周期歪量子井戸リッジ導波路型レーザーの結果}{41}
 \contentsline {subsubsection}{10周期歪補償量子井戸リッジ導波路レーザー}{43}
 \contentsline {subsection}{\numberline {3.2.2}リッジ導波路型レーザーへの定常電流注入実験の結果まとめ}{44}
-\contentsline {subsubsection}{3周期歪量子井戸試料と10周期歪補償量子井戸試料の比較}{44}
 \contentsline {subsubsection}{10周期歪補償リッジ導波路型レーザーのILカーブのドループについて}{44}
-\contentsline {subsection}{\numberline {3.2.3}短パルス電流注入の結果}{45}
+\contentsline {subsection}{\numberline {3.2.3}ナノ秒パルス電流注入の結果}{45}
 \contentsline {subsection}{\numberline {3.2.4}ILカーブ}{45}
 \contentsline {subsubsection}{3周期歪量子井戸レーザーのILカーブ}{45}
 \contentsline {subsubsection}{10周期歪補償量子井戸レーザーのILカーブ}{46}
 \contentsline {subsection}{\numberline {3.2.5}3周期歪量子井戸試料の利得スイッチング動作}{47}
-\contentsline {subsubsection}{3周期歪量子井戸リッジ導波路型レーザーの利得スイッチング実験結果まとめ}{48}
+\contentsline {subsubsection}{3周期歪量子井戸リッジ導波路型レーザーの利得スイッチング動作実験のまとめ}{48}
 \contentsline {subsection}{\numberline {3.2.6}10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチング動作}{50}
-\contentsline {subsubsection}{10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチング実験のまとめ}{51}
-\contentsline {subsection}{\numberline {3.2.7}利得スイッチング実験のまとめ}{52}
+\contentsline {subsubsection}{10周期歪補償量子井戸リッジ導波路型レーザーの利得スイッチング動作実験のまとめ}{51}
+\contentsline {subsection}{\numberline {3.2.7}利得スイッチング動作実験のまとめ}{52}
 \contentsline {subsubsection}{3周期歪量子井戸レーザーと10周期歪補償レーザーの結果の比較}{52}
 \contentsline {subsubsection}{測定されたパルス幅の要因に関する考察}{52}
 \contentsline {chapter}{\numberline {第4章}まとめと展望}{54}

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  30 JAN 2019 22:40
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.8.10)  31 JAN 2019 10:56
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -680,24 +680,17 @@ File: figure/fig_1_1_gain_mode.png Graphic file (type bmp)
 File: figure/fig_1_1_lattice_constance.png Graphic file (type bmp)
 <figure/fig_1_1_lattice_constance.png>
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [12]
 File: figure/fig_1_1_lattice_strain02.png Graphic file (type bmp)
 <figure/fig_1_1_lattice_strain02.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13]
+ [13]
 File: figure/fig_1_2_strain_vs_d.png Graphic file (type bmp)
 <figure/fig_1_2_strain_vs_d.png>
  Excluding 'comment' comment. [14]
 File: figure/fig_1_1_lattice_strain_Ith.png Graphic file (type bmp)
 <figure/fig_1_1_lattice_strain_Ith.png>
  [15]
-Overfull \hbox (31.36342pt too wide) in paragraph at lines 368--369
+Overfull \hbox (31.36342pt too wide) in paragraph at lines 378--379
 \JY1/mc/m/n/10.95 レ ーザ ーと \OT1/cmr/m/n/10.95 In-GaAs/GaAsP \JY1/mc/m/n/10.
 95 系 \OT1/cmr/m/n/10.95 4 \JY1/mc/m/n/10.95 周期歪補償量子井戸レ ーザ ーの線形
 利得をそれぞれ $\OML/cmm/m/it/10.95 dg=dn$\OT1/cmr/m/n/10.95 =1.0$\OMS/cmsy/m/n
@@ -715,15 +708,17 @@ Excluding 'comment' comment. [16
 第 2 章
 File: figure/fig_2_1_wafer_structure.png Graphic file (type bmp)
 <figure/fig_2_1_wafer_structure.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 40.
+
 [18
 
 
 
-]
-
-LaTeX Warning: Command \r invalid in math mode on input line 32.
-
-[19]
+] [19]
 File: figure/fig_2_1_broadcontact.png Graphic file (type bmp)
 <figure/fig_2_1_broadcontact.png>
 File: figure/fig_2_1_ridge.png Graphic file (type bmp)
@@ -748,7 +743,7 @@ File: figure/fig_2_2_IL_setup.png Graphic file (type bmp)
 File: figure/fig_2_3_GS_setup.png Graphic file (type bmp)
 <figure/fig_2_3_GS_setup.png>
 
-Overfull \hbox (28.91614pt too wide) in paragraph at lines 175--187
+Overfull \hbox (47.1661pt too wide) in paragraph at lines 195--207
  [][][] 
  []
 
@@ -780,12 +775,13 @@ File: figure/fig_3_1_10QW_broadcontact_Ith.png Graphic file (type bmp)
  [28
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
+
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
 File: figure/fig_3_1_w_prime_figure.png Graphic file (type bmp)
 <figure/fig_3_1_w_prime_figure.png>
 
@@ -866,11 +862,12 @@ File: figure/fig_3_2_10QW_ridge_IL.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_IL.png>
 File: figure/fig_3_2_10QW_ridge_Ith.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_Ith.png>
-File: figure/fig_3_2_10QW_ridge_slope.png Graphic file (type bmp)
-<figure/fig_3_2_10QW_ridge_slope.png>
  [43
 
-] [44]
+]
+File: figure/fig_3_2_10QW_ridge_slope.png Graphic file (type bmp)
+<figure/fig_3_2_10QW_ridge_slope.png>
+ [44]
 File: figure/fig_3_2_3QW_ridge_GS_power.png Graphic file (type bmp)
 <figure/fig_3_2_3QW_ridge_GS_power.png>
  [45
@@ -906,10 +903,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 File: figure/fig_3_2_10QW_ridge_GS_FWHM.png Graphic file (type bmp)
 <figure/fig_3_2_10QW_ridge_GS_FWHM.png>
- [51] [52]
+ [51]
 File: figure/fig_3_2_GS_sim.png Graphic file (type bmp)
 <figure/fig_3_2_GS_sim.png>
-) [53]
+ [52]) [53]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
@@ -972,15 +969,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 305 ({)
+### simple group (level 1) entered at line 316 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13114 strings out of 493648
- 272676 string characters out of 6148806
- 296609 words of memory out of 5000000
- 16495 multiletter control sequences out of 15000+600000
+ 13115 strings out of 493648
+ 272692 string characters out of 6148806
+ 296621 words of memory out of 5000000
+ 16496 multiletter control sequences out of 15000+600000
  562149 words of font info for 143 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,21n,33p,10386b,1030s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (64 pages, 226184 bytes).
+Output written on main.dvi (64 pages, 230284 bytes).
