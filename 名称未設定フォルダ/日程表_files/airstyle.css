@@ -1,0 +1,651 @@
+@charset "Shift_JIS";
+
+.j12 {
+	line-height:20px;
+	color:#3A3A3A;
+	}
+.j10 {
+	line-height:14px;
+	color:#3A3A3A;
+	}
+.j9 {
+	line-height:14px;
+	color:#3A3A3A;
+	}
+.j10profile {
+	line-height:20px;
+	color:#272727;
+	}
+.infoj10 {
+	line-height:20px;
+	color:#3A3A3A;
+	}
+.fs10g {
+	font-size:10px;
+	color:#444444;
+	}
+.fs13c {font-size:13px;}
+.fs14 {
+	font-size:16px;
+	color:#CC0000;
+	font-weight:bold;
+	}
+.fs14g {
+	font-size:16px;
+	color:#000000;
+	font-weight:bold;
+	}
+.resultTitle {
+	font-size:14px;
+	font-weight:bold;
+	}
+td {font-size:12px}
+a { 
+	text-decoration:underline; 
+	color: #0000FF;
+	}
+.pst2 {border-bottom: 1px dotted #CC6600;}
+.s8 {
+	display:block;
+	height:20px;
+	width:270px;
+	padding-top:3px;
+	padding-bottom:3px;
+	border-width:2px;
+	border-color:#FF0000;
+	border-style:dashed;
+	}
+
+/* ***2015年1月更新時 追加分 START*** */
+input[value="overseas-air"] + table{
+	margin-top: 15px;
+}
+
+/* ***2006年5月更新時 追加分 START*** */
+
+form {margin: 0;}
+.textsmall {font-size: 10px;}
+
+
+/* ***2006年12月18日検索ページデザイン変更 追加分 START*** */
+.ststyle4 {
+	color: #4A4A4A;
+	}
+.ststyle5 {
+	color: #666666;
+	}
+.stair_line {
+	border-bottom:solid 1px #cccccc;
+	}
+.stair_line_b {
+	border-top:solid 1px #cccccc;
+	}
+.stair_title {
+	border-top:solid 1px #999999;
+	background:#D6E8FC;
+	padding:0 5px;
+	}
+.ststyle6 {
+	color: #FF0000;
+	}
+.ststyle7 {
+	color: #CC0000;
+	font-weight:bold;
+	font-size:18px;
+	}
+
+/* ***2006年12月18日検索ページデザイン変更 追加分 END*** */
+
+
+
+/*航空券商品ページ-----------------*/
+p.heading {
+	margin: 10px 0 0 0;
+	padding: 0;
+	font-size: 12px;
+	}
+/*オススメ商品*/
+.recommend {
+	width: 750px;
+	margin: 0;
+	padding: 0px;
+	border: 1px solid #CCC;
+}
+table.recommend {
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	}
+td.tType {
+	border-bottom: 1px solid #F0ECE3;
+	}
+.icon {
+	vertical-align: middle;
+	}
+
+/*料金カレンダー*/
+table#calendar label{
+	display: block;
+	}
+table#calendar label:hover,
+table#calendar label:hover em {
+	color: #0AE;
+	}
+tr.calendarHead td,
+tr.calendarHead th {
+	background-color: #FFF;
+	}
+tr.calendarHead img {
+	vertical-align: middle;
+	}
+tr.calendarHead th {
+	color: #006;
+	font-size: 14px;
+	text-align:center;
+	}
+.cBlank {
+	height: 50px;
+	background-color: #F9F9F9;
+	}
+.cSunday,
+.cWeekday,
+.cSaturday,
+.cToday {
+	height: 50px;
+	color: #006;
+	text-align: center;
+	vertical-align: top;
+	}
+.cSunday {background-color: #FEE;}
+.cWeekday {background-color: #F0ECE3;}
+.cSaturday {background-color: #EFF;}
+.cToday {background-color: #FC3;}
+#days .cSunday,
+#days .cWeekday,
+#days .cSaturday {
+	height: auto;
+	}
+.cSunday em,
+.cWeekday em,
+.cSaturday em,
+.cToday em {
+	font-weight: bold;
+	font-style: normal;
+	}
+.cSunday em	{color: #F66;}
+.cWeekday em	{color: #006;}
+.cSaturday em {color: #03C;}
+.cToday em {color: #F00;}
+
+/*※注意事項*/
+.attention {
+	margin: 10px 0 0 0;
+	padding: 0;
+	color: #F00;
+	font-size: 12px;
+	}
+.btn {
+	margin: 10px 0;
+	}
+.btn input {
+	width: 30%;
+	}
+#btnBack {
+	margin: 10px 0 0 0;
+	text-align: left;
+	}
+/*出発地・目的地・人数*/
+table.searchItems	{
+	margin: 10px 0;
+	border: 1px solid #D54141;
+	background-color: #FFF;
+	}
+.searchItems td {
+	background-color: #F9F9F9;
+	font-size: 12px;
+	}
+.searchItems th {
+	background-color: #EEE;
+	font-size: 12px;
+	}
+
+/*広告リンク（フッター）*/
+#footLinks img {
+	vertical-align: middle;
+	}
+/* ***2006年5月更新時 追加分 END*** */
+
+/* ***2006年10月更新時 追加分 START*** */
+
+.formbig {
+	font-size: 15px;
+	font-weight:bold;
+	padding:3px;
+	letter-spacing:1px;
+	}
+
+/* ***2006年10月更新時 追加分 END*** */
+/* ***2007年7月20日サジェストリリース時 追加分 START*** */
+/*検索結果エラー表示*/
+
+.fontRed{/*-- 下記より目的地をお選びください --*/
+	color:#CC0000;
+	font-weight:bold;
+	background-color: #FFFF99;
+	}
+	
+table#Selection ul{/*-- 目的地・現地出発地 --*/
+	margin:0px;
+	}
+
+table#Selection li{
+	list-style-type:none;
+	font-size:14px;
+	line-height:1.5em;
+	font-weight:bold;
+	}
+
+table#suggest ul{/*-- 下記の入力例 --*/
+	margin:0px;
+	}
+
+table#suggest li{
+	list-style-type: none;
+	font-weight:bold;
+	color:#172F64;
+	margin-left:10px;
+	}
+
+table#suggest img.pic{
+	border:1px solid #333;
+	background-color:#FFFFFF;
+	margin:0px 3px;
+	padding:1px;
+	}
+
+/* ***【追加】2007年8月24日満席エラー *** */
+div#searchItem{/*-- 検索結果商品 --*/
+	margin:10px 0px 30px 0px;
+	width:750px;
+	}
+
+div#searchItem img{
+	vertical-align:bottom;
+	}
+
+div.searchTable{
+	border-top:1px solid #D8D8D8;
+	border-bottom:1px solid #D8D8D8;
+	border-left:1px solid #D8D8D8;
+	margin-top:2px;
+	background-color:#F5F5F5;
+	text-align:left;
+	}
+	
+.fs14red {
+	font-size:16px;
+	color:#CC0000;
+	font-weight:bold;
+	}
+
+.fs12gr {
+	font-size:12px;
+	color: #717171;
+	}
+
+.fs14bold {
+	font-size:14px;
+	font-weight:bold;
+	}
+
+
+p.searchText{
+	margin:5px 0;
+	}
+
+div#airSearch{/*-- 検索フォーム --*/
+	background:url("https://img.travel.rakuten.co.jp/share/kaigai_img/search_box_bg.gif") repeat-y left top;
+	width:364px;
+	}
+
+/* ***【追加】2007年8月24日アライアンスについてポップアップページ *** */
+div#alliance{
+	width:626px;
+	margin:10px 0;
+	font-size:12px;
+	}
+
+div#alliance h1{
+	margin:0px;
+	}
+
+div#alliance dl{
+	margin:1px;
+	}
+
+div#alliance dt{
+	margin:0px;
+	font-weight:bold;
+	line-height:1.5em;
+	text-align:center;
+	}
+
+div#alliance dd{
+	margin-left:5px;
+	line-height:1.5em;
+	font-size:11px;
+	}
+
+div#alliance table{
+	border:1px solid #D8D8D8;
+	background-color:#F5F5F5;
+	border-collapse:collapse;
+	margin:0px;
+	}
+
+div#caution{
+	text-align:left;
+	font-size:10px;
+	margin:0px 0px 10px 0px;
+	}
+
+div#caution ul{
+	margin:0px;
+	padding:0px;
+	}
+
+div#caution li{
+	list-style-type:none;
+	margin:0px;
+	}
+
+/*トラサポ 2007年8月更新時 追加分 START*** */
+div.trasuppo {
+	width:750px;
+	text-align:left;
+	background:url("https://img.travel.rakuten.co.jp/share/air_img/trasuppo-back.gif") no-repeat;
+	padding:0;
+	}
+
+div.trasuppo2 {
+	text-align:left;
+	margin:8px 0 0 15px;
+	}
+
+div.trasuppo-white {
+	width:145px;
+	text-align:left;
+	background:url("https://img.travel.rakuten.co.jp/share/air_img/trasuppo-white.gif") no-repeat;
+	margin:5px 0 0 0;
+	padding:7px 5px 0 7px;
+	}
+/*トラサポ 2007年8月更新時 追加分 END*** */
+
+/*コールセンター 2008年2月更新時 追加分 START*** */
+div#callCenter{
+	margin:0;
+	padding:0;
+	width:750px;
+	margin:5px auto;
+	border:2px dotted #4395E4;
+	background-color:#DAEAFE;
+	text-align:center;
+}
+div#callCenter .inner{
+	margin:0;
+	padding:10px 0;
+	width:745px;
+	text-align:left;
+}
+div#callCenter .inner p.center{
+	margin:0;
+	padding:0;
+	font-size:22px;
+	color:#333;
+	font-weight:bold;
+	/*float:left;*/
+	/*width:450px;*/
+	text-align:center;
+}
+div#callCenter .inner p.time{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	text-align:center;
+	/*float:left;*/
+	/*width:250px;*/
+}
+div#callCenter .inner p.link{
+	font-size:12px;
+	font-weight:normal;
+	text-align:right;
+	width:700px;
+	margin:0 5px 0 0;
+}
+div#callCenter .inner p.link a{
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 16px;
+	padding-bottom: 5px;
+}
+div#callCenter .inner p.link a:link{
+	background-image: url("https://img.travel.rakuten.co.jp/share/themes/top/images/icon_arrow01.gif");
+}
+div#callCenter .inner p.link a:visited{
+	background-image: url("https://img.travel.rakuten.co.jp/share/themes/top/images/icon_arrow01_visited.gif");
+}
+div#callCenter .inner p.link a:hover{
+	background-image: url("https://img.travel.rakuten.co.jp/share/themes/top/images/icon_arrow01_active.gif");
+}
+div#callCenter .inner p.link a:active{
+	background-image: url("https://img.travel.rakuten.co.jp/share/themes/top/images/icon_arrow01_active.gif");
+}
+
+div#callCenter .inner .number{
+	font-size:22px;
+	color:#003366;
+	font-weight:bold;
+	line-height:22px;
+}
+div#callCenter .inner .number img{
+	margin:3px 5px 0 0;
+}
+/*コールセンター 2008年2月更新時 追加分 END*** */
+
+
+/* コンビニ決済のお知らせ 2008年3月更新時 追加分 START */
+.information {
+	width:700px;
+	border-style:double;
+	border-color:#555;
+	padding:3px;
+	text-align:left;
+	font-size:13px;
+	color:#555;
+	font-weight:bold;
+	margin:10px 0
+}
+.information .detail{
+	text-align:right;
+	margin:0;
+	padding:0;
+}
+.information .detail a{
+	background-repeat:no-repeat;
+	padding-left: 14px;
+}
+.information .detail a:link{
+	background-image: url("https://img.travel.rakuten.co.jp/share/themes/top/images/icon_arrow01.gif");
+}
+.information .detail a:visited{
+	background-image: url("https://img.travel.rakuten.co.jp/share/themes/top/images/icon_arrow01_visited.gif");
+}
+.information .detail a:hover{
+	background-image: url("https://img.travel.rakuten.co.jp/share/themes/top/images/icon_arrow01_hover.gif");
+}
+.information .detail a:active{
+	background-image: url("https://img.travel.rakuten.co.jp/share/themes/top/images/icon_arrow01_active.gif");
+}
+
+/* コンビニ決済のお知らせ 2008年3月更新時 追加分 END */
+
+/* キャンセル料について 2008年7月更新時 追加分 START */
+p.RedFrame{
+	width:100%;
+	border:#cc0000 3px solid;
+	background-color:#fff2f2;
+	margin:0;
+	padding:8px;
+	font-size:14px;
+	font-weight:bold;	
+	line-height:1.3em;
+	letter-spacing:.05em;
+	}
+
+html>body p.RedFrame {/*FF用CSSハック*/
+	width:95%;
+	}
+
+/* キャンセル料について 2008年7月更新時 追加分 END */
+
+/* キャンセル料について 2009年4月更新時 追加分 START */ 
+div.RedFrame2 
+{ 
+border-width: 3px; 
+border-color:#cc0000; 
+border-style:solid; 
+background-color: #fff2f2; 
+margin:0px; 
+padding: 10px; 
+font-size: 14px; 
+font-weight: bold; 
+line-height: 1.3em; 
+letter-spacing: 0.0em; 
+} 
+span.RedFrame2_hosoku{ 
+font-weight:normal; 
+font-size:12px; 
+} 
+ul.Torikeshi_hosoku{ 
+margin:5px 0px 5px 10px; 
+padding:5px 0px 5px 10px; 
+line-height: 1.3em; 
+letter-spacing: 0.05em; 
+} 
+ul.Torikeshi_hosoku li{ 
+padding:5px; 
+} 
+/* キャンセル料について 2009年4月更新時 追加分 END */ 
+
+/* 人数プルダウン 追加分 START */ 
+table.search_condition td select{background:#FFFFFF;border: 1px solid #ccc;line-height: 1;}
+table.search_condition td select.attention_select{background:#FC3;}
+/* 人数プルダウン 追加分 END */ 
+
+
+
+/* 緊急連絡先追加 20130319 Seon START */ 
+
+table tr td dl.emergencyPhone{margin:8px 0 0 0;}
+table tr td dl.emergencyPhone dt{line-height:120%;margin:0 0 2px 0;}
+table tr td dl.emergencyPhone dd{line-height:120%;margin:0 0 0 5px;}
+body {margin: 0 auto;}
+/* 緊急連絡先追加 20130319 Seon END */ 
+
+
+
+
+/* 201401 Hotel search form add START */ 
+table{
+	text-align: left;
+}
+strong {
+line-height: 1.3;
+}
+
+.tableBgcolor{
+	margin-top: -3px;
+}
+.stdSrchBtn  ,
+.stdClndrBtn {
+display: block;
+padding: 5px 20px;
+width: 80px;
+border: 1px solid #bf0c0b;
+border: none;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+font-weight: bold;
+background: #bd0a0a;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#e0312b, endColorStr=#bd0a0a, GradientType=0);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e0312b, endColorstr=#bd0a0a, GradientType=0)";
+background: -moz-linear-gradient(top, #e0312b 0%, #bd0a0a 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e0312b), color-stop(100%, #bd0a0a));
+background: -webkit-linear-gradient(top, #e0312b 0%, #bd0a0a 100%);
+background: -o-linear-gradient(top, #e0312b 0%, #bd0a0a 100%);
+background: -ms-linear-gradient(top, #e0312b 0%, #bd0a0a 100%);
+background: linear-gradient(to bottom, #e0312b 0%, #bd0a0a 100%);
+}
+
+#overseas-search-container {
+display: none;
+}
+.hasDatepicker {
+width: 145px;
+_line-height: 1.5;
+_height: 24px;
+_padding-top: 4px;
+background-position: 98%;
+}
+
+input::-ms-clear {
+    visibility:hidden
+}
+
+#destination label {
+position: relative;
+top: 4px;
+}
+
+.ui-datepicker.ui-datepicker-multi {
+top:635px;
+}
+.select-child-num  {
+background: #fff;
+border-radius: 6px;
+border: 1px solid #777777;
+color: #333333;
+line-height: 1.7;
+padding: 0.3em 1em;
+_position:relative;
+top:-4px;
+}
+#oh-area-dai,#oh-area-chu,#oh-area-shou,#oh-area-sai {
+width: 200px;
+}
+input,select{
+  margin: 3px 0;
+}
+
+div#main4 {
+margin-left: 4px;
+}
+
+/* おすすめホテル */
+.htl_title {
+background: #5184c5;
+color: #fff;
+font-size: 90%;
+font-weight: bold;
+width: 730px;
+/width: 750px;
+margin: 0 auto 10px;
+padding: 8px;
+text-align: left;
+}
+/* 201401 Hotel search form add */ 
+

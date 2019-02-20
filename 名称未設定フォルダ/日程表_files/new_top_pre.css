@@ -1,0 +1,13 @@
+@charset "Shift_JIS";
+
+/* ############################################################
+
+	/share/ext/css/new_top_pre.css　→　/share/themes/header/css/header.css
+	Last Up Date: 2007.12.17
+	Author: daisuke.hayashi
+
+############################################################ */
+
+@import'https://img.travel.rakuten.co.jp/share/themes/header/css/header.css';/*ヘッダーフッターのスタイル*/
+@import'https://img.travel.rakuten.co.jp/share/common/css/common.css';/*共通要素のスタイル*/
+@import'https://img.travel.rakuten.co.jp/share/themes/reserve/css/mypage.css';

@@ -1,0 +1,7 @@
+@charset "Shift_JIS";
+
+@import "https://img.travel.rakuten.co.jp/share/ext/css/new_top_pre.css";/*ヘッダーフッターのスタイル*/
+@import "https://img.travel.rakuten.co.jp/share/ext/css/common.css";/*共通スタイル*/
+/* @import "common.css";*/
+@import "https://img.travel.rakuten.co.jp/share/ext/css/dp_contents.css";/*その特集でのスタイル*/
+@import "https://img.travel.rakuten.co.jp/share/ext/css/area_ColorMaster.css";
